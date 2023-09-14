@@ -8,6 +8,9 @@ import image3 from '../../assets/img3.webp'
 import image1 from '../../assets/img1.webp'
 import image4 from '../../assets/img4.webp'
 import image5 from '../../assets/img4-1.webp'
+import image6 from '../../assets/img4-2.webp'
+import image7 from '../../assets/img4-3.webp'
+import image8 from '../../assets/img4-4.webp'
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const professionals = [
@@ -21,7 +24,7 @@ const professionals = [
   {
     id: 2,
     img: image2,
-    name: 'Ft. Zamira Carrea Rodriguez',
+    name: 'Lft. Zamira Carrea Rodriguez',
     description: 'Lorem ipsum',
     rating: 4.9,
   },
@@ -35,15 +38,36 @@ const professionals = [
   {
     id: 4,
     img: image4,
-    name: 'Stylist. Atenea Natividad',
-    description: 'Masajista corporal',
+    name: 'Stylist. Ale Amieva',
+    description: 'Belleza y Maquillaje',
     rating: 4.9,
   },
   {
     id: 5,
     img: image5,
-    name: 'Dra. Atenea Natividad',
-    description: 'Masajista corporal',
+    name: '',
+    description: '',
+    rating: 4.9,
+  },
+  {
+    id: 6,
+    img: image6,
+    name: 'Aida Cancino',
+    description: 'Healting Coach - Yoga',
+    rating: 4.9,
+  },
+  {
+    id: 7,
+    img: image7,
+    name: 'Mirna Maron',
+    description: 'Coach Workout',
+    rating: 4.9,
+  },
+  {
+    id: 8,
+    img: image8,
+    name: 'Psic. Silvia Lezama',
+    description: '',
     rating: 4.9,
   },
 ]

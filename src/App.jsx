@@ -21,5 +21,3 @@ function App() {
 }
 
 export default App
-
-// minuto del video 2:17:51

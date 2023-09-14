@@ -58,7 +58,8 @@ const Questions = () => {
                             type="email"
                             placeholder='Introduzca la dirección de correo electrónico'
                         />
-                        <textarea placeholder='Escriba su pregunta aquí'></textarea>
+                        <textarea placeholder='Escriba su pregunta aquí'
+                        ></textarea>
                         <button className='btn'>Enviar consulta</button>
                     </div>
                 </div>

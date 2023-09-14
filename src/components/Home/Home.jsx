@@ -20,7 +20,7 @@ const Home = () => {
         <h1>Fems Center</h1>
         <h3>Es tu momento de crecer</h3>
         <p>Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.</p>
-        <button className='btn flex'>Uneté <AiOutlineSwapRight className='icon' /></button>
+        {/* <button className='btn flex'>Uneté <AiOutlineSwapRight className='icon' /></button> */}
       </div>
 
       <div className="popularPlaces">

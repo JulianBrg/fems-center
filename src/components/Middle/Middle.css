@@ -19,7 +19,7 @@
 }
 
 .middle {
-  widows: 100%;
+  width: 100%;
 }
 .middle .secContainer .grid {
   padding: 3rem;

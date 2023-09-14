@@ -12,7 +12,7 @@ import Membership from "../../pages/Membership/Membership";
 const Navbar = () => {
 
 
-  
+
   // state to track and update navbar
   const [navBar, setNavBar] = useState("menu");
   // function to show navbar
@@ -46,11 +46,13 @@ const Navbar = () => {
         <AiFillCloseCircle className="icon closeIcon" onClick={removeNabvar} />
       </div>
 
-      <button className="signUpBtn btn">Unete</button>
+      <button className="signUpBtn btn" formTarget="_blank" onClick={(e) => {
+        e.preventDefault();
+        window.location.href = 'https://api.whatsapp.com/send?phone=+522381680876&text=Hola,%20me%20gustar%C3%ADa%20pertenecer%20al%20equipo%20de%20Fems%20Center%20';
+      }}>Unete</button>
       {/* Icon toggle to navbar */}
       <PiDotsNineBold className="icon menuIcon" onClick={showNavbar} />
     </div>
   );
-};
-
+}
 export default Navbar;

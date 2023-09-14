@@ -155,3 +155,30 @@
         }
     }
 }
+
+@media screen and (min-width: 1240px){
+    .review{
+        .secContainer{
+            gap: 3rem;
+
+            .textDiv{
+                .redText{
+                    font-size: var(--h3FontSize);
+                }
+                h3{
+                    font-size: var(--h1FontSize);
+                    color: var(--blackColor);
+                }
+                p{
+                    color: var(--blackColor);
+                    font-size: var(--h3FontSize);
+                    line-height: 2rem;
+                }
+            }
+
+            .imgDiv{
+                height: 300px;
+            }
+        }
+    }
+}

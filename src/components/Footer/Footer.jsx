@@ -16,10 +16,10 @@ const Footer = () => {
           </div>
 
           <div className="socials flex">
-            <a href="https://www.facebook.com/femsenaccion" target="_blank" rel="sponsored">
+            <a href="https://www.facebook.com/femsenaccion" target="_blank" rel="sponsored" title='Facebook'>
               <ImFacebook className="icon" />
             </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="sponsored">
+            <a href="https://www.instagram.com/" target="_blank" rel="sponsored" title='Instagram'>
               <AiFillInstagram className="icon" />
             </a>
           </div>

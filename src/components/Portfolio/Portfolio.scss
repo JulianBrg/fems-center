@@ -61,6 +61,8 @@
 @media screen and (min-widht: 480px) {
     .portfolio {
         .secContainer {
+            grid-template-columns: repeat(1, 1fr);
+
             .leftContainer {
                 .secHeading {
                     h3 {
