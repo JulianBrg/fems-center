@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./Questions.css"
 // imported icons
 import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs'
+// animation
+import Aos from 'aos';
+import 'aos/dist/aos.cjs';
 
 const Accordion = ({ title, desc, active, setActive }) => {
+
+    useEffect(() => {
+        Aos.init({ duration: 2500 })
+    }, [])
+
     return (
-        <div className='accordionContainer'>
+        <div className='accordionContainer' data-aos="fade-right">
             <span className={(active === title ? 'activeTitle' : '') + " title" + " flex"}>
                 {title}
                 <span onClick={() => setActive(title)}>

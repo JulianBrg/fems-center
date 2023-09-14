@@ -1,15 +1,22 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Questions.css'
 import Accordion from './Accordion'
+// animation
+import Aos from 'aos';
+import 'aos/dist/aos.cjs';
 
 const Questions = () => {
+
+    useEffect(() => {
+        Aos.init({ duration: 1500 })
+    }, [])
 
     const [active, setActive] = useState("¿Quién puede acceder a Fems Center?");
     // const [active, setActive] = useState("");
 
     return (
         <div className='questions section container'>
-            <div className="secHeading">
+            <div className="secHeading" data-aos="fade-right">
                 <h3>
                     Preguntas frecuentes
                 </h3>
@@ -45,22 +52,25 @@ const Questions = () => {
 
                 <div className='form'>
                     <div className="secHeading">
-                        <h4>
+                        <h4 data-aos="fade-left">
                             ¿Tiene alguna pregunta específica?
                         </h4>
-                        <p>
+                        <p data-aos="fade-left">
                             Rellene el siguiente formulario y nuestro equipo se pondrá en contacto con usted lo antes posible.
                         </p>
                     </div>
 
                     <div className="formContent grid">
                         <input
+                            data-aos="fade-left"
                             type="email"
                             placeholder='Introduzca la dirección de correo electrónico'
                         />
-                        <textarea placeholder='Escriba su pregunta aquí'
+                        <textarea
+                            placeholder='Escriba su pregunta aquí'
+                            data-aos="fade-left"
                         ></textarea>
-                        <button className='btn'>Enviar consulta</button>
+                        <button className='btn' data-aos="fade-left">Enviar consulta</button>
                     </div>
                 </div>
             </div>

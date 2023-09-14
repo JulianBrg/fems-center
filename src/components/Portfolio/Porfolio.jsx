@@ -1,17 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Portfolio.css'
 // import assets
 import icon1 from '../../assets/relacion.png'
 import icon2 from '../../assets/destino.png'
 import icon3 from '../../assets/burbuja-de-dialogo.png'
 import image from '../../assets/Infographic.png'
+// animation
+import Aos from 'aos';
+import 'aos/dist/aos.cjs';
 
 const Porfolio = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
+
+
   return (
     <div className='portfolio section container'>
       <div className="secContainer grid">
         <div className="leftContainer">
-          <div className="secHeading">
+          <div className="secHeading" data-aos="fade-right">
             <h3>Por qué elegirnos</h3>
             <p>
               Tenemos amplios conocimientos y experiencia en el sector.
@@ -19,7 +28,7 @@ const Porfolio = () => {
           </div>
 
           <div className="grid">
-            <div className="singlePortfolio flex">
+            <div className="singlePortfolio flex" data-aos="fade-right">
               <div className="iconDiv">
                 <img src={icon1} alt="icon image" />
               </div>
@@ -31,7 +40,7 @@ const Porfolio = () => {
               </div>
             </div>
 
-            <div className="singlePortfolio flex">
+            <div className="singlePortfolio flex" data-aos="fade-right">
               <div className="iconDiv">
                 <img src={icon2} alt="icon image" />
               </div>
@@ -43,7 +52,7 @@ const Porfolio = () => {
               </div>
             </div>
 
-            <div className="singlePortfolio flex">
+            <div className="singlePortfolio flex" data-aos="fade-right">
               <div className="iconDiv">
                 <img src={icon3} alt="icon image" />
               </div>
@@ -57,7 +66,7 @@ const Porfolio = () => {
           </div>
         </div>
 
-        <div className="rightContainer">
+        <div className="rightContainer" data-aos="fade-left">
           <img src={image} alt="Infographic" />
         </div>
       </div>

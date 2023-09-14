@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Professionals.css'
 // Imported icons
 import { BiSearchAlt, BiUser } from 'react-icons/bi'
@@ -11,6 +11,9 @@ import image5 from '../../assets/img4-1.webp'
 import image6 from '../../assets/img4-2.webp'
 import image7 from '../../assets/img4-3.webp'
 import image8 from '../../assets/img4-4.webp'
+// animation
+import Aos from 'aos';
+import 'aos/dist/aos.cjs';
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const professionals = [
@@ -73,11 +76,17 @@ const professionals = [
 ]
 
 const Professionals = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
+
+
   return (
     <div className='professionals section container'>
       <div className="secContainer">
 
-        <div className="secTitle">
+        <div className="secTitle" data-aos="fade-up">
           <span className="redText">
             Áreas
           </span>
@@ -85,7 +94,7 @@ const Professionals = () => {
           <p>Conoce los servicios de nuestras socias.</p>
         </div>
 
-        <div className="searchField grid">
+        {/* <div className="searchField grid">
           <div className="inputField flex">
             <BiUser className="icon" />
             <input type="text" placeholder='Profesional' />
@@ -104,13 +113,13 @@ const Professionals = () => {
             <li>Nutriologa</li>
             <li>Masajista</li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="professionalsContainer grid">
           {
             professionals.map((professional) => {
               return (
-                <div className="singleDestination" key={professional.id}>
+                <div className="singleDestination" key={professional.id} data-aos="fade-up">
                   <div className="imgDiv">
                     <img src={professional.img} alt={professional.name} />
                     <div className="descInfo flex">
