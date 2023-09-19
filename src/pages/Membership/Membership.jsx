@@ -23,10 +23,10 @@ const Membership = () => {
             <div className='membership section container'>
                 <div className="secTitle" >
                     <span className="redText" data-aos="fade-down">
-                        Servicios y Productos
+                        Membresias
                     </span>
-                    <h3 data-aos="fade-down">Conoce los servicios y productos de nuestras socias</h3>
-                    {/* <p>Conoce los servicios y productos de nuestras socias.</p> */}
+                    <h3 data-aos="fade-down">Adquiere una membresia</h3>
+                    <p data-aos="fade-down">Forma parte del equipo Fems</p>
                 </div>
 
                 <div className="pricing">
@@ -38,6 +38,8 @@ const Membership = () => {
                         </div>
                         {/* card details */}
                         <div className="card-detail" >
+                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
+                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
                             <p><span className='fas fa-check check'></span><b>1</b> full user</p>
                             <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
                             <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
@@ -63,6 +65,8 @@ const Membership = () => {
                             <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
                             <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
                             <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
                         </div>
                         {/* card price */}
                         <div className="card-price">
@@ -84,6 +88,8 @@ const Membership = () => {
                             <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
                             <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
                             <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
                         </div>
                         {/* card price */}
                         <div className="card-price">
@@ -101,6 +107,8 @@ const Membership = () => {
                         </div>
                         {/* card details */}
                         <div className="card-detail">
+                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
+                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
                             <p><span className='fas fa-check check'></span><b>1</b> full user</p>
                             <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
                             <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
