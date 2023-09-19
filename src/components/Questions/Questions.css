@@ -22,6 +22,7 @@
   font-size: var(--normalFontSize);
   align-items: center;
   padding: 1rem;
+  gap: 0.5rem;
   border-radius: 10px;
   justify-content: space-between;
   background: var(--primaryColorLight);
@@ -116,7 +117,7 @@
   .questions .secContainer {
     grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
-    gap: 2rem;
+    gap: 1rem;
   }
   .questions .secContainer .form .formContent input,
   .questions .secContainer .form .formContent textarea {

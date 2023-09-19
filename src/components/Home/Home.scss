@@ -37,7 +37,9 @@
             height: 100%;
             width: 100%;
             object-fit: cover;
-            filter: brightness(70%);
+            filter: brightness(70%) blur(5px);
+            -o-filter: blur(5px);
+            // filter: blur(5px);
         }
     }
 
@@ -61,11 +63,18 @@
             font-weight: 500;
         }
 
-        .btn {
-            gap: 0.5rem;
-            padding-left: 2rem;
-            padding-right: 2rem;
-            font-size: var(--h3FontSize);
+        .icon {
+            font-size: 35px;
+            background: var(--primaryColor);
+            border-radius: 50%;
+            padding: 8px;
+            margin: .5rem;
+            color: var(--whiteColor);
+            transition: all .3s ease;
+            &:hover {
+                background: var(--whiteColor);
+                color: var(--primaryColor);
+            }
         }
     }
 
@@ -95,9 +104,8 @@
                 margin: auto;
             }
 
-            .btn {
-                font-size: var(--h3FontSize);
-                margin: auto;
+            .icon {
+                padding: .5rem;
             }
         }
     }
@@ -121,14 +129,6 @@
                 max-width: 70%;
                 margin: auto;
             }
-
-            .btn {
-                gap: 0.5rem;
-                padding-right: 2rem;
-                padding-right: 2rem;
-                font-size: var(--h3FontSize);
-                margin: auto;
-            }
         }
     }
 }
@@ -143,6 +143,11 @@
                 font-weight: 900;
                 max-width: 70%;
                 margin: auto;
+            }
+
+            .icon{
+                font-size: 35px;
+                padding: 10px;
             }
         }
 

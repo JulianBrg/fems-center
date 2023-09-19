@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import './Portfolio.css'
 // import assets
-import icon1 from '../../assets/relacion.png'
-import icon2 from '../../assets/destino.png'
-import icon3 from '../../assets/burbuja-de-dialogo.png'
+import icon1 from '../../assets/comunidad.png'
+import icon2 from '../../assets/infraestructura.png'
+import icon3 from '../../assets/recursos.png'
 import image from '../../assets/Infographic.png'
 // animation
 import Aos from 'aos';
@@ -20,7 +20,7 @@ const Porfolio = () => {
     <div className='portfolio section container'>
       <div className="secContainer grid">
         <div className="leftContainer">
-          <div className="secHeading" data-aos="fade-right">
+          <div className="secHeading" data-aos="fade-up">
             <h3>Por qué elegirnos</h3>
             <p>
               Tenemos amplios conocimientos y experiencia en el sector.
@@ -28,45 +28,45 @@ const Porfolio = () => {
           </div>
 
           <div className="grid">
-            <div className="singlePortfolio flex" data-aos="fade-right">
+            <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
                 <img src={icon1} alt="icon image" />
               </div>
               <div className="infor">
-                <h4>Safety and support</h4>
+                <h4>Comunidad Empresarial.</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorum dolore libero laboriosam? Aliquid cum, unde quam itaque eveniet nam.
+                  Fems Center te permite formar parte de una comunidad empresarial activa y colaborativa.
                 </p>
               </div>
             </div>
 
-            <div className="singlePortfolio flex" data-aos="fade-right">
+            <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
                 <img src={icon2} alt="icon image" />
               </div>
               <div className="infor">
-                <h4>Diverse Range of Destinations</h4>
+                <h4>Infraestructura y Espacios de Trabajo</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorum dolore libero laboriosam? Aliquid cum, unde quam itaque eveniet nam.
+                  Aquí encontraras espacios de trabajo compartidos, oficinas equipadas y acceso a tecnología de vanguardia.
                 </p>
               </div>
             </div>
 
-            <div className="singlePortfolio flex" data-aos="fade-right">
+            <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
                 <img src={icon3} alt="icon image" />
               </div>
               <div className="infor">
-                <h4>24/7 Customer Support</h4>
+                <h4>Recursos y Apoyo Especializado</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolorum dolore libero laboriosam? Aliquid cum, unde quam itaque eveniet nam.
+                  Ofrecemos una amplia gama de recursos y servicios diseñados específicamente para ayudar a las emprendedoras a tener éxito.
                 </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="rightContainer" data-aos="fade-left">
+        <div className="rightContainer" data-aos="fade-up">
           <img src={image} alt="Infographic" />
         </div>
       </div>

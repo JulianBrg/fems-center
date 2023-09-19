@@ -20,7 +20,7 @@ const professionals = [
   {
     id: 1,
     img: image1,
-    name: 'Dds. Sagrario Aguilar',
+    name: 'Dra. Sagrario Aguilar',
     description: 'Espacialista en limpieza bucal',
     rating: 4.9,
   },
@@ -28,13 +28,13 @@ const professionals = [
     id: 2,
     img: image2,
     name: 'Lft. Zamira Carrea Rodriguez',
-    description: 'Lorem ipsum',
+    description: 'Fisioterapeuta',
     rating: 4.9,
   },
   {
     id: 3,
     img: image3,
-    name: 'Nut. Yerenci G. Menchaca',
+    name: 'Lnc. Yerenci G. Menchaca',
     description: 'Dietas y ejercicio',
     rating: 4.9,
   },
@@ -48,8 +48,8 @@ const professionals = [
   {
     id: 5,
     img: image5,
-    name: '',
-    description: '',
+    name: 'Lic. Nohemi Nava',
+    description: 'Psicologa',
     rating: 4.9,
   },
   {
@@ -70,7 +70,7 @@ const professionals = [
     id: 8,
     img: image8,
     name: 'Psic. Silvia Lezama',
-    description: '',
+    description: 'Psicologa',
     rating: 4.9,
   },
 ]

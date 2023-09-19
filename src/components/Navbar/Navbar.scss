@@ -51,6 +51,17 @@
         }
     }
 
+    .navLink {
+        color: var(--blackColor);
+        font-weight: 700;
+        padding: 1rem 0;
+        cursor: pointer;
+        &:hover {
+            color: var(--primaryColor);
+            border-bottom: 1.5px solid var(--primaryColor);
+        }
+    }
+
     @media screen and (max-width: 767px) {
         .menu {
             position: absolute;
@@ -71,6 +82,19 @@
                 font-weight: 500;
                 padding: 1rem 0;
                 text-align: center;
+                cursor: pointer;
+                &:hover {
+                    color: var(--primaryColor);
+                    border-bottom: 1.5px solid var(--primaryColor);
+                }
+            }
+            .navLink {
+                display: flex;
+                color: var(--blackColor);
+                font-size: var(--h3FontSize);
+                font-weight: 500;
+                padding: 1rem 0;
+                justify-content: center;
                 cursor: pointer;
                 &:hover {
                     color: var(--primaryColor);

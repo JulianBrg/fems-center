@@ -43,6 +43,7 @@
                     .infor {
                         h4 {
                             padding-bottom: 0.5rem;
+                            // color: var(--primaryColor);
                         }
                     }
                 }
@@ -87,6 +88,7 @@
 
                         .inform {
                             h4 {
+                                color: var(--primaryColor);
                                 padding-bottom: 0.5rem;
                                 font-size: var(--h3FontSize);
                             }

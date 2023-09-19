@@ -22,16 +22,16 @@ const Reviews = () => {
         <div className='review section container'>
             <div className="secContainer grid">
                 <div className="textDiv">
-                    <span className="redText" data-aos="fade-right">
+                    <span className="redText" data-aos="fade-up">
                         DE NUESTROS CLIENTES
                     </span>
-                    <h3 data-aos="fade-right">
-                        Historia real de nuestros queridos clientes
+                    <h3 data-aos="fade-up">
+                        Historia real de una de nuestras queridas clientas
                     </h3>
-                    <p data-aos="fade-right">
+                    <p data-aos="fade-up">
                         Fems Center desempeñó un papel fundamental en mi camino hacia el éxito. Desde el primer día que me acerqué a sus puertas, encontré un ambiente cálido y acogedor, lleno de personas dedicadas a ayudar y motivar.
                     </p>
-                    <span className="stars flex" data-aos="fade-right">
+                    <span className="stars flex" data-aos="fade-up">
                         <AiFillStar className="icon" />
                         <AiFillStar className="icon" />
                         <AiFillStar className="icon" />
@@ -39,7 +39,7 @@ const Reviews = () => {
                         <AiFillStar className="icon" />
                     </span>
 
-                    <div className="clientsImages flex" data-aos="fade-right">
+                    <div className="clientsImages flex" data-aos="fade-up">
                         <img src={image1} alt="Avatar Image" />
                         <img src={image2} alt="Avatar Image" />
                         <img src={image3} alt="Avatar Image" />
@@ -47,7 +47,7 @@ const Reviews = () => {
                     </div>
                 </div>
 
-                <div className="imgDiv" data-aos="fade-left">
+                <div className="imgDiv" data-aos="fade-up">
                     <img src={image5} alt="Image" />
                 </div>
             </div>

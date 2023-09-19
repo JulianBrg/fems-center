@@ -15,15 +15,18 @@ const Suscribe = () => {
   return (
     <div className='subscribe section container'>
       <div className="secContainer grid">
-        <img src={image} alt="Image div" data-aos="fade-right" />
+        <img src={image} alt="Image div" data-aos="fade-up" />
         <div className="textDiv">
-          <h4 data-aos="fade-left">
+          <h4 data-aos="fade-up">
             La mejor manera de empezar a desarrollar tu potencial.
           </h4>
-          <p data-aos="fade-left">
-            Ofrecemos itinerarios personalizados adaptados a las preferencias e intereses individuales.
+          <p data-aos="fade-up">
+            Lic. Karla Vadillo te da la bienvenida a formar parte de este proyecto llamado Fems Center.
           </p>
-          <button className='btn' data-aos="fade-left">Empieza aquí</button>
+          {/* <p data-aos="fade-up">
+            Ofrecemos itinerarios personalizados adaptados a las preferencias e intereses individuales.
+          </p> */}
+          <button className='btn' data-aos="fade-up">Empieza aquí</button>
         </div>
       </div>
     </div>

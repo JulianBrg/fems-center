@@ -13,10 +13,10 @@ const Accordion = ({ title, desc, active, setActive }) => {
     }, [])
 
     return (
-        <div className='accordionContainer' data-aos="fade-right">
+        <div className='accordionContainer' data-aos="fade-up" onClick={() => setActive(title)}>
             <span className={(active === title ? 'activeTitle' : '') + " title" + " flex"}>
                 {title}
-                <span onClick={() => setActive(title)}>
+                <span >
                     {
                         active === title ? (
                             <BsArrowUpCircle className='icon' />

@@ -34,7 +34,8 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  filter: brightness(70%);
+  filter: brightness(70%) blur(5px);
+  -o-filter: blur(5px);
 }
 .Home .sectionText {
   position: absolute;
@@ -53,11 +54,18 @@
   font: var(--normalFontSize);
   font-weight: 500;
 }
-.Home .sectionText .btn {
-  gap: 0.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  font-size: var(--h3FontSize);
+.Home .sectionText .icon {
+  font-size: 35px;
+  background: var(--primaryColor);
+  border-radius: 50%;
+  padding: 8px;
+  margin: 0.5rem;
+  color: var(--whiteColor);
+  transition: all 0.3s ease;
+}
+.Home .sectionText .icon:hover {
+  background: var(--whiteColor);
+  color: var(--primaryColor);
 }
 .Home .popularPlaces {
   display: none;
@@ -80,9 +88,8 @@
     max-width: 70%;
     margin: auto;
   }
-  .Home .sectionText .btn {
-    font-size: var(--h3FontSize);
-    margin: auto;
+  .Home .sectionText .icon {
+    padding: 0.5rem;
   }
 }
 @media screen and (min-width: 769px) {
@@ -101,13 +108,6 @@
     max-width: 70%;
     margin: auto;
   }
-  .Home .sectionText .btn {
-    gap: 0.5rem;
-    padding-right: 2rem;
-    padding-right: 2rem;
-    font-size: var(--h3FontSize);
-    margin: auto;
-  }
 }
 @media screen and (min-width: 1040px) {
   .Home {
@@ -118,6 +118,10 @@
     font-weight: 900;
     max-width: 70%;
     margin: auto;
+  }
+  .Home .sectionText .icon {
+    font-size: 35px;
+    padding: 10px;
   }
   .Home .popularPlaces {
     display: block;

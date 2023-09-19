@@ -55,6 +55,7 @@
     width: 60px;
   }
   .portfolio .secContainer .leftContainer .grid .singlePortfolio .inform h4 {
+    color: var(--primaryColor);
     padding-bottom: 0.5rem;
     font-size: var(--h3FontSize);
   }

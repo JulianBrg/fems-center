@@ -16,7 +16,7 @@ const Questions = () => {
 
     return (
         <div className='questions section container'>
-            <div className="secHeading" data-aos="fade-right">
+            <div className="secHeading" data-aos="fade-up">
                 <h3>
                     Preguntas frecuentes
                 </h3>
@@ -31,20 +31,20 @@ const Questions = () => {
                         setActive={setActive}
                     />
                     <Accordion
-                        title=' ¿Cuál es el costo de utilizar los servicios de Fems Center?'
-                        desc='Consider your interests, budget, desired experiences, and the type of environment you enjoy. Research destinations that align with your preferences and offer attractions or activities you find appealing.'
+                        title='¿Cómo puedo programar una consulta o reservar un servicio?'
+                        desc='Puede programar una consulta llamando a nuestro número de teléfono de atención al cliente, al número de teléfono del profesional o visitándonos en persona en nuestra ubicación física.'
                         active={active}
                         setActive={setActive}
                     />
                     <Accordion
-                        title='Pregunta 3?'
-                        desc='Consider your interests, budget, desired experiences, and the type of environment you enjoy. Research destinations that align with your preferences and offer attractions or activities you find appealing.'
+                        title='¿Cuáles son los servicios principales que ofrece su Center?'
+                        desc='Ofrecemos una variedad de servicios que incluyen consultoría personalizada, capacitaciones, asesoramiento profesional y talleres de desarrollo personal.'
                         active={active}
                         setActive={setActive}
                     />
                     <Accordion
-                        title='Pregunta 4?'
-                        desc='Consider your interests, budget, desired experiences, and the type of environment you enjoy. Research destinations that align with your preferences and offer attractions or activities you find appealing.'
+                        title=' ¿Cuáles son los horarios de funcionamiento de su Center?'
+                        desc='Nuestro Center está abierto de lunes a viernes de 8:00 a.m. a 8:00 p.m. y los sábados de 9:00 a.m. a 2:00 p.m. Estamos cerrados los domingos.'
                         active={active}
                         setActive={setActive}
                     />
@@ -52,25 +52,25 @@ const Questions = () => {
 
                 <div className='form'>
                     <div className="secHeading">
-                        <h4 data-aos="fade-left">
+                        <h4 data-aos="fade-up">
                             ¿Tiene alguna pregunta específica?
                         </h4>
-                        <p data-aos="fade-left">
+                        <p data-aos="fade-up">
                             Rellene el siguiente formulario y nuestro equipo se pondrá en contacto con usted lo antes posible.
                         </p>
                     </div>
 
                     <div className="formContent grid">
                         <input
-                            data-aos="fade-left"
+                            data-aos="fade-up"
                             type="email"
                             placeholder='Introduzca la dirección de correo electrónico'
                         />
                         <textarea
                             placeholder='Escriba su pregunta aquí'
-                            data-aos="fade-left"
+                            data-aos="fade-up"
                         ></textarea>
-                        <button className='btn' data-aos="fade-left">Enviar consulta</button>
+                        <button className='btn' data-aos="fade-up">Enviar consulta</button>
                     </div>
                 </div>
             </div>
