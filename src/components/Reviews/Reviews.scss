@@ -66,8 +66,8 @@
         }
 
         .imgDiv {
-            height: 250px;
-            width: 100%;
+            height: 273px;
+            width: 485px;
             border-radius: 10px;
             overflow: hidden;
 
@@ -110,12 +110,8 @@
             }
 
             .imgDiv {
-                height: 250px;
-                width: 100%;
-                img {
-                    height: 100%;
-                    width: 100%;
-                }
+                height: 236px;
+                width: 420px;
             }
         }
     }
@@ -156,28 +152,29 @@
     }
 }
 
-@media screen and (min-width: 1240px){
-    .review{
-        .secContainer{
+@media screen and (min-width: 1240px) {
+    .review {
+        .secContainer {
             gap: 3rem;
 
-            .textDiv{
-                .redText{
+            .textDiv {
+                .redText {
                     font-size: var(--h3FontSize);
                 }
-                h3{
+                h3 {
                     font-size: var(--h1FontSize);
                     color: var(--blackColor);
                 }
-                p{
+                p {
                     color: var(--blackColor);
                     font-size: var(--h3FontSize);
                     line-height: 2rem;
                 }
             }
 
-            .imgDiv{
-                height: 300px;
+            .imgDiv {
+                width: 611px;
+                height: 344px;
             }
         }
     }

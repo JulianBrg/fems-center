@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react'
 import "./Membership.css"
 // imports assets
-import img1 from '../../assets/1.png'
-import img2 from '../../assets/2.png'
-import img3 from '../../assets/3.png'
-import img4 from '../../assets/4.png'
+import img1 from '../../assets/1.webP'
+import img2 from '../../assets/2.webP'
+import img3 from '../../assets/3.webP'
+import img4 from '../../assets/4.webP'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 // animation
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+// icons
+import { FaCheck, FaTimes } from 'react-icons/fa'
 
 const Membership = () => {
 
@@ -30,6 +32,7 @@ const Membership = () => {
                 </div>
 
                 <div className="pricing">
+                    {/* FEMEMPRESARIA */}
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header' >
@@ -38,12 +41,42 @@ const Membership = () => {
                         </div>
                         {/* card details */}
                         <div className="card-detail" >
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Publicidad</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Precios preferenciales</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios para eventos y activaciones</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Ser parte del directorio</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times nocheck'>
+                                    <FaTimes />
+                                </span>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
                         </div>
                         {/* card price */}
                         <div className="card-price" >
@@ -53,6 +86,7 @@ const Membership = () => {
                         <button className='btn card-button' >Contratar</button>
                     </div>
 
+                    {/* FEMemprendedora */}
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header'>
@@ -60,13 +94,43 @@ const Membership = () => {
                             <h2>FEMprendedora</h2>
                         </div>
                         {/* card details */}
-                        <div className="card-detail">
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                        <div className="card-detail" >
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Publicidad</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Precios preferenciales</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios para eventos y activaciones</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Ser parte del directorio</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times nocheck'>
+                                    <FaTimes />
+                                </span>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
                         </div>
                         {/* card price */}
                         <div className="card-price">
@@ -76,6 +140,7 @@ const Membership = () => {
                         <button className='btn card-button'>Contratar</button>
                     </div>
 
+                    {/* FEMotiva */}
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header'>
@@ -83,13 +148,43 @@ const Membership = () => {
                             <h2>FEMotiva</h2>
                         </div>
                         {/* card details */}
-                        <div className="card-detail">
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                        <div className="card-detail" >
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Publicidad</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Precios preferenciales</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios para eventos y activaciones</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Ser parte del directorio</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times nocheck'>
+                                    <FaTimes />
+                                </span>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
                         </div>
                         {/* card price */}
                         <div className="card-price">
@@ -99,6 +194,7 @@ const Membership = () => {
                         <button className='btn card-button'>Contratar</button>
                     </div>
 
+                    {/* FEMaliada */}
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header'>
@@ -106,13 +202,43 @@ const Membership = () => {
                             <h2>FEMaliada</h2>
                         </div>
                         {/* card details */}
-                        <div className="card-detail">
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>1</b> full user</p>
-                            <p><span className='fas fa-check check'></span><b>5</b> contact per client</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
-                            <p><span className='fas fa-times nocheck'></span>Lorem, ipsum dolor.</p>
+                        <div className="card-detail" >
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Publicidad</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Precios preferenciales</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Uso de espacios para eventos y activaciones</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Ser parte del directorio</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-times nocheck'>
+                                    <FaTimes />
+                                </span>
+                                <p>Lorem, ipsum dolor.</p>
+                            </div>
                         </div>
                         {/* card price */}
                         <div className="card-price">
@@ -121,6 +247,7 @@ const Membership = () => {
                         {/* button */}
                         <button className='btn card-button'>Contratar</button>
                     </div>
+
                 </div>
             </div>
             <Footer />

@@ -3,10 +3,10 @@ import './Reviews.css'
 // imported icons
 import { AiFillStar } from 'react-icons/ai'
 // imported images
-import image1 from '../../assets/avatar1.jpg'
-import image2 from '../../assets/avatar2.jpg'
-import image3 from '../../assets/avatar3.jpg'
-import image4 from '../../assets/avatar4.jpg'
+import image1 from '../../assets/avatar1.webp'
+import image2 from '../../assets/avatar2.webp'
+import image3 from '../../assets/avatar3.webp'
+import image4 from '../../assets/avatar4.webp'
 import image5 from '../../assets/img5.webp'
 // animation
 import Aos from 'aos';

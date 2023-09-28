@@ -45,13 +45,21 @@
 }
 .navBar .navLink {
   color: var(--blackColor);
-  font-weight: 700;
-  padding: 1rem 0;
+  font-weight: 500;
+  padding: 1rem;
   cursor: pointer;
 }
 .navBar .navLink:hover {
   color: var(--primaryColor);
   border-bottom: 1.5px solid var(--primaryColor);
+}
+.navBar a .signUpBtn {
+  background: var(--primaryColorLight);
+  color: var(--blackColor);
+  font-weight: 500;
+}
+.navBar a .signUpBtn:hover {
+  background: var(--primaryColor);
 }
 @media screen and (max-width: 767px) {
   .navBar .menu {
@@ -65,8 +73,6 @@
     padding: 1rem;
     border-radius: 10px;
     transition: 0.8s ease-in-out;
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
     box-shadow: 0 2px 3px 4px rgba(236, 213, 213, 0.516);
   }
   .navBar .menu li {
@@ -83,9 +89,9 @@
   .navBar .menu .navLink {
     display: flex;
     color: var(--blackColor);
-    font-size: var(--h3FontSize);
+    font-size: var(--h2FontSize);
     font-weight: 500;
-    padding: 1rem 0;
+    padding: 2rem;
     justify-content: center;
     cursor: pointer;
   }
@@ -96,18 +102,19 @@
 }
 .navBar .menuIcon,
 .navBar .closeIcon {
-  font-size: var(--h1FontSize);
+  font-size: 2.5rem;
+  color: var(--primaryColor);
 }
 .navBar .menuIcon:hover,
 .navBar .closeIcon:hover {
-  color: var(--primaryColor);
+  color: var(--primaryColorLight);
 }
 .navBar .closeIcon {
   position: absolute;
   bottom: -15px;
   right: 50%;
   left: 50%;
-  color: var(--blackColor);
+  color: var(--primaryColor);
   transform: translate(-50%);
 }
 .navBar .showNavbar {

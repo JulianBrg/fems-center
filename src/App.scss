@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
     padding: 0;
@@ -91,7 +94,7 @@ video {
         font-weight: 400;
     }
 
-    h3{
+    h3 {
         font-size: var(--h1FontSize);
     }
 }
@@ -101,26 +104,26 @@ video {
 .btn .icon {
     margin-left: 0.5rem;
 }
-.btn:hover{
+.btn:hover {
     color: var(--primaryColor);
     background: var(--primaryColorLight);
 }
-.section{
+.section {
     padding: 4rem 0 2rem;
 }
-.container{
+.container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-::selection{
+::selection {
     background: var(--primaryColorLight);
     color: var(--primaryColor);
 }
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
     background: var(--primaryColorLight);
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     width: 10px;
     background: var(--primaryColor);
     border-radius: var(--borderRadius);
@@ -129,10 +132,10 @@ video {
 // All this styling will tkae effect apply in the later stage
 // media queries
 @media screen and (min-width: 840px) {
-    .section{
+    .section {
         padding: 4rem 0 3rem;
     }
-    .container{
+    .container {
         width: 75%;
         margin: auto;
     }

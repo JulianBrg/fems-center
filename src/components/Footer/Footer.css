@@ -36,7 +36,8 @@
   padding-bottom: 0.5rem;
 }
 .footer .secContainer .logoDiv .footerLogo .logoFems {
-  width: 50%;
+  width: 200px;
+  height: 100px;
 }
 .footer .secContainer .logoDiv .socials {
   gap: 0.5rem;

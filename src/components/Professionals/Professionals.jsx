@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Professionals.css'
 // Imported icons
-import { BiSearchAlt, BiUser } from 'react-icons/bi'
+// import { BiSearchAlt, BiUser } from 'react-icons/bi'
 //Imported images
 import image2 from '../../assets/img2.webp'
 import image3 from '../../assets/img3.webp'

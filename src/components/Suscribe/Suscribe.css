@@ -31,7 +31,8 @@
 
 @media screen and (min-width: 480px) {
   .subscribe .secContainer img {
-    max-width: 70%;
+    width: 360px;
+    height: 360px;
     margin: auto;
   }
   .subscribe .secContainer .textDiv h4 {
@@ -51,11 +52,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .subscribe .secContainer img {
-    width: 100%;
+    width: 315px;
+    height: 315px;
     margin: auto;
   }
   .subscribe .secContainer .textDiv h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .subscribe .secContainer .textDiv p {
     padding: 1rem 0;

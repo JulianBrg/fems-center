@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Suscribe.css'
 // import images
-import image from '../../assets/ladyCalling.png';
+import image from '../../assets/ladyCalling.webP';
 // animation
 import Aos from 'aos';
 import 'aos/dist/aos.cjs';
@@ -23,10 +23,7 @@ const Suscribe = () => {
           <p data-aos="fade-up">
             Lic. Karla Vadillo te da la bienvenida a formar parte de este proyecto llamado Fems Center.
           </p>
-          {/* <p data-aos="fade-up">
-            Ofrecemos itinerarios personalizados adaptados a las preferencias e intereses individuales.
-          </p> */}
-          <button className='btn' data-aos="fade-up">Empieza aquí</button>
+          <button type='button' className='btn' data-aos="fade-up">Empieza aquí</button>
         </div>
       </div>
     </div>

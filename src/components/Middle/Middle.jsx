@@ -14,7 +14,7 @@ const Middle = () => {
   return (
     <div className='middle section'>
       <div className="secContainer container">
-        <div className="grid">
+        <div className="grid" data-aos="fade-up">
 
           <span className="flex" data-aos="fade-up">
             <h2>10+</h2>

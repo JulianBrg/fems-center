@@ -45,8 +45,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 330px;
+  width: 350px;
   height: auto;
   background-color: var(--whiteColor);
   border-radius: var(--borderRadius);
@@ -63,43 +62,47 @@
   margin: 1rem;
   text-align: center;
 }
-.membership .pricing .card-wrapper .card-header:hover h2 {
+.membership .pricing .card-wrapper .card-header h2:hover {
   transform: scale(1, 1);
   color: var(--primaryColorLight);
   letter-spacing: 2;
 }
 .membership .pricing .card-wrapper .card-header img {
-  width: 230px;
-  height: 250px;
+  width: 180px;
+  height: 180px;
   display: block;
   margin: 0 auto;
 }
 .membership .pricing .card-wrapper .card-detail {
   width: 100%;
+  height: 100%;
 }
-.membership .pricing .card-wrapper .card-detail p {
-  padding: 0.6rem 2.5rem;
-  font-size: var(--h2FontSize);
+.membership .pricing .card-wrapper .card-detail .parrafo {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 1rem;
   border-bottom: 1px solid var(--primaryColorLight);
 }
-.membership .pricing .card-wrapper .card-detail p:hover {
+.membership .pricing .card-wrapper .card-detail .parrafo:hover {
   background-color: var(--primaryColorLight);
 }
-.membership .pricing .card-wrapper .card-detail p .check {
-  color: #B0D9B1;
-  padding-right: 0.5rem;
+.membership .pricing .card-wrapper .card-detail .parrafo .check {
+  color: #b0d9b1;
 }
-.membership .pricing .card-wrapper .card-detail p .nocheck {
-  color: #D80032;
-  padding-right: 0.5rem;
+.membership .pricing .card-wrapper .card-detail .parrafo .nocheck {
+  color: #d80032;
+}
+.membership .pricing .card-wrapper .card-detail p {
+  padding: 0.1rem 1rem;
+  font-size: 1.1rem;
 }
 .membership .pricing .card-wrapper .card-price {
   display: flex;
-  align-items: flex-start;
-  margin: 1rem;
+  align-items: flex-end;
+  margin: 1.5rem;
 }
 .membership .pricing .card-wrapper .card-price p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 800;
 }
 .membership .pricing .card-wrapper .card-price p .num {

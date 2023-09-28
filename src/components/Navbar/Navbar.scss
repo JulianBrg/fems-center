@@ -31,7 +31,6 @@
     padding: 1.5rem 2rem;
     position: fixed;
     border-bottom: 1.5px solid rgb(212, 211, 211);
-    // backdrop-filter: blur(5px);
     background: var(--whiteColor);
     z-index: 1000;
 
@@ -53,12 +52,24 @@
 
     .navLink {
         color: var(--blackColor);
-        font-weight: 700;
-        padding: 1rem 0;
+        font-weight: 500;
+        padding: 1rem;
         cursor: pointer;
         &:hover {
             color: var(--primaryColor);
             border-bottom: 1.5px solid var(--primaryColor);
+        }
+    }
+
+    a {
+        .signUpBtn {
+            background: var(--primaryColorLight);
+            color: var(--blackColor);
+            font-weight: 500;
+
+            &:hover{
+                background: var(--primaryColor);
+            }
         }
     }
 
@@ -74,7 +85,6 @@
             padding: 1rem;
             border-radius: 10px;
             transition: 0.8s ease-in-out;
-            backdrop-filter: blur(5px);
             box-shadow: 0 2px 3px 4px rgba(236, 213, 213, 0.516);
 
             li {
@@ -91,9 +101,9 @@
             .navLink {
                 display: flex;
                 color: var(--blackColor);
-                font-size: var(--h3FontSize);
+                font-size: var(--h2FontSize);
                 font-weight: 500;
-                padding: 1rem 0;
+                padding: 2rem;
                 justify-content: center;
                 cursor: pointer;
                 &:hover {
@@ -106,9 +116,11 @@
 
     .menuIcon,
     .closeIcon {
-        font-size: var(--h1FontSize);
+        font-size: 2.5rem;
+        color: var(--primaryColor);
+
         &:hover {
-            color: var(--primaryColor);
+            color: var(--primaryColorLight);
         }
     }
     .closeIcon {
@@ -116,7 +128,7 @@
         bottom: -15px;
         right: 50%;
         left: 50%;
-        color: var(--blackColor);
+        color: var(--primaryColor);
         transform: translate(-50%);
     }
     .showNavbar {

@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import './Portfolio.css'
 // import assets
-import icon1 from '../../assets/comunidad.png'
-import icon2 from '../../assets/infraestructura.png'
-import icon3 from '../../assets/recursos.png'
-import image from '../../assets/Infographic.png'
+import icon1 from '../../assets/comunidad.webp'
+import icon2 from '../../assets/infraestructura.webp'
+import icon3 from '../../assets/recursos.webp'
+import image from '../../assets/Infographic.webp'
 // animation
 import Aos from 'aos';
 import 'aos/dist/aos.cjs';

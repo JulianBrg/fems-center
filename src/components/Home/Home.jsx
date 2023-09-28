@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import './Home.css'
 // import assets
-import Video from "../../assets/video.mp4";
-// import Video from "../../assets/video1.mp4";
 import img1 from "../../assets/img6.webp";
 import img2 from "../../assets/img7.webp";
 import img3 from "../../assets/img8.webp";
@@ -13,23 +11,23 @@ import { ImFacebook } from 'react-icons/im';
 import { AiFillInstagram } from 'react-icons/ai';
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.css';
 
 const Home = () => {
 
   useEffect(() => {
-    Aos.init({ duration: 2500 });
+    Aos.init({ duration: 1500 });
   }, [])
 
   return (
     <div className='Home'>
       <div className="videoBg">
-        <video src={Video} autoPlay loop muted></video>
+        {/* <video src={Video} autoPlay loop muted></video> */}
+        {/* <img src={background} alt="background" /> */}
       </div>
 
       <div className="sectionText">
         <h1 data-aos="fade-down">Fems Center</h1>
-        <h3 data-aos="fade-down">Es tu momento de crecer</h3>
+        <h2 data-aos="fade-down">Es tu momento de crecer</h2>
         <p data-aos="fade-down">Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.</p>
 
         <div data-aos="fade-down">

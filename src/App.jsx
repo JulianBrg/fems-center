@@ -1,22 +1,30 @@
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Index from './Index'
 import Membership from './pages/Membership/Membership'
 import Services from './pages/Services/Services'
 import Activities from './pages/Activities/Activities'
+import ScrollToTop from './components/Scroll/ScrollToTop'
+import Directory from './pages/Directory/Directory'
 
 
 function App() {
 
   return (
+
     <div>
-      <Routes>
-        <Route path='/' element={<Index />} />
-        <Route path='/membresias' element={<Membership />} />
-        <Route path='/servicios' element={<Services />} />
-        <Route path='/actividades' element={<Activities />} />
-      </Routes>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path='/' element={<Index />} />
+          <Route path='/membresias' element={<Membership />} />
+          <Route path='/servicios' element={<Services />} />
+          <Route path='/actividades' element={<Activities />} />
+          <Route path='/directorio' element={<Directory />} />
+        </Routes>
+      </BrowserRouter>
     </div>
+
   )
 }
 

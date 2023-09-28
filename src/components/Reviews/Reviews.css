@@ -54,8 +54,8 @@
   box-shadow: 0 0 2px 2px rgb(251, 212, 194);
 }
 .review .secContainer .imgDiv {
-  height: 250px;
-  width: 100%;
+  height: 273px;
+  width: 485px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -84,12 +84,8 @@
     width: 50px;
   }
   .review .secContainer .imgDiv {
-    height: 250px;
-    width: 100%;
-  }
-  .review .secContainer .imgDiv img {
-    height: 100%;
-    width: 100%;
+    height: 236px;
+    width: 420px;
   }
 }
 @media screen and (min-width: 740px) {
@@ -132,6 +128,7 @@
     line-height: 2rem;
   }
   .review .secContainer .imgDiv {
-    height: 300px;
+    width: 611px;
+    height: 344px;
   }
 }/*# sourceMappingURL=Reviews.css.map */
