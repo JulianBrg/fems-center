@@ -41,11 +41,21 @@
 }
 
 // media queries;
+@media screen and (max-width: 480px) {
+    .subscribe {
+        .secContainer {
+            img {
+                width: 340px;
+                height: 340px;
+                margin: auto;
+            }
+        }
+    }
+}
 @media screen and (min-width: 480px) {
     .subscribe {
         .secContainer {
             img {
-                // max-width: 70%;
                 width: 360px;
                 height: 360px;
                 margin: auto;

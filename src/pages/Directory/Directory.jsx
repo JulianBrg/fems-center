@@ -8,6 +8,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 // Imported icons
 import { BiLogoFacebookSquare, BiLogoInstagramAlt, BiUser } from 'react-icons/bi'
+import { Helmet } from 'react-helmet'
 
 const Directory = () => {
     // setear los hooks useStates
@@ -70,6 +71,14 @@ const Directory = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Fems Center - Directorio</title>
+                <meta
+                    property="description"
+                    content="Encuentra y busca a nuestras socias"
+                />
+            </Helmet>
+
             <Navbar />
             <div className='directory section container'>
                 <div className="secTitle" >

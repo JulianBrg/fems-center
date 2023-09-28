@@ -12,6 +12,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 // icons
 import { FaCheck, FaTimes } from 'react-icons/fa'
+import { Helmet } from 'react-helmet'
 
 const Membership = () => {
 
@@ -21,6 +22,11 @@ const Membership = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Fems Center - Membresias</title>
+                <meta property="description" content="Explora nuestras diferentes membresias" />
+            </Helmet>
+
             <Navbar />
             <div className='membership section container'>
                 <div className="secTitle" >

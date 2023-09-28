@@ -10,6 +10,7 @@ import { BiSearchAlt, BiUser } from 'react-icons/bi'
 // animation
 import Aos from 'aos';
 import 'aos/dist/aos.cjs';
+import { Helmet } from 'react-helmet'
 
 
 const Services = () => {
@@ -63,6 +64,14 @@ const Services = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Fems Center - Servcios</title>
+                <meta
+                    property="description"
+                    content="Los mejores servicios estan en Fems Center"
+                />
+            </Helmet>
+
             <Navbar />
             <div className='services section container'>
                 <div className="secContainer">

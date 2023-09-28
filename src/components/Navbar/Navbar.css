@@ -36,6 +36,7 @@
   justify-content: center;
 }
 .navBar .logoDiv img {
+  width: 90px;
   height: 50px;
 }
 .navBar .logoDiv span {

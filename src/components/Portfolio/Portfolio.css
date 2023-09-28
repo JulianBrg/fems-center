@@ -85,7 +85,6 @@
   }
   .portfolio .secContainer .rightContainer img {
     margin: auto;
-    max-width: 80%;
   }
 }
 @media screen and (min-width: 820px) {

@@ -54,12 +54,14 @@
   box-shadow: 0 0 2px 2px rgb(251, 212, 194);
 }
 .review .secContainer .imgDiv {
-  height: 273px;
-  width: 485px;
+  height: 208px;
+  width: 370px;
   border-radius: 10px;
   overflow: hidden;
 }
 .review .secContainer .imgDiv img {
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -83,13 +85,14 @@
     height: 50px;
     width: 50px;
   }
-  .review .secContainer .imgDiv {
-    height: 236px;
-    width: 420px;
+  .review .secContainer .imgDiv img {
+    height: 216px;
+    width: 384px;
   }
 }
 @media screen and (min-width: 740px) {
   .review .secContainer {
+    justify-items: center;
     grid-template-columns: repeat(2, 1fr);
   }
   .review .secContainer .textDiv .redText {
@@ -127,8 +130,8 @@
     font-size: var(--h3FontSize);
     line-height: 2rem;
   }
-  .review .secContainer .imgDiv {
-    width: 611px;
-    height: 344px;
+  .review .secContainer .imgDiv img {
+    width: 100%;
+    height: 100%;
   }
 }/*# sourceMappingURL=Reviews.css.map */

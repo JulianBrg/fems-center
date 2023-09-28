@@ -73,7 +73,7 @@ const Footer = () => {
           <ul>
             <li><a href="tel:238 168 0876">+52 238 168 0876</a></li>
             <li><a href='mailto:potencialfem@gmail.com'>potencialfem@gmail.com</a></li>
-            <li><a href='https://www.google.com.mx/maps/place/C.+Gardenia+532,+Jacarandas,+75730+Tehuac%C3%A1n,+Pue./@18.4711957,-97.3995079,17z/data=!3m1!4b1!4m6!3m5!1s0x85c5bd2ae5a705d3:0x8add4bccb2b2a7c2!8m2!3d18.4711957!4d-97.3969276!16s%2Fg%2F11cp9dgj64?entry=ttu'>C. Gardenia 532, Jacarandas, 75730 Tehuacán, Pue.</a></li>
+            <li><a target='_blank' href='https://www.google.com.mx/maps/place/C.+Gardenia+532,+Jacarandas,+75730+Tehuac%C3%A1n,+Pue./@18.4711957,-97.3995079,17z/data=!3m1!4b1!4m6!3m5!1s0x85c5bd2ae5a705d3:0x8add4bccb2b2a7c2!8m2!3d18.4711957!4d-97.3969276!16s%2Fg%2F11cp9dgj64?entry=ttu'>C. Gardenia 532, Jacarandas, 75730 Tehuacán, Pue.</a></li>
           </ul>
 
           {/* <span className="phone" href="tel:238 168 0876">+52 238 168 0876</span>
