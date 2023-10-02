@@ -8,6 +8,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 // Imported icons
 import { BiLogoFacebookSquare, BiLogoInstagramAlt, BiUser } from 'react-icons/bi'
+// import library SEO
 import { Helmet } from 'react-helmet'
 
 const Directory = () => {

@@ -1,5 +1,6 @@
 import React from 'react'
-import './App.css'
+// import './App.css'
+import './index.scss'
 import Footer from './components/Footer/Footer'
 import Home from './components/Home/Home'
 import Middle from './components/Middle/Middle'
@@ -26,11 +27,11 @@ const Index = () => {
             <Navbar />
             <Home />
             <Middle />
+            <Suscribe />
             <Professionals />
             <Porfolio />
             <Reviews />
             <Questions />
-            <Suscribe />
             <Footer />
         </div>
     )
