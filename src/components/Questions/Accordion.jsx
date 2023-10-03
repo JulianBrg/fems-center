@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import "./Questions.css"
+import "./Questions.scss"
 // imported icons
 import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs'
 // animation
