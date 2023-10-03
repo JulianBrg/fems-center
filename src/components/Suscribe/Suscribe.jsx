@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Suscribe.css'
+import './Suscribe.scss'
 // import images
 import image from '../../assets/ladyCalling.webP';
 // animation
@@ -17,9 +17,9 @@ const Suscribe = () => {
       <div className="secContainer grid">
         <img src={image} alt="Image div" data-aos="fade-up" />
         <div className="textDiv">
-          <h4 data-aos="fade-up">
+          <h2 data-aos="fade-up">
             La mejor manera de empezar a desarrollar tu potencial.
-          </h4>
+          </h2>
           <p data-aos="fade-up">
             Lic. Karla Vadillo te da la bienvenida a formar parte de este proyecto llamado Fems Center.
           </p>

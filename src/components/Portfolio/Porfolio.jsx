@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Portfolio.css'
+import './Portfolio.scss'
 // import assets
 import icon1 from '../../assets/comunidad.webp'
 import icon2 from '../../assets/infraestructura.webp'

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
-import './Home.css'
+import './Home.scss'
 // import assets
+import background from "../../assets/back.svg";
 import img1 from "../../assets/img6.webp";
 import img2 from "../../assets/img7.webp";
 import img3 from "../../assets/img8.webp";
@@ -22,7 +23,7 @@ const Home = () => {
     <div className='Home'>
       <div className="videoBg">
         {/* <video src={Video} autoPlay loop muted></video> */}
-        {/* <img src={background} alt="background" /> */}
+        <img src={background} alt="background" />
       </div>
 
       <div className="sectionText">

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { ButtonList, CardList } from '../Services'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
-import './Services.css'
+import './Services.scss'
 // data
 import data from '../../data/data'
 // Imported icons

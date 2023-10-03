@@ -1,18 +1,48 @@
-import React, { useEffect, useState } from 'react'
-import './Questions.css'
+import React, { useEffect, useRef, useState } from 'react'
+// import './Questions.css'
+import './Questions.scss'
 import Accordion from './Accordion'
 // animation
 import Aos from 'aos';
 import 'aos/dist/aos.cjs';
+import emailjs from '@emailjs/browser';
+import swal from 'sweetalert';
 
 const Questions = () => {
-
     useEffect(() => {
         Aos.init({ duration: 1500 })
     }, [])
 
     const [active, setActive] = useState("¿Quién puede acceder a Fems Center?");
     // const [active, setActive] = useState("");
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const formRef = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        // EmailJs services
+        const serviceId = 'service_ph8fp59';
+        const templeteId = 'template_wb4uwxv';
+        const publicKey = 'nlXhSy-tMLA5yHg3V';
+        
+
+        //Send the email using Emailjs
+        emailjs.sendForm(serviceId, templeteId, formRef.current, publicKey)
+            .then((result) => {
+                console.log(result.text);
+                swal("Correo enviado!", "", "success");
+                setName('');
+                setEmail('');
+                setMessage('');
+            }, (error) => {
+                console.log(error.text);
+                swal("Correo no enviado!", "", "error");
+            });
+    }
 
     return (
         <div className='questions section container'>
@@ -61,18 +91,32 @@ const Questions = () => {
                     </div>
 
                     <div className="formContent grid">
-                        <input
-                            name='nombre'
-                            data-aos="fade-up"
-                            type="email"
-                            placeholder='Introduzca la dirección de correo electrónico'
-                        />
-                        <textarea
-                            name='area'
-                            placeholder='Escriba su pregunta aquí'
-                            data-aos="fade-up"
-                        ></textarea>
-                        <button type='submit' className='btn' data-aos="fade-up">Enviar consulta</button>
+                        <form onSubmit={sendEmail} ref={formRef}>
+                            <input
+                                value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                name='from_name'
+                                data-aos="fade-up"
+                                type="text"
+                                placeholder='Introduzca su nombre completo'
+                            />
+                            <input
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                                name='from_email'
+                                data-aos="fade-up"
+                                type="email"
+                                placeholder='Introduzca la dirección de correo electrónico'
+                            />
+                            <textarea
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                name='message'
+                                placeholder='Escriba su pregunta aquí'
+                                data-aos="fade-up"
+                            ></textarea>
+                            <button type='submit' className='btn' data-aos="fade-up">Enviar consulta</button>
+                        </form>
                     </div>
                 </div>
             </div>

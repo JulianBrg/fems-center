@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Reviews.css'
+import './Reviews.scss'
 // imported icons
 import { AiFillStar } from 'react-icons/ai'
 // imported images

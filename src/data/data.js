@@ -65,7 +65,7 @@ const data = [
         rating: 4.9,
         categoria: "Servicio",
         productos: [
-            "Psicoterapia individual o familiar",
+            "Psicoterapia individual",
             "Problemas de aprendizaje",
             "Comportamiento y emociones",
         ],
