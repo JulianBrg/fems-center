@@ -78,7 +78,7 @@
                     z-index: 2;
                     bottom: 0;
                     width: 100%;
-                    padding: 1rem 2rem 1rem;
+                    padding: 1rem 1rem 1rem;
                     justify-content: space-between;
 
                     &::after {
@@ -104,7 +104,6 @@
                             display: block;
                             font-weight: 500;
                             padding-bottom: 0.3rem;
-                            font-weight: var(--h2FontSize);
                         }
 
                         .flex,
@@ -114,10 +113,10 @@
                     }
 
                     .rating {
-                        padding: 8px 1rem;
+                        padding: 10px .8rem;
                         border-radius: var(--borderRadius);
                         background: rgba(245, 245, 245, 0.241);
-                        font-size: var(--h3FontSize);
+                        font-size: var(--normalFontSize);
                         font-weight: 600;
                         color: var(--whiteColor);
                     }

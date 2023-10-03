@@ -6,7 +6,7 @@ const Activities = () => {
     return (
         <>
             <Helmet>
-                <title>Fems Center - Actividades</title>
+                <title>Actividades | Fems Center</title>
                 <meta
                     property="description"
                     content="Explora las actividades que ofrecemos"

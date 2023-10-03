@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-// import "./Membership.css"
 import "./Membership.scss"
 // imports assets
 import img1 from '../../assets/1.webP'
@@ -29,17 +28,17 @@ const Membership = () => {
     return (
         <>
             <Helmet>
-                <title>Fems Center - Membresias</title>
+                <title>Membresias | Fems Center</title>
                 <meta property="description" content="Explora nuestras diferentes membresias" />
             </Helmet>
 
             <Navbar />
             <div className='membership section container'>
                 <div className="secTitle" >
-                    <span className="redText" data-aos="fade-down">
+                    <h1 className="redText" data-aos="fade-down">
                         Membresias
-                    </span>
-                    <h3 data-aos="fade-down">Adquiere una membresia</h3>
+                    </h1>
+                    <h2 data-aos="fade-down">Adquiere una membresia</h2>
                     <p data-aos="fade-down">Forma parte del equipo Fems</p>
                 </div>
 
@@ -49,7 +48,7 @@ const Membership = () => {
                         {/* card hearder */}
                         <div className='card-header' >
                             <img src={img1} alt="Image 1" data-aos="fade-down" />
-                            <h2 data-aos="fade-down">FEMpresaria</h2>
+                            <h3 data-aos="fade-down">FEMpresaria</h3>
                         </div>
                         {/* card details */}
                         <div className="card-detail" >
@@ -106,7 +105,7 @@ const Membership = () => {
                         {/* card hearder */}
                         <div className='card-header'>
                             <img src={img2} alt="img2" data-aos="fade-down" />
-                            <h2 data-aos="fade-down">FEMprendedora</h2>
+                            <h3 data-aos="fade-down">FEMprendedora</h3>
                         </div>
                         {/* card details */}
                         <div className="card-detail" >
@@ -162,7 +161,7 @@ const Membership = () => {
                         {/* card hearder */}
                         <div className='card-header'>
                             <img src={img3} alt="img3" data-aos="fade-down" />
-                            <h2 data-aos="fade-down">FEMotiva</h2>
+                            <h3 data-aos="fade-down">FEMotiva</h3>
                         </div>
                         {/* card details */}
                         <div className="card-detail" >
@@ -219,7 +218,7 @@ const Membership = () => {
                         {/* card hearder */}
                         <div className='card-header'>
                             <img src={img4} alt="img3" data-aos="fade-down" />
-                            <h2 data-aos="fade-down">FEMaliada</h2>
+                            <h3 data-aos="fade-down">FEMaliada</h3>
                         </div>
                         {/* card details */}
                         <div className="card-detail" >
@@ -240,6 +239,18 @@ const Membership = () => {
                                     <FaCheck />
                                 </span>
                                 <p>Publicidad</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Insignia en calidad al servicio</p>
+                            </div>
+                            <div className='parrafo'>
+                                <span className='fas fa-check check'>
+                                    <FaCheck />
+                                </span>
+                                <p>Ser parte del directorio</p>
                             </div>
                         </div>
                         {/* card price */}

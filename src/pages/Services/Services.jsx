@@ -1,8 +1,8 @@
+import './Services.scss'
 import React, { useEffect, useState } from 'react'
 import { ButtonList, CardList } from '../Services'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
-import './Services.scss'
 // data
 import data from '../../data/data'
 // Imported icons
@@ -65,7 +65,7 @@ const Services = () => {
     return (
         <>
             <Helmet>
-                <title>Fems Center - Servcios</title>
+                <title>Servcios | Fems Center</title>
                 <meta
                     property="description"
                     content="Los mejores servicios estan en Fems Center"
@@ -77,10 +77,10 @@ const Services = () => {
                 <div className="secContainer">
 
                     <div className="secTitle" data-aos="fade-up">
-                        <span className="redText">
+                        <h1 className="redText">
                             Productos y Servicios
-                        </span>
-                        <h3>Conoce los productos y servicios de nuestras socias</h3>
+                        </h1>
+                        <h2>Conoce los productos y servicios de nuestras socias</h2>
                         {/* <p>Conoce los servicios y productos de nuestras socias.</p> */}
                     </div>
 

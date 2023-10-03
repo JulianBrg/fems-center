@@ -1,11 +1,12 @@
 // import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Index from './Index'
+
 import Membership from './pages/Membership/Membership'
 import Services from './pages/Services/Services'
 import Activities from './pages/Activities/Activities'
 import ScrollToTop from './components/Scroll/ScrollToTop'
 import Directory from './pages/Directory/Directory'
+import Index from './pages/Home/Index'
 
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
-          <Route path='/' element={<Index />} />
+          <Route path='/' element={<Index />} index />
           <Route path='/membresias' element={<Membership />} />
           <Route path='/servicios' element={<Services />} />
           <Route path='/actividades' element={<Activities />} />
           <Route path='/directorio' element={<Directory />} />
+          <Route path='/:' element={<Index />} />
         </Routes>
       </BrowserRouter>
     </div>

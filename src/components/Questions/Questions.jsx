@@ -91,7 +91,7 @@ const Questions = () => {
                     </div>
 
                     <div className="formContent grid">
-                        <form onSubmit={sendEmail} ref={formRef}>
+                        <form onSubmit={sendEmail} ref={formRef} className='formClass'>
                             <input
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}

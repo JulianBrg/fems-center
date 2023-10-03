@@ -58,12 +58,13 @@
 
     .form {
         .formContent {
-            form {
+            .formClass {
                 gap: 1rem;
-                
+
                 input,
                 textarea {
-                    margin: .5rem 0;
+                    padding: 1rem;
+                    margin: 0.5rem;
                     background: var(--cardColor);
                     width: 100%;
                     border: none;
@@ -77,7 +78,7 @@
                 }
 
                 textarea {
-                    height: 100px;
+                    height: 200px;
                     border-radius: 10px;
                 }
             }
@@ -125,17 +126,19 @@
 
             .form {
                 .formContent {
-                    input,
-                    textarea {
-                        font-size: var(--normalFontSize);
-                        &::placeholder {
+                    .formClass {
+                        input,
+                        textarea {
                             font-size: var(--normalFontSize);
-                            color: var(--blackColor);
+                            &::placeholder {
+                                font-size: var(--normalFontSize);
+                                color: var(--blackColor);
+                            }
                         }
-                    }
-                    textarea {
-                        height: 100px;
-                        border-radius: 10px;
+                        textarea {
+                            height: 200px;
+                            border-radius: 10px;
+                        }
                     }
                 }
             }

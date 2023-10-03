@@ -73,7 +73,7 @@ const Directory = () => {
     return (
         <>
             <Helmet>
-                <title>Fems Center - Directorio</title>
+                <title>Directorio | Fems Center</title>
                 <meta
                     property="description"
                     content="Encuentra y busca a nuestras socias"
@@ -83,10 +83,10 @@ const Directory = () => {
             <Navbar />
             <div className='directory section container'>
                 <div className="secTitle" >
-                    <span className="redText" data-aos="fade-down">
+                    <h1 className="redText" data-aos="fade-down">
                         Directorio
-                    </span>
-                    <h3 data-aos="fade-down">Busca y Encuentra</h3>
+                    </h1>
+                    <h2 data-aos="fade-down">Busca y Encuentra</h2>
                     <p data-aos="fade-down">Todos nuestros amigos se encuentran aquí</p>
                 </div>
 
