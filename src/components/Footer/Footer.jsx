@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react'
-import './Footer.css'
+
+import './Footer.scss'
 // imported logo
 import logo from '../../assets/fems.svg';
 // imported icons

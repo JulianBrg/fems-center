@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Middle.css'
+import './Middle.scss'
 // animation
 import Aos from 'aos';
 import 'aos/dist/aos.cjs';

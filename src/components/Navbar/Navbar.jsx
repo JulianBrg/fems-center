@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.scss";
 // import icons
 // import { BiLogoMediumOld } from "react-icons/bi";
 import { AiFillCloseCircle } from "react-icons/ai";

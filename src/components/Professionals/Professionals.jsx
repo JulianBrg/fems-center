@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './Professionals.css'
+import './Professionals.scss'
 // Imported icons
 // import { BiSearchAlt, BiUser } from 'react-icons/bi'
 //Imported images
