@@ -1,15 +1,16 @@
 // import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ScrollToTop from './components/Scroll/ScrollToTop'
 
 import Membership from './pages/Membership/Membership'
 import Services from './pages/Services/Services'
 import Activities from './pages/Activities/Activities'
-import ScrollToTop from './components/Scroll/ScrollToTop'
 import Directory from './pages/Directory/Directory'
 import Index from './pages/Home/Index'
 
 
 function App() {
+
 
   return (
 
@@ -22,7 +23,7 @@ function App() {
           <Route path='/servicios' element={<Services />} />
           <Route path='/actividades' element={<Activities />} />
           <Route path='/directorio' element={<Directory />} />
-          <Route path='/:' element={<Index />} />
+          <Route path='*' element={<Index />} />
         </Routes>
       </BrowserRouter>
     </div>

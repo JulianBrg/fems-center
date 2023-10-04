@@ -1,0 +1,7 @@
+User-agent: Scrapy
+Allow: /
+
+User-agent: *
+Disallow: 
+
+Sitemap: https://www.femscenter.netlify.app/sitemap_index.xml

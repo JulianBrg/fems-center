@@ -41,7 +41,6 @@ const Home = () => {
             <ImFacebook className='icon' />
           </a>
           <a
-            data-aos="fade-up"
             href="https://www.instagram.com/femscenter/"
             target="_blank"
             rel="sponsored"

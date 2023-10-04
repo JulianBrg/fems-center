@@ -1,15 +1,14 @@
 import React, { useEffect } from 'react'
 import "./Membership.scss"
 // imports assets
-import img1 from '../../assets/1.webP'
-import img2 from '../../assets/2.webP'
-import img3 from '../../assets/3.webP'
-import img4 from '../../assets/4.webP'
+import img1 from '../../assets/membresia1.webP'
+import img2 from '../../assets/membresia2.webP'
+import img3 from '../../assets/membresia3.webP'
+import img4 from '../../assets/membresia4.webP'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.css';
 // icons
 import { FaCheck, FaTimes } from 'react-icons/fa'
 import { Helmet } from 'react-helmet'
@@ -33,6 +32,7 @@ const Membership = () => {
             </Helmet>
 
             <Navbar />
+            
             <div className='membership section container'>
                 <div className="secTitle" >
                     <h1 className="redText" data-aos="fade-down">
