@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react'
 import './Professionals.scss'
-// Imported icons
-// import { BiSearchAlt, BiUser } from 'react-icons/bi'
 //Imported images
 import image2 from '../../assets/img2.webp'
 import image3 from '../../assets/img3.webp'
@@ -21,7 +19,7 @@ const professionals = [
     id: 1,
     img: image1,
     name: 'Dra. Sagrario Aguilar',
-    description: 'Espacialista en limpieza bucal',
+    description: 'Dentista',
     rating: '4.9⭐',
   },
   {
@@ -35,7 +33,7 @@ const professionals = [
     id: 3,
     img: image3,
     name: 'Lnc. Yerenci G. Menchaca',
-    description: 'Dietas y ejercicio',
+    description: 'Nutrióloga',
     rating: '4.9⭐',
   },
   {

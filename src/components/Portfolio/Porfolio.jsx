@@ -7,7 +7,6 @@ import icon3 from '../../assets/recursos.webp'
 import image from '../../assets/Infographic.webp'
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.cjs';
 
 const Porfolio = () => {
 

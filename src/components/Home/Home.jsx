@@ -7,11 +7,11 @@ import img2 from "../../assets/img7.webp";
 import img3 from "../../assets/img8.webp";
 import img4 from "../../assets/img9.webp";
 // imported icons
-// import { AiOutlineSwapRight } from 'react-icons/ai';
-import { ImFacebook } from 'react-icons/im';
-import { AiFillInstagram } from 'react-icons/ai';
+
 // animation
 import Aos from 'aos';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Home = () => {
 
@@ -38,7 +38,7 @@ const Home = () => {
             rel="sponsored"
             title='Facebook'
           >
-            <ImFacebook className='icon' />
+            <FacebookIcon className='icon' />
           </a>
           <a
             href="https://www.instagram.com/femscenter/"
@@ -46,7 +46,7 @@ const Home = () => {
             rel="sponsored"
             title='Instagram'
           >
-            <AiFillInstagram className='icon' />
+            <InstagramIcon className='icon' />
           </a>
         </div>
       </div>

@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import "./Questions.scss"
 // imported icons
-import { BsArrowDownCircle, BsArrowUpCircle } from 'react-icons/bs'
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
+import ArrowCircleDownIcon from '@mui/icons-material/ArrowCircleDown';
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.cjs';
 
 const Accordion = ({ title, desc, active, setActive }) => {
 
@@ -19,9 +19,9 @@ const Accordion = ({ title, desc, active, setActive }) => {
                 <span >
                     {
                         active === title ? (
-                            <BsArrowUpCircle className='icon' />
+                            <ArrowCircleUpIcon className='icon' />
                         ) : (
-                            <BsArrowDownCircle className='icon' />
+                            <ArrowCircleDownIcon className='icon' />
                         )
                     }
                 </span>

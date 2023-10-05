@@ -4,7 +4,6 @@ import './Suscribe.scss'
 import image from '../../assets/ladyCalling.webP';
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.cjs';
 
 const Suscribe = () => {
 

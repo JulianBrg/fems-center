@@ -7,7 +7,10 @@ import directory from '../../data/directory'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 // Imported icons
-import { BiLogoFacebookSquare, BiLogoInstagramAlt, BiUser } from 'react-icons/bi'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import PersonIcon from '@mui/icons-material/Person';
+
 // import library SEO
 import { Helmet } from 'react-helmet'
 
@@ -93,7 +96,7 @@ const Directory = () => {
                 <div className="grid">
                     <div className="searchField grid">
                         <div className="inputField flex" data-aos="fade-down">
-                            <BiUser className="icon" />
+                            <PersonIcon className="icon" />
                             <input
                                 type="text"
                                 placeholder='Nombre'
@@ -102,7 +105,7 @@ const Directory = () => {
                             />
                         </div>
                         <div className="inputField flex" data-aos="fade-down">
-                            <BiUser className="icon" />
+                            <PersonIcon className="icon" />
                             <input
                                 type="text"
                                 placeholder='Servicio'
@@ -133,12 +136,12 @@ const Directory = () => {
                                             <td title='Email'>{user.email}</td>
                                             <td title='Facebook'>
                                                 <a href={user.facebook} target='_blank'>
-                                                    <BiLogoFacebookSquare className='icon' />
+                                                    <FacebookIcon className='icon' />
                                                 </a>
                                             </td>
                                             <td title='Instagram'>
                                                 <a href={user.instagram} target='_blank'>
-                                                    <BiLogoInstagramAlt className='icon' />
+                                                    <InstagramIcon className='icon' />
                                                 </a>
                                             </td>
                                         </tr>

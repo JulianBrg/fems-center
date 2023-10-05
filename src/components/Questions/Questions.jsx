@@ -4,7 +4,6 @@ import './Questions.scss'
 import Accordion from './Accordion'
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.cjs';
 import emailjs from '@emailjs/browser';
 import swal from 'sweetalert';
 

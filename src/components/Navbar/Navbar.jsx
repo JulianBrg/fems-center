@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "./Navbar.scss";
 // import icons
-// import { BiLogoMediumOld } from "react-icons/bi";
-import { AiFillCloseCircle } from "react-icons/ai";
-import { PiDotsNineBold } from "react-icons/pi";
+import CancelIcon from '@mui/icons-material/Cancel';
+import MenuIcon from '@mui/icons-material/Menu';
+
 // imported logo
 import Logo from "../../assets/fems.svg";
 
@@ -49,7 +49,7 @@ const Navbar = () => {
                     Directorio
                 </NavLink>
                 {/* Icon to remove navbar */}
-                <AiFillCloseCircle
+                <CancelIcon
                     className="icon closeIcon"
                     onClick={removeNabvar}
                 />
@@ -64,7 +64,7 @@ const Navbar = () => {
             </a>
 
             {/* Icon toggle to navbar */}
-            <PiDotsNineBold className="icon menuIcon" onClick={showNavbar} />
+            <MenuIcon className="icon menuIcon" onClick={showNavbar} />
         </div>
     );
 };

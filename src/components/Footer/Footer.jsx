@@ -3,8 +3,8 @@ import './Footer.scss'
 // imported logo
 import logo from '../../assets/fems.svg';
 // imported icons
-import { ImFacebook } from 'react-icons/im';
-import { AiFillInstagram } from 'react-icons/ai';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 const Footer = () => {
@@ -20,10 +20,10 @@ const Footer = () => {
 
           <div className="socials flex">
             <a href="https://www.facebook.com/femsenaccion" target="_blank" rel="sponsored" title='Facebook'>
-              <ImFacebook className="icon" />
+              <FacebookIcon className='icon' />
             </a>
             <a href="https://www.instagram.com/femscenter/" target="_blank" rel="sponsored" title='Instagram'>
-              <AiFillInstagram className="icon" />
+              <InstagramIcon className='icon' />
             </a>
           </div>
         </div>

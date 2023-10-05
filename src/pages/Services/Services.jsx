@@ -6,10 +6,11 @@ import Footer from '../../components/Footer/Footer'
 // data
 import data from '../../data/data'
 // Imported icons
-import { BiSearchAlt, BiUser } from 'react-icons/bi'
+import PersonIcon from '@mui/icons-material/Person';
+import SearchIcon from '@mui/icons-material/Search';
+
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.cjs';
 import { Helmet } from 'react-helmet'
 
 
@@ -86,7 +87,7 @@ const Services = () => {
 
                     <div className="searchField grid">
                         <div className="inputField flex" data-aos="fade-up">
-                            <BiUser className="icon" />
+                            <PersonIcon className="icon" />
                             <input
                                 type="text"
                                 placeholder='Nombre'
@@ -101,7 +102,8 @@ const Services = () => {
                             onClick={() => filterName(search)}
                             className='btn flex'
                             data-aos="fade-up">
-                            <BiSearchAlt /> Buscar
+                            <SearchIcon />
+                            Buscar
                         </button>
                     </div>
 

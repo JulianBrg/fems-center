@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import './Reviews.scss'
 // imported icons
-import { AiFillStar } from 'react-icons/ai'
+import StarIcon from '@mui/icons-material/Star';
+
 // imported images
 import image1 from '../../assets/avatar1.webp'
 import image2 from '../../assets/avatar2.webp'
@@ -10,7 +11,6 @@ import image4 from '../../assets/avatar4.webp'
 import image5 from '../../assets/img5.webp'
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.cjs';
 
 const Reviews = () => {
 
@@ -32,11 +32,11 @@ const Reviews = () => {
                         Fems Center desempeñó un papel fundamental en mi camino hacia el éxito. Desde el primer día que me acerqué a sus puertas, encontré un ambiente cálido y acogedor, lleno de personas dedicadas a ayudar y motivar.
                     </p>
                     <span className="stars flex" data-aos="fade-up">
-                        <AiFillStar className="icon" />
-                        <AiFillStar className="icon" />
-                        <AiFillStar className="icon" />
-                        <AiFillStar className="icon" />
-                        <AiFillStar className="icon" />
+                        <StarIcon className="icon" />
+                        <StarIcon className="icon" />
+                        <StarIcon className="icon" />
+                        <StarIcon className="icon" />
+                        <StarIcon className="icon" />
                     </span>
 
                     <div className="clientsImages flex" data-aos="fade-up">

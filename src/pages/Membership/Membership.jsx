@@ -10,7 +10,9 @@ import Navbar from '../../components/Navbar/Navbar'
 // animation
 import Aos from 'aos';
 // icons
-import { FaCheck, FaTimes } from 'react-icons/fa'
+import CheckIcon from '@mui/icons-material/Check';
+import ClearIcon from '@mui/icons-material/Clear';
+
 import { Helmet } from 'react-helmet'
 
 const Membership = () => {
@@ -54,38 +56,37 @@ const Membership = () => {
                         <div className="card-detail" >
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Uso de espacios</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Publicidad</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Precios preferenciales</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Uso de espacios para eventos y activaciones</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-times check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Ser parte del directorio</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-times check'>
-                                    {/* <FaTimes /> */}
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Showroom y Coworking</p>
                             </div>
@@ -111,37 +112,37 @@ const Membership = () => {
                         <div className="card-detail" >
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Punto de entrega</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Publicidad</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Precios preferenciales</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Uso de espacios para eventos y activaciones</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-times check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Ser parte del directorio</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-times nocheck'>
-                                    <FaTimes />
+                                    <ClearIcon />
                                 </span>
                                 <p>Showroom y Coworking</p>
                             </div>
@@ -167,38 +168,38 @@ const Membership = () => {
                         <div className="card-detail" >
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Precios preferenciales</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-times check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Ser parte del directorio</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Mencion en redes sociales</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check nocheck'>
-                                    <FaTimes />
+                                    <ClearIcon />
                                 </span>
                                 <p>Uso de espacios</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check nocheck'>
-                                    <FaTimes />
+                                    <ClearIcon />
                                 </span>
                                 <p>Uso de espacios para eventos y activaciones</p>
                             </div>
 
                             <div className='parrafo'>
                                 <span className='fas fa-times nocheck'>
-                                    <FaTimes />
+                                    <ClearIcon />
                                 </span>
                                 <p>Showroom y Coworking</p>
                             </div>
@@ -223,32 +224,29 @@ const Membership = () => {
                         {/* card details */}
                         <div className="card-detail" >
                             <div className='parrafo'>
-                                <span className='fas fa-check check'>
-                                    {/* <FaCheck /> */}
-                                </span>
                                 <p>Membresia pensada para empresarias fuera de Fems Center</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Recomendaciones</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Publicidad</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Insignia en calidad al servicio</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
-                                    <FaCheck />
+                                    <CheckIcon />
                                 </span>
                                 <p>Ser parte del directorio</p>
                             </div>
