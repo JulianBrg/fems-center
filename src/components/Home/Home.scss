@@ -23,12 +23,11 @@
     .sectionText {
         position: absolute;
         top: 35%;
-        // bottom: 50%;
         padding: 0 1.3rem;
 
         h1 {
-            font-size: var(--h1FontSize);
-            font-weight: 900;
+            // font-size: var(--h1FontSize);
+            // font-weight: 900;
             color: var(--primaryColor);
         }
 
@@ -51,7 +50,7 @@
             margin: 0 1rem;
             color: var(--whiteColor);
             transition: all 0.3s ease;
-            
+
             &:hover {
                 background: var(--whiteColor);
                 color: var(--primaryColor);
@@ -65,32 +64,29 @@
 }
 
 // media queries
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
     .Home {
         .sectionText {
-            padding: 0 1.5rem;
+            padding: 0 2rem;
             justify-content: center;
             text-align: center;
             width: 100%;
-            top: 250px;
 
             h1 {
-                font-size: 3.5rem;
+                font-size: 3rem;
             }
 
             h2 {
                 font-size: var(--h2FontSize);
             }
 
-            p {
-                padding: 1.5rem 0;
-                font-size: var(--h3FontSize);
-                max-width: 70%;
-                margin: auto;
-            }
+            // p {
+            //     font-size: var(--h3FontSize);
+            //     // max-width: 70%;
+            // }
 
             .icon {
-                padding: 0.5rem;
+                padding: 0.6rem;
             }
         }
     }
@@ -105,20 +101,20 @@
             width: 100%;
 
             h1 {
-                // font-size: var(--biggestFontSize);
-                font-size: 4rem;
-                font-weight: 900;
+                font-size: 3rem;
             }
 
-            p {
-                padding: 1rem 0;
+            h2 {
                 font-size: var(--h2FontSize);
-                max-width: 70%;
-                margin: auto;
             }
+
+            // p {
+            //     font-size: var(--h3FontSize);
+            //     // max-width: 70%;
+            // }
 
             .icon {
-                padding: 0.5rem;
+                padding: 0.6rem;
             }
         }
     }
@@ -144,15 +140,15 @@
     }
 }
 
-@media screen and (min-width: 769px) and (orientation: portrait) {
-    .Home {
-        height: 60vh;
+// @media screen and (min-width: 769px) and (orientation: portrait) {
+//     .Home {
+//         height: 60vh;
 
-        .videoBg {
-            height: 100%;
-        }
-    }
-}
+//         .videoBg {
+//             height: 100%;
+//         }
+//     }
+// }
 
 @media screen and (min-width: 1040px) {
     .Home {
