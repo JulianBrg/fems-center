@@ -421,7 +421,7 @@ const directory = [
     },
     {
         id: 43,
-        name: "JULIAN BARRAGAN BRAVO",
+        name: "JULIAN BARRAGÁN BRAVO",
         phone: 2381440723,
         email: "julian.24.tics@gmail.com",
         social: "",

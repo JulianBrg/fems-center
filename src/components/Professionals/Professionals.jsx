@@ -25,7 +25,7 @@ const professionals = [
   {
     id: 2,
     img: image2,
-    name: 'Lft. Zamira Carrea Rodriguez',
+    name: 'Lft. Zamira Carrera Rodriguez',
     description: 'Fisioterapeuta',
     rating: '4.9⭐',
   },
@@ -47,7 +47,7 @@ const professionals = [
     id: 5,
     img: image5,
     name: 'Lic. Nohemi Nava',
-    description: 'Psicologa',
+    description: 'Psicóloga',
     rating: '4.9⭐',
   },
   {
@@ -60,7 +60,7 @@ const professionals = [
   {
     id: 7,
     img: image7,
-    name: 'Mirna Maron',
+    name: 'Mirna Marón',
     description: 'Coach Workout',
     rating: '4.9⭐',
   },
@@ -68,7 +68,7 @@ const professionals = [
     id: 8,
     img: image8,
     name: 'Psic. Silvia Lezama',
-    description: 'Psicologa',
+    description: 'Psicóloga',
     rating: '4.9⭐',
   },
 ]
@@ -91,27 +91,6 @@ const Professionals = () => {
           <h3>Conoce a nuestros profesionales</h3>
           <p>Conoce los servicios de nuestras socias.</p>
         </div>
-
-        {/* <div className="searchField grid">
-          <div className="inputField flex">
-            <BiUser className="icon" />
-            <input type="text" placeholder='Profesional' />
-          </div>
-
-          <button className='btn flex'>
-            <BiSearchAlt /> Buscar
-          </button>
-        </div>
-
-        <div className="secMenu">
-          <ul className="flex">
-            <li className="active">Todos</li>
-            <li>Dentista</li>
-            <li>Fisioterapeuta</li>
-            <li>Nutriologa</li>
-            <li>Masajista</li>
-          </ul>
-        </div> */}
 
         <div className="professionalsContainer grid">
           {

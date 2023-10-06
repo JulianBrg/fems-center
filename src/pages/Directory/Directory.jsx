@@ -13,60 +13,93 @@ import PersonIcon from '@mui/icons-material/Person';
 
 // import library SEO
 import { Helmet } from 'react-helmet'
+// input select
+import Select from 'react-select'
+
+// Component select
+const options = [
+    { value: '', label: 'Todos' },
+    { value: 'nutrición', label: 'Nutrición' },
+    { value: 'dentista', label: 'Dentista' },
+    { value: 'FISIOTERAPIA', label: 'Fisioterapia' },
+    { value: 'COMERCIO', label: 'Comercio' },
+    { value: 'WORKOUT', label: 'Workout' },
+    { value: 'YOGA', label: 'Yoga' },
+    { value: 'PSICOLOGÍA', label: 'Psicología' },
+]
 
 const Directory = () => {
+
     // setear los hooks useStates
     const [users, setUsers] = useState([]);
-    // inputs
+    // input name
     const [search, setSearch] = useState("");
+    // input giro
     const [search2, setSearch2] = useState("");
+    // select giro
+    const [search3, setSearch3] = useState("");
 
-    // funcion para traer los datos de la api
-    // const URL = 'https://jsonplaceholder.typicode.com/users'
-    // const showData = async () => {
-    //     const response = await fetch(URL);
-    //     const data = await response.json();
-    //     setUsers(data);
-    // }
+
+
 
     const showDirectory = () => {
         setUsers(directory);
     }
-    // funcion de busqueda
+
+    // función de búsqueda
     const searcher = (e) => {
         setSearch(e.target.value);
     }
     const searcher2 = (e) => {
         setSearch2(e.target.value);
     }
+    const searcher3 = (e) => {
+        setSearch3(e.value);
+    }
 
-    // metodo de filtrado 1
+    // método de filtrado 1
+    // let results = [];
+
+    // if (!search && !search2) {
+    //     results = users;
+    // } else if (search && !search2) {
+    //     results = users.filter((dato) =>
+    //         dato.name.toLowerCase().includes(search.toLocaleLowerCase())
+    //     )
+    // } else if (!search && search2) {
+    //     results = users.filter((dato) =>
+    //         dato.servicio.toLowerCase().includes(search2.toLocaleLowerCase())
+    //     )
+    // } else if (search && search2) {
+    //     results = users.filter((dato) =>
+    //         dato.servicio.toLowerCase().includes(search2.toLocaleLowerCase())
+    //     ).filter((dato) =>
+    //         dato.name.toLowerCase().includes(search.toLocaleLowerCase())
+    //     )
+    // }
+
     let results = [];
 
-    if (!search && !search2) {
+    if (!search && !search3) {
         results = users;
-    } else if (search && !search2) {
+    } else if (search && !search3) {
         results = users.filter((dato) =>
             dato.name.toLowerCase().includes(search.toLocaleLowerCase())
         )
-    } else if (!search && search2) {
+    } else if (!search && search3) {
         results = users.filter((dato) =>
-            dato.servicio.toLowerCase().includes(search2.toLocaleLowerCase())
+            dato.servicio.toLowerCase().includes(search3.toLocaleLowerCase())
         )
-    } else if (search && search2) {
+    } else if (search && search3) {
         results = users.filter((dato) =>
-            dato.servicio.toLowerCase().includes(search2.toLocaleLowerCase())
+            dato.servicio.toLowerCase().includes(search3.toLocaleLowerCase())
         ).filter((dato) =>
             dato.name.toLowerCase().includes(search.toLocaleLowerCase())
         )
     }
 
-    // metodo de filtrado 2
-    // const results = !search ? users : users.filter((dato) => dato.name.toLowerCase().includes(search.toLocaleLowerCase()))
-
     useEffect(() => {
         showDirectory();
-        // showData();
     }, [])
 
     useEffect(() => {
@@ -104,7 +137,7 @@ const Directory = () => {
                                 onChange={searcher}
                             />
                         </div>
-                        <div className="inputField flex" data-aos="fade-down">
+                        {/* <div className="inputField flex" data-aos="fade-down">
                             <PersonIcon className="icon" />
                             <input
                                 type="text"
@@ -112,14 +145,33 @@ const Directory = () => {
                                 value={search2}
                                 onChange={searcher2}
                             />
+                        </div> */}
+                        <div data-aos="fade-down">
+                            <Select
+                                defaultValue={options[0]}
+                                options={options}
+                                isSearchable={false}
+                                onChange={searcher3}
+                                styles={{
+                                    control: (baseStyles, state) => ({
+                                        ...baseStyles,
+                                        background: '#fedcd2',
+                                        width: "100-%",
+                                        // width: "400px",
+                                        height: "50px",
+                                        borderRadius: "10px"
+                                    }),
+                                }}
+                            />
                         </div>
                     </div>
+
                     <div className='table-latitude'>
                         <table cellSpacing={0}>
                             <thead data-aos="fade-down">
                                 <tr>
                                     <th>NOMBRE</th>
-                                    <th>TELEFONO</th>
+                                    <th>TELÉFONO</th>
                                     <th>SERVICIO</th>
                                     <th>CORREO</th>
                                     <th>FACEBOOK</th>
@@ -131,7 +183,7 @@ const Directory = () => {
                                     results.map((user) => (
                                         <tr key={user.id}>
                                             <td title='Nombre'>{user.name}</td>
-                                            <td title='Telefono'>{user.phone}</td>
+                                            <td title='Teléfono'>{user.phone}</td>
                                             <td title='Servicio'>{user.servicio}</td>
                                             <td title='Email'>{user.email}</td>
                                             <td title='Facebook'>

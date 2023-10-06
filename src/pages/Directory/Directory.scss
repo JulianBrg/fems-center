@@ -21,7 +21,7 @@
             .inputField {
                 background: var(--primaryColorLight);
                 padding: 1rem;
-                border-radius: var(--borderRadius);
+                border-radius: 10px;
                 gap: 0.5rem;
 
                 input {
@@ -33,6 +33,10 @@
 
                 .icon {
                     color: var(--blackColor);
+                }
+
+                .inputSelect{
+                    background: var(--primaryColorLight);
                 }
             }
         }

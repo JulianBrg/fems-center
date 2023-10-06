@@ -22,7 +22,7 @@ const Middle = () => {
 
           <span className="flex" data-aos="fade-up">
             <h2>2k+</h2>
-            <p>Asesorias Impartidas</p>
+            <p>Asesorías Impartidas</p>
           </span>
 
           <span className="flex" data-aos="fade-up">

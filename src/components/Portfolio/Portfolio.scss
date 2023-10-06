@@ -27,9 +27,15 @@
         }
 
         .rightContainer {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img {
-                width: 350px;
-                height: 350px;
+                width: 300px;
+                height: 300px;
             }
         }
     }
@@ -86,7 +92,6 @@
             .leftContainer {
                 .secHeading {
                     h3 {
-                        // font-size: 2rem;
                         font-size: var(--h1FontSize);
                     }
                     p {

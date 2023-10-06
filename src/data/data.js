@@ -26,7 +26,7 @@ const data = [
         id: 2,
         img: image2,
         logo: logo3,
-        name: "Lft. Zamira Carrea Rodríguez",
+        name: "Lft. Zamira Carrera Rodríguez",
         description: "Fisioterapeuta",
         rating: 4.9,
         categoria: "Servicio",

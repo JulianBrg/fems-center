@@ -16,13 +16,13 @@ import { Helmet } from 'react-helmet'
 
 const Services = () => {
 
-    // obtiene del arreglo las categorias
+    // obtiene del arreglo las categorías
     const allCategories = ['Todos', ...new Set(data.map(professional => professional.categoria))];
 
     const [categories, setCategories] = useState(allCategories);
     const [professionalState, setProfessionalState] = useState(data);
 
-    // filtra por categoria
+    // filtra por categoría
     const filterCategory = (category) => {
         if (category === 'Todos') {
             setProfessionalState(data)
@@ -36,7 +36,7 @@ const Services = () => {
     // state para input
     const [search, setSearch] = useState('');
 
-    // obtener el value busqueda por input
+    // obtener el value búsqueda por input
     const searcher = (e) => {
         setSearch(e.target.value);
     }
@@ -66,10 +66,10 @@ const Services = () => {
     return (
         <>
             <Helmet>
-                <title>Servcios | Fems Center</title>
+                <title>Servicios | Fems Center</title>
                 <meta
                     property="description"
-                    content="Los mejores servicios estan en Fems Center"
+                    content="Los mejores servicios están en Fems Center"
                 />
             </Helmet>
 

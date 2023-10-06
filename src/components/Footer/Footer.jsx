@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="secContainer container grid">
         <div className="logoDiv">
           <div className="footerLogo">
-            <img className="logoFems" src={logo} alt="fems logo" />
+            <img className="logoFems" src={logo} alt="Fems logo" />
           </div>
 
           <div className="socials flex">
@@ -37,7 +37,7 @@ const Footer = () => {
               <a href="/">Inicio</a>
             </li>
             <li>
-              <a href="/membresias">Membresias</a>
+              <a href="/membresias">Membresías</a>
             </li>
             <li>
               <a href="/servicios">Servicios</a>

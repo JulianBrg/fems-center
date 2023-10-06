@@ -29,8 +29,8 @@ const Membership = () => {
     return (
         <>
             <Helmet>
-                <title>Membresias | Fems Center</title>
-                <meta property="description" content="Explora nuestras diferentes membresias" />
+                <title>Membresías | Fems Center</title>
+                <meta property="description" content="Explora nuestras diferentes membresías" />
             </Helmet>
 
             <Navbar />
@@ -38,9 +38,9 @@ const Membership = () => {
             <div className='membership section container'>
                 <div className="secTitle" >
                     <h1 className="redText" data-aos="fade-down">
-                        Membresias
+                        Membresías
                     </h1>
-                    <h2 data-aos="fade-down">Adquiere una membresia</h2>
+                    <h2 data-aos="fade-down">Adquiere una membresía</h2>
                     <p data-aos="fade-down">Forma parte del equipo Fems</p>
                 </div>
 
@@ -182,7 +182,7 @@ const Membership = () => {
                                 <span className='fas fa-check check'>
                                     <CheckIcon />
                                 </span>
-                                <p>Mencion en redes sociales</p>
+                                <p>Mención en redes sociales</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check nocheck'>
@@ -224,7 +224,7 @@ const Membership = () => {
                         {/* card details */}
                         <div className="card-detail" >
                             <div className='parrafo'>
-                                <p>Membresia pensada para empresarias fuera de Fems Center</p>
+                                <p>Membresía pensada para empresarias fuera de Fems Center</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>

@@ -33,7 +33,7 @@ const Activities = () => {
                 <div className="sectionText">
                     <h1 data-aos="fade-down">Actividades de desarrollo profesional</h1>
                     {/* <h2 data-aos="fade-down">Es tu momento de crecer</h2> */}
-                    <p data-aos="fade-down">Exhibición y venta de productos de emprendedoras locales. Skincare, moda, belleza, artesanías, bolsos, joyeria, accesorios, artículos de regalo y productos para toda la familia.</p>
+                    <p data-aos="fade-down">Exhibición y venta de productos de emprendedoras locales. Skincare, moda, belleza, artesanías, bolsos, joyería, accesorios, artículos de regalo y productos para toda la familia.</p>
 
                     <div data-aos="fade-down">
                         <a

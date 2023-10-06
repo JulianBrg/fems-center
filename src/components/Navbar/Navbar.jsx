@@ -37,7 +37,7 @@ const Navbar = () => {
                     Inicio
                 </NavLink>
                 <NavLink to="/membresias" className="navLink">
-                    Membresias
+                    Membresías
                 </NavLink>
                 <NavLink to="/servicios" className="navLink">
                     Servicios
@@ -59,7 +59,7 @@ const Navbar = () => {
                 target="_blank"
                 href="https://api.whatsapp.com/send?phone=+522381680876&text=Hola,%20me%20gustar%C3%ADa%20ser%20parte%20del%20equipo%20de%20Fems%20Center%20:)">
                 <button className="signUpBtn btn" type="button">
-                    Unete
+                    Únete
                 </button>
             </a>
 
