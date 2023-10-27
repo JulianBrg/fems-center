@@ -1,5 +1,6 @@
 .middle {
     width: 100%;
+    // padding-top: 5rem;
 
     .secContainer {
         .grid {
@@ -17,7 +18,6 @@
                 h2 {
                     font-size: var(--h1FontSize);
                     font-weight: 700;
-                    color: var(--primaryColor);
                 }
                 p {
                     opacity: 0.8;

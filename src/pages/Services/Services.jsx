@@ -1,7 +1,6 @@
 import './Services.scss'
 import React, { useEffect, useState } from 'react'
 import { ButtonList, CardList } from '../Services'
-import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 // data
 import data from '../../data/data'
@@ -73,7 +72,6 @@ const Services = () => {
                 />
             </Helmet>
 
-            <Navbar />
             <div className='services section container'>
                 <div className="secContainer">
 
@@ -109,9 +107,6 @@ const Services = () => {
 
                     <div className="secMenu">
                         <ul className="flex" data-aos="fade-up">
-                            {/* <li className="active">Todos</li>
-                            <li>Servicios</li>
-                            <li>Productos</li> */}
                             <ButtonList
                                 categories={categories}
                                 filterCategory={filterCategory}

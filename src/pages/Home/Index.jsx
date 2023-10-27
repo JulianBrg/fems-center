@@ -4,13 +4,13 @@ import '../../index.scss'
 import Footer from '../../components/Footer/Footer'
 import Home from '../../components/Home/Home'
 import Middle from '../../components/Middle/Middle'
-import Navbar from '../../components/Navbar/Navbar'
 import Porfolio from '../../components/Portfolio/Porfolio'
 import Professionals from '../../components/Professionals/Professionals'
 import Questions from '../../components/Questions/Questions'
 import Reviews from '../../components/Reviews/Reviews'
 import Suscribe from '../../components/Suscribe/Suscribe'
 import { Helmet } from 'react-helmet'
+import Navbar2 from '../../components/Navbar/Nabvar2'
 
 const Index = () => {
     return (
@@ -25,8 +25,7 @@ const Index = () => {
                     href="https://femscenter.netlify.app/" />
 
             </Helmet>
-
-            <Navbar />
+            {/* <Navbar2 /> */}
             <Home />
             <Middle />
             <Suscribe />

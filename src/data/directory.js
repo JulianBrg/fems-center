@@ -51,7 +51,7 @@ const directory = [
     },
     {
         id: 6,
-        name: "NOHEMI ALEJANDRA  NAVA GARCIA",
+        name: "NOHEMI ALEJANDRA NAVA GARCIA",
         phone: 2381305015,
         email: "nohemi.nava.garcia@gmail.com",
         social: "",

@@ -1,21 +1,13 @@
 //Imported images
-import image2 from "../assets/img2.webp";
-import image3 from "../assets/img3.webp";
-import image1 from "../assets/img1.webp";
-import image4 from "../assets/img4.webp";
-import image5 from "../assets/img4-1.webp";
-import image6 from "../assets/img4-2.webp";
-import image7 from "../assets/img4-3.webp";
-import image8 from "../assets/img4-4.webp";
-import image9 from "../assets/img8.webp";
-import logo3 from "../assets/logos/logoYare.png";
+
+import logo1 from "../assets/logos/logoYare.png";
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const data = [
     {
         id: 1,
-        img: image1,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img1.webp?alt=media&token=9bfec27b-4218-4bf8-aa2e-1cbb013a67ee&_gl=1*1xhhx4m*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMTk1MC41Ny4wLjA.",
+        logo: logo1,
         name: "Dra. Sagrario Aguilar Calderón",
         description: "Dentista",
         rating: 4.9,
@@ -24,8 +16,8 @@ const data = [
     },
     {
         id: 2,
-        img: image2,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img2.webp?alt=media&token=6bbbc259-6bd3-48cb-8d35-e87352a210c0&_gl=1*pr91rf*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjA3NC41NC4wLjA.",
+        logo: logo1,
         name: "Lft. Zamira Carrera Rodríguez",
         description: "Fisioterapeuta",
         rating: 4.9,
@@ -34,8 +26,8 @@ const data = [
     },
     {
         id: 3,
-        img: image3,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img3.webp?alt=media&token=b7707df2-ce4c-42f5-9a75-2e8bf3be9886&_gl=1*vg4uz3*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjExMi4xNi4wLjA.",
+        logo: logo1,
         name: "Lnc. Yarenci G. Menchaca",
         description: "Nutriologa",
         rating: 4.9,
@@ -48,18 +40,18 @@ const data = [
     },
     {
         id: 4,
-        img: image4,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4.webp?alt=media&token=d054a115-f926-4dcf-a63d-990a848f20a9&_gl=1*1h9ex4c*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjEzMi42MC4wLjA.",
+        logo: logo1,
         name: "Stylist. Ale Amieva",
         description: "Belleza y Maquillaje",
         rating: 4.9,
         categoria: "Servicio",
-        productos: ["Bolsas", "Anillos", "Vestidos"],
+        productos: ["Estilismo", "Tintes"],
     },
     {
         id: 5,
-        img: image5,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-1.webp?alt=media&token=93ace0e1-f717-4442-96c2-ae6d04f2c71f&_gl=1*17sub8f*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE0My40OS4wLjA.",
+        logo: logo1,
         name: "Lic. Nohemi Nava García",
         description: "Psicologa",
         rating: 4.9,
@@ -72,28 +64,28 @@ const data = [
     },
     {
         id: 6,
-        img: image6,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-2.webp?alt=media&token=513b24a1-09d2-474e-9650-a7918838ab27&_gl=1*gr9hhp*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE2MS4zMS4wLjA.",
+        logo: logo1,
         name: "Aida Cancino",
         description: "Healting Coach - Yoga",
         rating: 4.9,
         categoria: "Servicio",
-        productos: ["Bolsas", "Anillos", "Vestidos"],
+        productos: ["Yoga", "Martes, Jueves y Viernes", "8am-9am"],
     },
     {
         id: 7,
-        img: image7,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-3.webp?alt=media&token=06854044-2487-4802-b85d-604cbd0eefc9&_gl=1*1uswrbt*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE3Ni4xNi4wLjA.",
+        logo: logo1,
         name: "Mirna Maron",
         description: "Coach Workout",
         rating: 4.9,
         categoria: "Servicio",
-        productos: ["Bolsas", "Anillos", "Vestidos"],
+        productos: ["Ejercicios funcionales"],
     },
     {
         id: 9,
-        img: image8,
-        logo: logo3,
+        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-4.webp?alt=media&token=533d75c7-d8aa-4b89-a4ae-d75a7634ba0c&_gl=1*m8x7tz*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE5Ny42MC4wLjA.",
+        logo: logo1,
         name: "Lic. Silvia Lezama Surroca",
         description: "Psicóloga",
         rating: 4.9,
@@ -105,9 +97,19 @@ const data = [
         ],
     },
     {
+        id: 18,
+        img: "https://scontent.fpbc2-1.fna.fbcdn.net/v/t39.30808-6/386750388_2749107381897029_1722393985932004410_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFmzRUiHRZjSejdZ33MpOipRpmv_yxAp6tGma__LECnq1ywZggZPOfyn0sqq0PQXv5MRJy-CaEJrEC5WJa9Bytf&_nc_ohc=5gWDFY07wL4AX97OKlh&_nc_ht=scontent.fpbc2-1.fna&oh=00_AfCNmyB_DfJHEUD_Dh0GGK4Fr4VgpANxi2PGioFjIwESKw&oe=65355B55",
+        logo: logo1,
+        name: "Erika Espinosa",
+        description: "Nail Artist",
+        rating: 4.9,
+        categoria: "Servicio",
+        productos: ["Acrilico", "Gel", "Spa pedicura"],
+    },
+    {
         id: 10,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,
@@ -116,8 +118,8 @@ const data = [
     },
     {
         id: 11,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,
@@ -126,8 +128,8 @@ const data = [
     },
     {
         id: 12,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,
@@ -136,8 +138,8 @@ const data = [
     },
     {
         id: 13,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,
@@ -146,8 +148,8 @@ const data = [
     },
     {
         id: 14,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,
@@ -156,8 +158,8 @@ const data = [
     },
     {
         id: 15,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,
@@ -166,8 +168,8 @@ const data = [
     },
     {
         id: 16,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,
@@ -176,8 +178,8 @@ const data = [
     },
     {
         id: 17,
-        img: image9,
-        logo: logo3,
+        img: logo1,
+        logo: logo1,
         name: "",
         description: "",
         rating: 4.9,

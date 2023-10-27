@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './Services.scss'
 
 export const CardList = ({ professionalState }) => {
@@ -18,7 +18,7 @@ export const CardList = ({ professionalState }) => {
                                         <p className='description'>
                                             {professional.description}
                                         </p>
-                                        <img className='logo' src={professional.logo} alt={professional.name} />
+                                        {/* <img className='logo' src={professional.logo} alt={professional.name} /> */}
                                         <ul className='products'>
                                             {
                                                 professional.productos.map((producto, index) => {

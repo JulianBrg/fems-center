@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react'
 import './Directory.scss'
 import Footer from '../../components/Footer/Footer'
-import Navbar from '../../components/Navbar/Navbar'
 import directory from '../../data/directory'
 // animation
 import Aos from 'aos';
-import 'aos/dist/aos.css';
 // Imported icons
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -38,8 +36,6 @@ const Directory = () => {
     const [search2, setSearch2] = useState("");
     // select giro
     const [search3, setSearch3] = useState("");
-
-
 
 
     const showDirectory = () => {
@@ -116,13 +112,13 @@ const Directory = () => {
                 />
             </Helmet>
 
-            <Navbar />
+            {/* <Navbar /> */}
             <div className='directory section container'>
                 <div className="secTitle" >
                     <h1 className="redText" data-aos="fade-down">
                         Directorio
                     </h1>
-                    <h2 data-aos="fade-down">Busca y Encuentra</h2>
+                    <h2 data-aos="fade-down">Socias</h2>
                     <p data-aos="fade-down">Todos nuestros amigos se encuentran aquí</p>
                 </div>
 

@@ -22,7 +22,7 @@ const Suscribe = () => {
           <p data-aos="fade-up">
             Lic. Karla Vadillo te da la bienvenida a formar parte de este proyecto llamado Fems Center.
           </p>
-          <button type='button' className='btn' data-aos="fade-up">Empieza aquí</button>
+          {/* <button type='button' className='btn' data-aos="fade-up">Empieza aquí</button> */}
         </div>
       </div>
     </div>

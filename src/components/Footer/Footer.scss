@@ -18,7 +18,7 @@
                 padding-bottom: 0.5rem;
 
                 .logoFems {
-                    width: 200px;
+                    width: 150px;
                     height: 100px;
                 }
             }
@@ -72,6 +72,13 @@
             }
         }
     }
+    .date {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+        font-weight: 600;
+        font-size: var(--normalFontSize);
+    }
 }
 
 // media queries
@@ -108,6 +115,46 @@
     .footer {
         .secContainer {
             grid-template-columns: repeat(4, 1fr);
+        }
+    }
+}
+
+.politicas {
+    .seccion {
+        margin-top: 2rem;
+
+        h3 {
+            margin-top: 1rem;
+        }
+    }
+}
+
+.terminos {
+    .seccion {
+        margin-top: 2rem;
+
+        h3 {
+            margin-top: 1rem;
+        }
+        p {
+            margin-top: 1rem;
+            color: #5b5b5b;
+
+            span {
+                font-weight: 700;
+                color: #3b3b3b;
+            }
+        }
+        ul {
+            margin-top: 1rem;
+            li {
+                list-style: disc;
+                margin-left: 2rem;
+                color: #5b5b5b;
+                a {
+                    color: blue;
+                }
+            }
         }
     }
 }

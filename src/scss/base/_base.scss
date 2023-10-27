@@ -65,7 +65,7 @@ body {
     background: var(--primaryColorLight);
 }
 .section {
-    padding: 4rem 0 2rem;
+    padding: 0 0 2rem;
 }
 .container {
     padding-left: 1.5rem;
@@ -89,9 +89,9 @@ body {
 // All this styling will tkae effect apply in the later stage
 // media queries
 @media screen and (min-width: 840px) {
-    .section {
-        padding: 4rem 0 3rem;
-    }
+    // .section {
+    //     padding: 4rem 0 3rem;
+    // }
     .container {
         // width: 75%;
         width: 80%;

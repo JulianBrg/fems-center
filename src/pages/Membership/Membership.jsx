@@ -6,12 +6,10 @@ import img2 from '../../assets/membresia2.webP'
 import img3 from '../../assets/membresia3.webP'
 import img4 from '../../assets/membresia4.webP'
 import Footer from '../../components/Footer/Footer'
-import Navbar from '../../components/Navbar/Navbar'
 // animation
 import Aos from 'aos';
 // icons
 import CheckIcon from '@mui/icons-material/Check';
-import ClearIcon from '@mui/icons-material/Clear';
 
 import { Helmet } from 'react-helmet'
 
@@ -32,10 +30,8 @@ const Membership = () => {
                 <title>Membresías | Fems Center</title>
                 <meta property="description" content="Explora nuestras diferentes membresías" />
             </Helmet>
-
-            <Navbar />
             
-            <div className='membership section container'>
+            <div className='membership section'>
                 <div className="secTitle" >
                     <h1 className="redText" data-aos="fade-down">
                         Membresías
@@ -53,12 +49,12 @@ const Membership = () => {
                             <h3 data-aos="fade-down">FEMpresaria</h3>
                         </div>
                         {/* card details */}
-                        <div className="card-detail" >
+                        <div className="card-detail" data-aos="fade-down">
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
                                     <CheckIcon />
                                 </span>
-                                <p>Uso de espacios</p>
+                                <p>Espacios coworking y showroom</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
@@ -70,7 +66,7 @@ const Membership = () => {
                                 <span className='fas fa-check check'>
                                     <CheckIcon />
                                 </span>
-                                <p>Precios preferenciales</p>
+                                <p>Formación para el desarrollo personal y profesional</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
@@ -88,7 +84,7 @@ const Membership = () => {
                                 <span className='fas fa-times check'>
                                     <CheckIcon />
                                 </span>
-                                <p>Showroom y Coworking</p>
+                                <p>2 sesiones de coaching de negocios al mes</p>
                             </div>
                         </div>
                         {/* card price */}
@@ -109,7 +105,7 @@ const Membership = () => {
                             <h3 data-aos="fade-down">FEMprendedora</h3>
                         </div>
                         {/* card details */}
-                        <div className="card-detail" >
+                        <div className="card-detail" data-aos="fade-down">
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
                                     <CheckIcon />
@@ -126,7 +122,7 @@ const Membership = () => {
                                 <span className='fas fa-check check'>
                                     <CheckIcon />
                                 </span>
-                                <p>Precios preferenciales</p>
+                                <p>Formación para el desarrollo personal y profesional</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
@@ -141,10 +137,10 @@ const Membership = () => {
                                 <p>Ser parte del directorio</p>
                             </div>
                             <div className='parrafo'>
-                                <span className='fas fa-times nocheck'>
-                                    <ClearIcon />
+                                <span className='fas fa-times check'>
+                                    <CheckIcon />
                                 </span>
-                                <p>Showroom y Coworking</p>
+                                <p>1 sesión de coaching de negocios al mes</p>
                             </div>
                         </div>
                         {/* card price */}
@@ -165,12 +161,12 @@ const Membership = () => {
                             <h3 data-aos="fade-down">FEMotiva</h3>
                         </div>
                         {/* card details */}
-                        <div className="card-detail" >
+                        <div className="card-detail" data-aos="fade-down">
                             <div className='parrafo'>
                                 <span className='fas fa-check check'>
                                     <CheckIcon />
                                 </span>
-                                <p>Precios preferenciales</p>
+                                <p>Formación para el desarrollo personal y profesional</p>
                             </div>
                             <div className='parrafo'>
                                 <span className='fas fa-times check'>
@@ -182,27 +178,15 @@ const Membership = () => {
                                 <span className='fas fa-check check'>
                                     <CheckIcon />
                                 </span>
-                                <p>Mención en redes sociales</p>
+                                <p>Publicidad</p>
                             </div>
                             <div className='parrafo'>
-                                <span className='fas fa-check nocheck'>
-                                    <ClearIcon />
+                                <span className='fas fa-check check'>
+                                    <CheckIcon />
                                 </span>
-                                <p>Uso de espacios</p>
+                                <p>1 sesión de coaching de negocios</p>
                             </div>
-                            <div className='parrafo'>
-                                <span className='fas fa-check nocheck'>
-                                    <ClearIcon />
-                                </span>
-                                <p>Uso de espacios para eventos y activaciones</p>
-                            </div>
-
-                            <div className='parrafo'>
-                                <span className='fas fa-times nocheck'>
-                                    <ClearIcon />
-                                </span>
-                                <p>Showroom y Coworking</p>
-                            </div>
+                        
                         </div>
                         {/* card price */}
                         <div className="card-price">
@@ -222,7 +206,7 @@ const Membership = () => {
                             <h3 data-aos="fade-down">FEMaliada</h3>
                         </div>
                         {/* card details */}
-                        <div className="card-detail" >
+                        <div className="card-detail" data-aos="fade-down">
                             <div className='parrafo'>
                                 <p>Membresía pensada para empresarias fuera de Fems Center</p>
                             </div>

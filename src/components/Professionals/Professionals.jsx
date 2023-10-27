@@ -15,61 +15,62 @@ import 'aos/dist/aos.cjs';
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const professionals = [
+  
   {
     id: 1,
     img: image1,
     name: 'Dra. Sagrario Aguilar',
     description: 'Dentista',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
   {
     id: 2,
     img: image2,
     name: 'Lft. Zamira Carrera Rodriguez',
     description: 'Fisioterapeuta',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
   {
     id: 3,
     img: image3,
     name: 'Lnc. Yerenci G. Menchaca',
     description: 'Nutrióloga',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
   {
     id: 4,
     img: image4,
     name: 'Stylist. Ale Amieva',
     description: 'Belleza y Maquillaje',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
   {
     id: 5,
     img: image5,
     name: 'Lic. Nohemi Nava',
     description: 'Psicóloga',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
   {
     id: 6,
     img: image6,
     name: 'Aida Cancino',
     description: 'Healting Coach - Yoga',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
   {
     id: 7,
     img: image7,
     name: 'Mirna Marón',
     description: 'Coach Workout',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
   {
     id: 8,
     img: image8,
     name: 'Psic. Silvia Lezama',
     description: 'Psicóloga',
-    rating: '4.9⭐',
+    rating: '⭐',
   },
 ]
 

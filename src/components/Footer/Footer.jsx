@@ -1,4 +1,3 @@
-
 import './Footer.scss'
 // imported logo
 import logo from '../../assets/fems.svg';
@@ -9,6 +8,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
 
+  const tienda = 'https://femscenter.mitiendanube.com/';
+  const today = new Date();
+  const year = today.getFullYear();
 
   return (
     <div className='footer'>
@@ -43,27 +45,7 @@ const Footer = () => {
               <a href="/servicios">Servicios</a>
             </li>
             <li>
-              <a href="#">Actividades</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="footerLinks">
-          <span className="linkTitle">
-            Helpful Links
-          </span>
-          <ul>
-            <li>
-              <a href="#">Destination</a>
-            </li>
-            <li>
-              <a href="#">Support</a>
-            </li>
-            <li>
-              <a href="#">Travel & Condition</a>
-            </li>
-            <li>
-              <a href="#">Privacy</a>
+              <a href={tienda} className="btnNav transparent" target="_blank">Tienda Online</a>
             </li>
           </ul>
         </div>
@@ -80,7 +62,24 @@ const Footer = () => {
           <span className="email" href='mailto:potencialfem@gmail.com'>potencialfem@gmail.com</span> */}
         </div>
 
+        <div className="footerLinks">
+          <span className="linkTitle">
+            Privacidad
+          </span>
+          <ul>
 
+            <li>
+              <a href='/términos-y-condiciones' className="btnNav transparent">Términos y Condiciones</a>
+            </li>
+            <li>
+              <a href='/políticas-de-privacidad' className="btnNav transparent">Políticas de Privacidad</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="date">
+        <p><span>&copy;</span>{year} Fems Center</p>
       </div>
     </div>
   )
