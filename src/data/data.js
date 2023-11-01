@@ -1,6 +1,7 @@
 //Imported images
 
 import logo1 from "../assets/logos/logoYare.png";
+import erika from "../assets/logos/erika.webp";
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const data = [
@@ -98,7 +99,7 @@ const data = [
     },
     {
         id: 18,
-        img: "https://scontent.fpbc2-1.fna.fbcdn.net/v/t39.30808-6/386750388_2749107381897029_1722393985932004410_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFmzRUiHRZjSejdZ33MpOipRpmv_yxAp6tGma__LECnq1ywZggZPOfyn0sqq0PQXv5MRJy-CaEJrEC5WJa9Bytf&_nc_ohc=5gWDFY07wL4AX97OKlh&_nc_ht=scontent.fpbc2-1.fna&oh=00_AfCNmyB_DfJHEUD_Dh0GGK4Fr4VgpANxi2PGioFjIwESKw&oe=65355B55",
+        img: erika,
         logo: logo1,
         name: "Erika Espinosa",
         description: "Nail Artist",

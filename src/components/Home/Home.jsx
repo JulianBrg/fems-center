@@ -13,6 +13,7 @@ import background from "../../assets/back.svg";
 // import icons
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import StorefrontIcon from '@mui/icons-material/Storefront';
 
 const Home = () => {
 
@@ -57,6 +58,15 @@ const Home = () => {
             className='icon tiktok'
           >
             <TikTokIcon />Tiktok
+          </a>
+          <a
+            href="https://femscenter.mitiendanube.com/"
+            target="_blank"
+            rel="sponsored"
+            title='Tienda'
+            className='icon tienda'
+          >
+            <StorefrontIcon />Tienda
           </a>
         </div>
       </div>

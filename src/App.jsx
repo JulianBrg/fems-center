@@ -25,8 +25,10 @@ function App() {
           <Route path='/' element={<Index />} index />
           <Route path='/membresias' element={<Membership />} />
           <Route path='/servicios' element={<Services />} />
+
           <Route path='/actividades/personales' element={<Personal />} />
           <Route path='/actividades/profesionales' element={<Professional />} />
+
           <Route path='/directorio/socias' element={<Directory />} />
           <Route path='/directorio/sedes' element={<Sedes />} />
 
