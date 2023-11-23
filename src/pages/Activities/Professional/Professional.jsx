@@ -36,14 +36,14 @@ const sliders = [
     },
     {
         id: 3,
-        title: 'Title 3',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore quidem et iusto beatae perspiciatis aliquid tenetur sit natus tempore!',
+        title: 'Taller: Jabón de Glicerina',
+        description: 'En este taller, aprenderás los pasos básicos para hacer jabones de glicerina, desde cómo cortar, derretir, colorear y aromatizar la base de glicerina, hasta cómo usar moldes, decoraciones y envoltorios para darle forma y presentación a tus jabones.',
         image: Img3
     },
     {
         id: 4,
-        title: 'Title 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore quidem et iusto beatae perspiciatis aliquid tenetur sit natus tempore!',
+        title: 'Curso: Técnica clásica y sus efectos',
+        description: 'En este curso se te enseñará a aplicar extensiones de pestañas una a una sobre las pestañas naturales, logrando un efecto natural y duradero.',
         image: Img4
     },
 ]
@@ -58,11 +58,11 @@ const Professional = () => {
     return (
         <>
             <Helmet>
-                <title>Actividades | Profesionales</title>
+                <title>Actividades Profesionales | Fems Center Tehuacán</title>
                 <meta
                     property="description"
-                    content="Explora las actividades profesionales que ofrecemos"
-                />
+                    content="Explora y participa en talleres, charlas, cursos y eventos que te ayudarán a desarrollar tus habilidades personales y profesionales." />
+                <link rel="canonical" href="https://femscenter.com/actividades/profesionales" />
             </Helmet>
 
             <div className="secTitle container" >
@@ -95,7 +95,7 @@ const Professional = () => {
                         <SwiperSlide key={slider.id}>
                             <div className='content'>
                                 <div className="image">
-                                    <img src={slider.image} alt="1" />
+                                    <img src={slider.image} alt={slider.title} title={slider.title} />
                                 </div>
                                 <div className="info">
                                     <h2>{slider.title}</h2>

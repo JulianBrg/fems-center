@@ -2,6 +2,10 @@
 import './Services.scss'
 
 export const CardList = ({ professionalState }) => {
+
+    const handleClick = () => {
+
+    }
     return (
         <div className="servicesContainer grid">
             {
@@ -9,7 +13,7 @@ export const CardList = ({ professionalState }) => {
                     return (
                         <div className="singleDestination" key={professional.id} data-aos="fade-up">
                             <div className="imgDiv">
-                                <img src={professional.img} alt={professional.name} />
+                                <img src={professional.img} alt={professional.name} title={professional.name} />
                                 <div className="descInfo flex">
                                     <div className="text">
                                         <span className="name">
@@ -29,7 +33,12 @@ export const CardList = ({ professionalState }) => {
                                             }
                                         </ul>
                                     </div>
-                                    <button type="button" className='btn'>Contactar</button>
+                                    {
+                                        professional.category == "Servicio" ?
+                                            <a href={`https://api.whatsapp.com/send?phone=+52${professional.phone}&text=Hola,%20quisiera%20saber%20de%20sus%20servicios.%20Gracias`} className='btn' target='_blank'>Contactar</a>
+                                            :
+                                            <a href={`https://api.whatsapp.com/send?phone=+52${professional.phone}&text=Hola,%20quisiera%20saber%20de%20sus%20productos.%20Gracias`} className='btn' target='_blank'>Contactar</a>
+                                    }
                                 </div>
                             </div>
                         </div>

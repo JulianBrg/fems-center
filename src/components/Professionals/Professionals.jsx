@@ -15,7 +15,6 @@ import 'aos/dist/aos.cjs';
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const professionals = [
-  
   {
     id: 1,
     img: image1,

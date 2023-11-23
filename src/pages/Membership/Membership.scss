@@ -2,6 +2,7 @@
     width: 100%;
     // height: 100vh;
     background-color: #ffffff;
+    margin-bottom: 5rem;
 
     .redText {
         color: var(--primaryColor);
@@ -17,14 +18,14 @@
         justify-content: center;
         flex-wrap: wrap;
         width: 100%;
-        padding: 0 auto;
+        // padding: auto;
 
         .card-wrapper {
             display: flex;
             flex-direction: column;
             align-items: center;
-            // width: 286px;
-            width: 300px;
+            // width: 300px;
+            width: 330px;
             height: auto;
             background-color: var(--whiteColor);
             border-radius: var(--borderRadius);
@@ -91,7 +92,22 @@
                 align-items: flex-end;
                 margin: 1.5rem;
 
-                p {
+                .price-num {
+                    font-size: 1.1rem;
+                    font-weight: 800;
+
+                    .num {
+                        font-size: 2rem;
+                    }
+                }
+            }
+            .card-price-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 1rem;
+
+                .price-num {
                     font-size: 1.1rem;
                     font-weight: 800;
 

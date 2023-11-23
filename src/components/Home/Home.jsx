@@ -21,13 +21,9 @@ const Home = () => {
 
   return (
     <div className='Home'>
-      <div className="videoBg">
-        {/* <video src={Video} autoPlay loop muted></video> */}
-        {/* <img src={background} alt="background"/> */}
-      </div>
 
       <div className="sectionText">
-        <h1>Fems Center</h1>
+        <h1>FEMS CENTER</h1>
         <h2>Es tu momento de crecer</h2>
         <p >Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.</p>
 
@@ -63,25 +59,13 @@ const Home = () => {
             href="https://femscenter.mitiendanube.com/"
             target="_blank"
             rel="sponsored"
-            title='Tienda'
+            title='Showroom'
             className='icon tienda'
           >
-            <StorefrontIcon />Tienda
+            <StorefrontIcon />Showroom
           </a>
         </div>
       </div>
-
-      {/* <div className="popularPlaces">
-        <div className="content">
-          <h3>Fotos</h3>
-          <div className="images flex" >
-            <img src={img1} alt="Images blog" />
-            <img src={img2} alt="Images blog" />
-            <img src={img3} alt="Images blog" />
-            <img src={img4} alt="Images blog" />
-          </div>
-        </div>
-      </div> */}
     </div>
   )
 }

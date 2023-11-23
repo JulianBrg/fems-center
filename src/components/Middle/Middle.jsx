@@ -16,23 +16,23 @@ const Middle = () => {
         <div className="grid" data-aos="fade-up">
 
           <span className="flex" data-aos="fade-up">
-            <h2>10+</h2>
-            <p>Años de Experiencia</p>
+            <h4>318</h4>
+            <p>Emprendedoras practicaron Networking</p>
           </span>
 
           <span className="flex" data-aos="fade-up">
-            <h2>2k+</h2>
-            <p>Asesorías Impartidas</p>
+            <h4>017</h4>
+            <p>Expos como plataforma de Venta</p>
           </span>
 
           <span className="flex" data-aos="fade-up">
-            <h2>10k+</h2>
-            <p>Opiniones satisfactorias</p>
+            <h4>528</h4>
+            <p>Mujeres se han desarrollado Personalmente</p>
           </span>
 
           <span className="flex" data-aos="fade-up">
-            <h2>4.8</h2>
-            <p>Valoración global</p>
+            <h4>588</h4>
+            <p>Mujeres se han formado Profesionalmente</p>
           </span>
 
         </div>

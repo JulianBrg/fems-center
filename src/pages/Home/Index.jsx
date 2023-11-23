@@ -1,35 +1,31 @@
-import React from 'react'
-// import './App.css'
 import '../../index.scss'
+import { Helmet } from 'react-helmet'
 import Footer from '../../components/Footer/Footer'
 import Home from '../../components/Home/Home'
 import Middle from '../../components/Middle/Middle'
 import Porfolio from '../../components/Portfolio/Porfolio'
-import Professionals from '../../components/Professionals/Professionals'
 import Questions from '../../components/Questions/Questions'
 import Reviews from '../../components/Reviews/Reviews'
 import Suscribe from '../../components/Suscribe/Suscribe'
-import { Helmet } from 'react-helmet'
-import Navbar2 from '../../components/Navbar/Nabvar2'
+import Vision from '../../components/Vision/Vision'
+import SliderProfessional from '../../components/Professionals/Slider/SliderProfessional'
 
 const Index = () => {
     return (
         <div>
             <Helmet>
-                <title itemProp="name" lang="es">Inicio | Fems Center</title>
-                <meta
-                    name='description'
-                    content='Es tu momento de crecer. Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.' />
-                <link
-                    rel="canonical"
-                    href="https://femscenter.netlify.app/" />
-
+                <title>Fems Center | Espacios coworking en Tehuacán.</title>
+                <meta name='description'
+                    content='Plataforma de crecimiento profesional. Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.' />
+                <link rel="canonical" href="https://femscenter.com" />
+                
             </Helmet>
-            {/* <Navbar2 /> */}
+
             <Home />
+            <Vision />
             <Middle />
             <Suscribe />
-            <Professionals />
+            <SliderProfessional />
             <Porfolio />
             <Reviews />
             <Questions />

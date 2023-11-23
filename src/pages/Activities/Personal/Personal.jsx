@@ -3,7 +3,6 @@ import { useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -45,14 +44,14 @@ const sliders = [
     },
     {
         id: 4,
-        title: 'Title 4',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore quidem et iusto beatae perspiciatis aliquid tenetur sit natus tempore!',
+        title: 'Certificación Internacional de Barra de Access',
+        description: 'En esta certificación se te enseñara a activar 32 puntos en la cabeza que liberan la energía bloqueada por pensamientos, emociones, creencias y juicios.',
         image: Img4
     },
     {
         id: 5,
-        title: 'Title 5',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolore quidem et iusto beatae perspiciatis aliquid tenetur sit natus tempore!',
+        title: 'Aprende a liberar tus emociones de forma sana',
+        description: 'En este taller, podrás usar técnicas como la meditación, la respiración consciente, el autoconocimiento y la aceptación para liberar la energía bloqueada en tu cuerpo y mente, y así lograr un mayor equilibrio y bienestar. ',
         image: Img5
     },
 ]
@@ -66,11 +65,12 @@ const Personal = () => {
     return (
         <>
             <Helmet>
-                <title>Actividades | Personales</title>
+                <title>Actividades Personales | Fems Center Tehuacán</title>
                 <meta
                     property="description"
-                    content="Explora las actividades Personales que ofrecemos"
+                    content="Explora y participa en talleres, charlas, cursos y eventos que te ayudarán a desarrollar tus habilidades personales y profesionales."
                 />
+                <link rel="canonical" href="https://femscenter.com/actividades/personales" />
             </Helmet>
 
             <div className="secTitle container" >
@@ -103,7 +103,7 @@ const Personal = () => {
                         <SwiperSlide key={slider.id}>
                             <div className='content'>
                                 <div className="image">
-                                    <img src={slider.image} alt="1" />
+                                    <img src={slider.image} alt={slider.title} title={slider.title} />
                                 </div>
                                 <div className="info">
                                     <h2>{slider.title}</h2>

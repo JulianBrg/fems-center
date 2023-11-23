@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Suscribe.scss'
 // import images
-import image from '../../assets/ladyCalling.webP';
+import image from '../../assets/ladyCalling.webp';
 // animation
 import Aos from 'aos';
 
@@ -14,13 +14,13 @@ const Suscribe = () => {
   return (
     <div className='subscribe section container'>
       <div className="secContainer grid">
-        <img src={image} alt="Image div" data-aos="fade-up" />
+        <img src={image} alt="Karla Vadillo" title='Lic. Karla Vadillo' data-aos="fade-up" />
         <div className="textDiv">
           <h2 data-aos="fade-up">
             La mejor manera de empezar a desarrollar tu potencial.
           </h2>
           <p data-aos="fade-up">
-            Lic. Karla Vadillo te da la bienvenida a formar parte de este proyecto llamado Fems Center.
+            Karla Vadillo, directora general y fundadora del programa de Empoderamiento de mujeres "Potencial Fem" te da la bienvenida a formar parte a una plataforma de crecimiento personal, profesional y empresarial.
           </p>
           {/* <button type='button' className='btn' data-aos="fade-up">Empieza aquí</button> */}
         </div>

@@ -1,18 +1,14 @@
 .Home {
     position: relative;
     width: 100%;
-    height: 100%h;
+    height: 100vh;
     top: 0;
+    // background-image: url(../../assets/back.webp);
+    background-image: url(../../assets/back.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-    .videoBg {
-        // position: absolute;
-        width: 100%;
-        height: 100vh;
-        background-image: url(../../assets/back.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
 
     .sectionText {
         position: absolute;
@@ -72,6 +68,9 @@
             .tiktok {
                 background-color: #000;
             }
+            .tienda {
+                background-color: #000;
+            }
         }
     }
 
@@ -79,8 +78,8 @@
         display: none;
     }
 }
-.tiktok{
-    &:hover{
+.tiktok {
+    &:hover {
         background-color: #000;
     }
 }

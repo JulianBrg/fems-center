@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import './Directory.scss'
 import Footer from '../../components/Footer/Footer'
 import directory from '../../data/directory'
+import allData from '../../data/allData';
 // animation
 import Aos from 'aos';
 // Imported icons
@@ -17,13 +18,26 @@ import Select from 'react-select'
 // Component select
 const options = [
     { value: '', label: 'Todos' },
-    { value: 'nutrición', label: 'Nutrición' },
-    { value: 'dentista', label: 'Dentista' },
+    { value: 'NUTRICIÓN', label: 'Nutrición' },
+    { value: 'DENTISTA', label: 'Dentista' },
     { value: 'FISIOTERAPIA', label: 'Fisioterapia' },
     { value: 'COMERCIO', label: 'Comercio' },
     { value: 'WORKOUT', label: 'Workout' },
     { value: 'YOGA', label: 'Yoga' },
     { value: 'PSICOLOGÍA', label: 'Psicología' },
+    { value: 'ESTÉTICA', label: 'Estética' },
+    { value: 'BIÓLOGO ACUPUNTURISTA', label: 'Biólogo Acupunturista' },
+    { value: 'SPA', label: 'Spa' },
+    { value: 'NAILS ARTIST', label: 'Nail Artist' },
+    { value: 'JOYERÍA Y ACCESORIOS', label: 'Joyería y Accesorios' },
+    { value: 'ROPA Y CALZADO', label: 'Ropa Y Calzado' },
+    { value: 'MANUALIDADES', label: 'Manualidades' },
+    { value: 'CUIDADO PERSONAL', label: 'Cuidado Personal' },
+    { value: 'REGALOS', label: 'Regalos' },
+    { value: 'JUGUETES', label: 'Juguetes' },
+    { value: 'MAQUILLAJE', label: 'Maquillaje' },
+    { value: 'ART. DEL HOGAR', label: 'Arte del Hogar' },
+    { value: 'POSTRES', label: 'Postres' },
 ]
 
 const Directory = () => {
@@ -39,7 +53,8 @@ const Directory = () => {
 
 
     const showDirectory = () => {
-        setUsers(directory);
+        // setUsers(directory);
+        setUsers(allData);
     }
 
     // función de búsqueda
@@ -53,27 +68,6 @@ const Directory = () => {
         setSearch3(e.value);
     }
 
-    // método de filtrado 1
-    // let results = [];
-
-    // if (!search && !search2) {
-    //     results = users;
-    // } else if (search && !search2) {
-    //     results = users.filter((dato) =>
-    //         dato.name.toLowerCase().includes(search.toLocaleLowerCase())
-    //     )
-    // } else if (!search && search2) {
-    //     results = users.filter((dato) =>
-    //         dato.servicio.toLowerCase().includes(search2.toLocaleLowerCase())
-    //     )
-    // } else if (search && search2) {
-    //     results = users.filter((dato) =>
-    //         dato.servicio.toLowerCase().includes(search2.toLocaleLowerCase())
-    //     ).filter((dato) =>
-    //         dato.name.toLowerCase().includes(search.toLocaleLowerCase())
-    //     )
-    // }
-
     let results = [];
 
     if (!search && !search3) {
@@ -84,11 +78,11 @@ const Directory = () => {
         )
     } else if (!search && search3) {
         results = users.filter((dato) =>
-            dato.servicio.toLowerCase().includes(search3.toLocaleLowerCase())
+            dato.service.toLowerCase().includes(search3.toLocaleLowerCase())
         )
     } else if (search && search3) {
         results = users.filter((dato) =>
-            dato.servicio.toLowerCase().includes(search3.toLocaleLowerCase())
+            dato.service.toLowerCase().includes(search3.toLocaleLowerCase())
         ).filter((dato) =>
             dato.name.toLowerCase().includes(search.toLocaleLowerCase())
         )
@@ -105,11 +99,12 @@ const Directory = () => {
     return (
         <>
             <Helmet>
-                <title>Directorio | Fems Center</title>
+                <title>Directorio de FEMS | Fems Center Tehuacán</title>
                 <meta
                     property="description"
-                    content="Encuentra y busca a nuestras socias"
+                    content="Directorio Fems te permite encontrar y contactar con las mujeres que forman parte de este espacio de coworking."
                 />
+                <link rel="canonical" href="https://femscenter.com/directorio/socias" />
             </Helmet>
 
             {/* <Navbar /> */}
@@ -177,10 +172,10 @@ const Directory = () => {
                             <tbody data-aos="fade-down">
                                 {
                                     results.map((user) => (
-                                        <tr key={user.id}>
+                                        <tr key={user._id}>
                                             <td title='Nombre'>{user.name}</td>
                                             <td title='Teléfono'>{user.phone}</td>
-                                            <td title='Servicio'>{user.servicio}</td>
+                                            <td title='Servicio'>{user.service}</td>
                                             <td title='Email'>{user.email}</td>
                                             <td title='Facebook'>
                                                 <a href={user.facebook} target='_blank'>

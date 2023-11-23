@@ -12,7 +12,7 @@ export const Card = ({ sedesState }) => {
                     return (
                         <div className="card" key={sede.id} data-aos="fade-down">
                             <div className="imgDiv">
-                                <img src={sede.img} alt={sede.name} />
+                                <img src={sede.img} alt={sede.name} title={sede.name} />
                                 <div className="descInfo">
                                     <div className="text">
                                         <span className="name">

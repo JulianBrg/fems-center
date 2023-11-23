@@ -430,4 +430,5 @@ const directory = [
         servicio: "AUDIO Y VIDEO",
     },
 ];
+
 export default directory;

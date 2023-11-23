@@ -29,7 +29,7 @@ const Porfolio = () => {
           <div className="grid">
             <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
-                <img src={icon1} alt="icon image" />
+                <img src={icon1} alt="icon image" title='icon 1' />
               </div>
               <div className="infor">
                 <h4>Comunidad Empresarial.</h4>
@@ -41,7 +41,7 @@ const Porfolio = () => {
 
             <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
-                <img src={icon2} alt="icon image" />
+                <img src={icon2} alt="icon image" title='icon 2' />
               </div>
               <div className="infor">
                 <h4>Infraestructura y Espacios de Trabajo</h4>
@@ -53,7 +53,7 @@ const Porfolio = () => {
 
             <div className="singlePortfolio flex" data-aos="fade-up">
               <div className="iconDiv">
-                <img src={icon3} alt="icon image" />
+                <img src={icon3} alt="icon image" title='icon 3' />
               </div>
               <div className="infor">
                 <h4>Recursos y Apoyo Especializado</h4>
@@ -66,7 +66,7 @@ const Porfolio = () => {
         </div>
 
         <div className="rightContainer" data-aos="fade-up">
-          <img src={image} alt="Infographic" />
+          <img src={image} alt="Infographic" title='Infographic' loading="lazy" />
         </div>
       </div>
     </div>

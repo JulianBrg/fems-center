@@ -10,13 +10,14 @@ import SearchIcon from '@mui/icons-material/Search';
 
 // animation
 import Aos from 'aos';
+// SEO
 import { Helmet } from 'react-helmet'
 
 
 const Services = () => {
 
     // obtiene del arreglo las categorías
-    const allCategories = ['Todos', ...new Set(data.map(professional => professional.categoria))];
+    const allCategories = ['Todos', ...new Set(data.map(professional => professional.category))];
 
     const [categories, setCategories] = useState(allCategories);
     const [professionalState, setProfessionalState] = useState(data);
@@ -28,7 +29,7 @@ const Services = () => {
             return
         }
 
-        const filteredData = data.filter(profesional => profesional.categoria === category);
+        const filteredData = data.filter(profesional => profesional.category === category);
         setProfessionalState(filteredData);
     }
 
@@ -65,11 +66,12 @@ const Services = () => {
     return (
         <>
             <Helmet>
-                <title>Servicios | Fems Center</title>
+                <title>Servicios Asociadas | Fems Center Tehuacán</title>
                 <meta
                     property="description"
-                    content="Los mejores servicios están en Fems Center"
+                    content=" Ven a Fems Center si quieres obtener los mejores servicios y productos para tu hogar, tu salud, tu belleza y tu entretenimiento"
                 />
+                <link rel="canonical" href="https://femscenter.com/servicios/asociadas" />
             </Helmet>
 
             <div className='services section container'>

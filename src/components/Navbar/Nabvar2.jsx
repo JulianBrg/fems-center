@@ -36,7 +36,7 @@ const Navbar2 = () => {
                     onChange={checkHandler}
                 />
                 <div className="logo-container">
-                    <a href="/"><img className="logo" src={Logo} alt="Fems Center" /></a>
+                    <a href="/"><img className="logo" src={Logo} alt="Fems Center" title="Fems center Inicio"/></a>
                 </div>
 
                 <div className="nav-btn">
@@ -53,9 +53,22 @@ const Navbar2 = () => {
                                 </NavLink>
                             </li>
                             <li className="nav-link">
-                                <NavLink to="/servicios" className="a" onClick={closeMenu}>
-                                    Servicios
-                                </NavLink>
+                                <NavLink className="a">Servicios<ArrowDropDownIcon className="i" /></NavLink>
+                                <div className="dropdown">
+                                    <ul>
+                                        <li className="dropdown-link">
+                                            <NavLink to="/servicios/FEMS" className="a" onClick={closeMenu}>
+                                                FEMS
+                                            </NavLink>
+                                        </li>
+                                        <li className="dropdown-link">
+                                            <NavLink to="/servicios/asociadas" className="a" onClick={closeMenu}>
+                                                Asociadas
+                                            </NavLink>
+                                        </li>
+                                        <div className="arrow"></div>
+                                    </ul>
+                                </div>
                             </li>
 
                             <li className="nav-link">
@@ -102,7 +115,7 @@ const Navbar2 = () => {
 
                     <div className="log-sign">
                         <a href={linkWhats} className="btnNav solid" target="_blank">Únete</a>
-                        <a href={tienda} className="btnNav transparent" target="_blank">Tienda</a>
+                        <a href={tienda} className="btnNav transparent" target="_blank">Showroom</a>
                         {/* <a href={blog} className="btnNav transparent" target="_blank">Blog</a> */}
                     </div>
                 </div>

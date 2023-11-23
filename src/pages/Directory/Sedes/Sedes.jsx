@@ -21,11 +21,12 @@ const Sedes = () => {
     return (
         <>
             <Helmet>
-                <title>Directorio Sedes | Fems Center</title>
+                <title>Directorio Sedes FEMS | Fems Center Tehuacán</title>
                 <meta
                     property="description"
-                    content="Encuentra y busca a nuestras socias"
+                    content="Directorio Sedes Fems te permite encontrar y contactar con las lugares que forman parte de este espacio de sedes."
                 />
+                <link rel="canonical" href="https://femscenter.com/directorio/sedes" />
             </Helmet>
 
             {/* <Navbar /> */}

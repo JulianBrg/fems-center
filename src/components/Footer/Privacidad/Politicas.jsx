@@ -1,6 +1,6 @@
 import "../Footer.scss"
 
-export const Politicas = () => {
+const Politicas = () => {
     return (
         <div className='politicas section container'>
             <div className='seccion'>
@@ -51,3 +51,5 @@ export const Politicas = () => {
         </div>
     )
 }
+
+export default Politicas;

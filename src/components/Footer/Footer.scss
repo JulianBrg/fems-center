@@ -52,6 +52,16 @@
                 font-weight: 700;
             }
 
+            .navLink {
+                margin: 0.8rem 0;
+                &:hover {
+                    transition: 0.5s ease;
+                    transform: translate(10px);
+                    a {
+                        color: var(--primaryColor);
+                    }
+                }
+            }
             li {
                 margin: 0.8rem 0;
                 &:hover {

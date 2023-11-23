@@ -5,6 +5,8 @@ import img1 from '../../assets/membresia1.webP'
 import img2 from '../../assets/membresia2.webP'
 import img3 from '../../assets/membresia3.webP'
 import img4 from '../../assets/membresia4.webP'
+import bannerMembresias from '../../assets/bannerMembresias.webP'
+
 import Footer from '../../components/Footer/Footer'
 // animation
 import Aos from 'aos';
@@ -15,10 +17,10 @@ import { Helmet } from 'react-helmet'
 
 const Membership = () => {
 
-    const FEMpresaria = 'https://api.whatsapp.com/send/?phone=522381440723&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMpresaria+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
-    const FEMprendedora = 'https://api.whatsapp.com/send/?phone=522381440723&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMprendedora+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
-    const FEMotiva = 'https://api.whatsapp.com/send/?phone=522381440723&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMotiva+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
-    const FEMaliada = 'https://api.whatsapp.com/send/?phone=522381440723&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMaliada+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
+    const FEMpresaria = 'https://api.whatsapp.com/send/?phone=522381680876&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMpresaria+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
+    const FEMprendedora = 'https://api.whatsapp.com/send/?phone=522381680876&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMprendedora+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
+    const FEMotiva = 'https://api.whatsapp.com/send/?phone=522381680876&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMotiva+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
+    const FEMaliada = 'https://api.whatsapp.com/send/?phone=522381680876&text=Hola.%0AVi+las+membres%C3%ADas+de+Fems+y+me+gustar%C3%ADa+contratar+la+membres%C3%ADa+de+FEMaliada+%3C3.%0AMe+podr%C3%ADan+proporcionar+m%C3%A1s+informaci%C3%B3n+por+favor.&type=phone_number&app_absent=0';
 
     useEffect(() => {
         Aos.init({ duration: 1500 });
@@ -27,11 +29,13 @@ const Membership = () => {
     return (
         <>
             <Helmet>
-                <title>Membresías | Fems Center</title>
-                <meta property="description" content="Explora nuestras diferentes membresías" />
+                <title>Membresías FEMS | Fems Center Tehuacán</title>
+                <meta property="description" content="Si eres una mujer que quiere iniciar o hacer crecer su propio negocio, entonces necesitas una membresía de Fems Center." />
+                <link rel="canonical" href="https://femscenter.com/membresias" />
+
             </Helmet>
-            
-            <div className='membership section'>
+
+            <div className='membership'>
                 <div className="secTitle" >
                     <h1 className="redText" data-aos="fade-down">
                         Membresías
@@ -45,7 +49,7 @@ const Membership = () => {
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header' >
-                            <img src={img1} alt="Image 1" data-aos="fade-down" />
+                            <img src={img1} alt="Image 1" title='Fempresaria' data-aos="fade-down" />
                             <h3 data-aos="fade-down">FEMpresaria</h3>
                         </div>
                         {/* card details */}
@@ -88,8 +92,13 @@ const Membership = () => {
                             </div>
                         </div>
                         {/* card price */}
-                        <div className="card-price" >
-                            <p><sup>$ </sup><sup className='num'>2400</sup>/mensuales</p>
+                        <div className="card-price-2" >
+                            <div><p>Precio para Coworking</p></div>
+                            <p className='price-num'><sup>$ </sup><sup className='num'>2400</sup>/mensuales</p>
+                        </div>
+                        <div className="card-price-2" >
+                            <div><p>Precio para Showroom</p></div>
+                            <p className='price-num'><sup>$ </sup><sup className='num'>700</sup>/mensuales</p>
                         </div>
                         {/* button */}
                         <a href={FEMpresaria} target='_blank'>
@@ -101,7 +110,7 @@ const Membership = () => {
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header'>
-                            <img src={img2} alt="img2" data-aos="fade-down" />
+                            <img src={img2} alt="img2" title='Femprendedora' data-aos="fade-down" />
                             <h3 data-aos="fade-down">FEMprendedora</h3>
                         </div>
                         {/* card details */}
@@ -145,7 +154,7 @@ const Membership = () => {
                         </div>
                         {/* card price */}
                         <div className="card-price">
-                            <p><sup>$ </sup><sup className='num'>500</sup>/mensuales</p>
+                            <p className='price-num'><sup>$ </sup><sup className='num'>500</sup>/mensuales</p>
                         </div>
                         {/* button */}
                         <a href={FEMprendedora} target='_blank'>
@@ -157,7 +166,7 @@ const Membership = () => {
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header'>
-                            <img src={img3} alt="img3" data-aos="fade-down" />
+                            <img src={img3} alt="img3" title='Femotiva' data-aos="fade-down" />
                             <h3 data-aos="fade-down">FEMotiva</h3>
                         </div>
                         {/* card details */}
@@ -186,11 +195,11 @@ const Membership = () => {
                                 </span>
                                 <p>1 sesión de coaching de negocios</p>
                             </div>
-                        
+
                         </div>
                         {/* card price */}
                         <div className="card-price">
-                            <p><sup>$ </sup><sup className='num'>300</sup>/anuales</p>
+                            <p className='price-num'><sup>$ </sup><sup className='num'>300</sup>/anuales</p>
                         </div>
                         {/* button */}
                         <a href={FEMotiva} target='_blank'>
@@ -202,7 +211,7 @@ const Membership = () => {
                     <div className="card-wrapper">
                         {/* card hearder */}
                         <div className='card-header'>
-                            <img src={img4} alt="img3" data-aos="fade-down" />
+                            <img src={img4} alt="img3" title='Femaliada' data-aos="fade-down" />
                             <h3 data-aos="fade-down">FEMaliada</h3>
                         </div>
                         {/* card details */}
@@ -237,7 +246,7 @@ const Membership = () => {
                         </div>
                         {/* card price */}
                         <div className="card-price">
-                            <p><sup>$ </sup><sup className='num'>1000</sup>/anuales</p>
+                            <p className='price-num'><sup>$ </sup><sup className='num'>1000</sup>/anuales</p>
                         </div>
                         {/* button */}
                         <a href={FEMaliada} target='_blank'>

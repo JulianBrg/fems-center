@@ -1,0 +1,63 @@
+.mision {
+    width: 100%;
+
+    .secContainer {
+        .contain {
+            padding: 3rem;
+            border-radius: var(--borderRadius);
+            background: var(--primaryColorLight);
+            justify-items: center;
+            align-items: flex-start;
+            margin: auto;
+            gap: 2rem;
+
+            .main {
+                align-items: start;
+                .span {
+                    justify-content: center;
+                    gap: 0.5rem;
+
+                    h3 {
+                        font-size: var(--h2FontSize);
+                        font-weight: 700;
+                    }
+                    p {
+                        opacity: 0.8;
+                        // max-width: 80px;
+                    }
+                }
+            }
+
+            .programa {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p {
+                    font-size: 14px;
+                    margin-top: 2rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .mision {
+        .secContainer {
+            .main {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+}
+@media screen and (min-width: 720px) {
+    .mision {
+        .secContainer {
+            .main {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
