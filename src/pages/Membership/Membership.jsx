@@ -199,7 +199,7 @@ const Membership = () => {
                         </div>
                         {/* card price */}
                         <div className="card-price">
-                            <p className='price-num'><sup>$ </sup><sup className='num'>300</sup>/anuales</p>
+                            <p className='price-num'><sup>$ </sup><sup className='num'>350</sup>/anuales</p>
                         </div>
                         {/* button */}
                         <a href={FEMotiva} target='_blank'>

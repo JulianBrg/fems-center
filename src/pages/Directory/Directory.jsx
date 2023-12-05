@@ -37,7 +37,8 @@ const options = [
     { value: 'JUGUETES', label: 'Juguetes' },
     { value: 'MAQUILLAJE', label: 'Maquillaje' },
     { value: 'ART. DEL HOGAR', label: 'Arte del Hogar' },
-    { value: 'POSTRES', label: 'Postres' },
+    { value: 'COMIDA', label: 'Comida' },
+    { value: 'MARKETING', label: 'Marketing' },
 ]
 
 const Directory = () => {
