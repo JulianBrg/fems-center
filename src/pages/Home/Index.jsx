@@ -9,6 +9,7 @@ import Reviews from '../../components/Reviews/Reviews'
 import Suscribe from '../../components/Suscribe/Suscribe'
 import Vision from '../../components/Vision/Vision'
 import SliderProfessional from '../../components/Professionals/Slider/SliderProfessional'
+import Entrepreneurs from '../../components/Entrepreneurs/Entrepreneurs'
 
 const Index = () => {
     return (
@@ -26,6 +27,7 @@ const Index = () => {
             <Middle />
             <Suscribe />
             <SliderProfessional />
+            <Entrepreneurs />
             <Porfolio />
             <Reviews />
             <Questions />

@@ -8,15 +8,15 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
 // animation
 import Aos from 'aos';
 // datos
-import data from '../../../data/data'
+import data from '../../../src/data/data'
 
+const Entrepreneurs = () => {
 
-const SliderProfessional = () => {
-
-    let dataNew = data.slice(0, 14)
+    let dataNew = data.slice(14, 36)
 
     useEffect(() => {
         Aos.init({ duration: 1500 });
@@ -29,8 +29,8 @@ const SliderProfessional = () => {
                     <span className="redText">
                         Áreas
                     </span>
-                    <h3>Conoce a nuestras profesionales</h3>
-                    <p>Conoce los servicios de nuestras socias.</p>
+                    <h3>Conoce a nuestras emprendedoras</h3>
+                    <p>Conoce los productos de nuestras socias y emprendedoras.</p>
                 </div>
 
                 <Swiper
@@ -78,6 +78,7 @@ const SliderProfessional = () => {
             </div>
         </div>
     )
+
 }
 
-export default SliderProfessional
+export default Entrepreneurs
