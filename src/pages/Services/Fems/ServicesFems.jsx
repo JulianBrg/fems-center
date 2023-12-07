@@ -5,6 +5,7 @@ import Footer from '../../../components/Footer/Footer'
 import Aos from 'aos';
 // SEO
 import { Helmet } from 'react-helmet'
+import SpacesSlider from './SpacesSlider';
 
 const ServicesFems = () => {
 
@@ -55,6 +56,18 @@ const ServicesFems = () => {
                     </div>
                 </div>
             </div>
+
+            <div className='fems section container'>
+                <div className="secContainer">
+                    <div className="secTitle" data-aos="fade-up">
+                        <h1 className="redText">
+                            Espacios Fems Center
+                        </h1>
+                        <h2>Conoce nuestras instalaciones</h2>
+                    </div>
+                </div>
+            </div>
+            <SpacesSlider />
 
             <Footer />
         </>

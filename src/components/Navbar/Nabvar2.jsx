@@ -36,7 +36,7 @@ const Navbar2 = () => {
                     onChange={checkHandler}
                 />
                 <div className="logo-container">
-                    <a href="/"><img className="logo" src={Logo} alt="Fems Center" title="Fems center Inicio"/></a>
+                    <a href="/"><img className="logo" src={Logo} alt="Fems Center" title="Fems center Inicio" /></a>
                 </div>
 
                 <div className="nav-btn">
@@ -77,12 +77,12 @@ const Navbar2 = () => {
                                     <ul>
                                         <li className="dropdown-link">
                                             <NavLink to="/actividades/personales" className="a" onClick={closeMenu}>
-                                                Personales
+                                                Desarrollo Personal
                                             </NavLink>
                                         </li>
                                         <li className="dropdown-link">
                                             <NavLink to="/actividades/profesionales" className="a" onClick={closeMenu}>
-                                                Profesionales
+                                                Desarrollo Profesional
                                             </NavLink>
                                         </li>
                                         <div className="arrow"></div>

@@ -38,12 +38,12 @@ header {
             .nav-links {
                 flex: 2;
                 margin-top: 1rem;
-                // display: flex;
+                display: flex;
 
                 ul {
                     display: flex;
                     justify-content: center;
-                    align-items: center;
+                    // align-items: center;
 
                     .nav-link {
                         position: relative;
@@ -80,12 +80,13 @@ header {
 
                             ul {
                                 position: relative;
-                                // flex-direction: column;
+                                flex-direction: column;
 
                                 .dropdown-link {
                                     position: relative;
 
                                     .a {
+                                        width: 200px;
                                         display: flex;
                                         background-color: var(
                                             --primaryColorLight
@@ -312,7 +313,8 @@ header {
                     ul {
                         flex-direction: column;
                         // align-items: flex-start;
-                        // width: 100%;
+                        width: 100%;
+                        align-items: center;
 
                         .nav-link {
                             width: 100%;
