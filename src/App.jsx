@@ -6,11 +6,14 @@ import ScrollToTop from './components/Scroll/ScrollToTop'
 import Navbar2 from './components/Navbar/Nabvar2'
 
 
-// import Index from "./pages/Home/Index"
-const Index = lazy(() => import("./pages/Home/Index"))
+import Index from "./pages/Home/Index"
+// const Index = lazy(() => import("./pages/Home/Index"))
 const Membership = lazy(() => import("./pages/Membership/Membership"))
-const ServicesFems = lazy(() => import("./pages/Services/Fems/ServicesFems"))
 const Services = lazy(() => import("./pages/Services/Services"))
+const CardListDetails = lazy(() => import("./pages/Services/CardListDetails"))
+const ServicesFems = lazy(() => import("./pages/Services/Fems/ServicesFems"))
+const Gallery = lazy(() => import("./pages/Services/Gallery/Gallery"))
+
 const Personal = lazy(() => import("./pages/Activities/Personal/Personal"))
 const Professional = lazy(() => import("./pages/Activities/Professional/Professional"))
 const Directory = lazy(() => import("./pages/Directory/Directory"))
@@ -32,6 +35,8 @@ function App() {
 
             <Route path='/servicios/FEMS' element={<ServicesFems />} />
             <Route path='/servicios/asociadas' element={<Services />} />
+            <Route path='/servicios/asociadas/:id' element={<CardListDetails />} />
+            <Route path='/servicios/galeria' element={<Gallery />} />
 
             <Route path='/actividades/personales' element={<Personal />} />
             <Route path='/actividades/profesionales' element={<Professional />} />

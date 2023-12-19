@@ -15,11 +15,19 @@ const Index = () => {
     return (
         <div>
             <Helmet>
-                <title>Fems Center | Espacios coworking en Tehuacán.</title>
+                <title>Fems Center - Espacios coworking en Tehuacán.</title>
                 <meta name='description'
                     content='Plataforma de crecimiento profesional. Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.' />
                 <link rel="canonical" href="https://femscenter.com" />
-                
+                {/* <!-- Facebook Meta Tags --> */}
+                <meta property="og:url" content="https://femscenter.com/" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Fems Center Tehuacán" />
+                <meta property="og:description"
+                    content="Plataforma de crecimiento profesional. Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente." />
+                <meta property="og:image" content="/apple-touch-icon.png" />
+                <meta property="og:locale" content="es_MX" />
+                <meta property="og:site_name" content="femscenter.com" />
             </Helmet>
 
             <Home />

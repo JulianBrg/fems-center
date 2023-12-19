@@ -1,11 +1,16 @@
-header {
-    position: sticky;
+.activeNavbar {
+    background-color: var(--whiteColor) !important;
+    border-bottom: 1.5px solid rgb(212, 211, 211);
+    transition: all 0.2s ease;
+}
+.header {
+    position: fixed;
     top: 0px;
-    background-color: var(--whiteColor);
+    background-color: transparent;
     width: 100%;
     z-index: 1000;
     height: 5rem;
-    border-bottom: 1.5px solid rgb(212, 211, 211);
+    transition: all 0.2s ease;
 
     .Container {
         max-width: 75rem;
@@ -14,8 +19,8 @@ header {
         display: flex;
         position: relative;
         height: 5rem;
-        background-color: var(--whiteColor);
-        border-bottom: 1.5px solid rgb(212, 211, 211);
+        // background-color: var(--whiteColor);
+        // border-bottom: 1.5px solid rgb(212, 211, 211);
 
         .logo-container {
             flex: 1;
@@ -153,7 +158,7 @@ header {
                     display: inline-block;
                     padding: 0.5rem 1.3rem;
                     font-size: 0.8rem;
-                    border: 2px solid var(--primaryColorLight);
+                    border: 2px solid var(--primaryColor);
                     border-radius: 2rem;
                     line-height: 1;
                     margin: 0 0.2rem;
@@ -171,8 +176,8 @@ header {
                     }
                 }
                 .solid {
-                    background-color: var(--primaryColorLight);
-                    color: var(--blackColor);
+                    background-color: var(--primaryColor);
+                    color: var(--whiteColor);
 
                     &:hover {
                         background-color: var(--primaryColor);

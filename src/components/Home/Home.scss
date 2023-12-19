@@ -1,19 +1,19 @@
 .Home {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
+    // height: 680px;
     top: 0;
-    // background-image: url(../../assets/back.webp);
-    background-image: url(../../assets/back.svg);
+    background-image: url(../../assets/destop-background.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
-
     .sectionText {
         position: absolute;
         top: 20%;
-        padding: 0 1.3rem;
+        // padding: 0 1.3rem;
+        text-align: center;
 
         h1 {
             color: var(--primaryColor);
@@ -36,40 +36,15 @@
 
             .icon {
                 display: flex;
-                background: var(--primaryColor);
-                border-radius: 10px;
-                width: 140px;
-                margin: 1rem 1rem;
+                // background: var(--primaryColor);
+                // border-radius: 10px;
+                width: 60px;
+                margin: 1rem;
                 color: var(--whiteColor);
                 transition: all 0.3s ease;
                 align-items: center;
                 justify-content: center;
                 gap: 0.5rem;
-
-                &:hover {
-                    background: var(--primaryColorLight);
-                    color: var(--blackColor);
-                }
-            }
-            .facebook {
-                background-color: #0866ff;
-            }
-            .instagram {
-                background: linear-gradient(
-                    45deg,
-                    #405de6,
-                    #5851db,
-                    #833ab4,
-                    #c13584,
-                    #e1306c,
-                    #fd1d1d
-                );
-            }
-            .tiktok {
-                background-color: #000;
-            }
-            .tienda {
-                background-color: #000;
             }
         }
     }
@@ -78,21 +53,20 @@
         display: none;
     }
 }
-.tiktok {
-    &:hover {
-        background-color: #000;
-    }
-}
 
 // media queries
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
     .Home {
+        background-image: url(../../assets/mobile-background.webp);
+        height: 100dvh;
+        background-size: contain;
+
         .sectionText {
             padding: 0 2rem;
             justify-content: center;
             text-align: center;
             width: 100%;
-            top: 20%;
+            top: 15%;
 
             h1 {
                 font-size: 3rem;
@@ -105,60 +79,63 @@
 
             .redes {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
                 align-items: center;
-                margin: 0.1rem 0.1rem;
+                // margin: 0.1rem 0.1rem;
                 .icon {
-                    padding: 0.4rem;
-                    font-size: 12px;
+                    width: 40px;
                 }
             }
         }
     }
 }
 
-@media screen and (min-width: 480px) {
-    .Home {
-        .sectionText {
-            padding: 0 2rem;
-            justify-content: center;
-            text-align: center;
-            width: 100%;
+// @media screen and (min-width: 480px) {
+//     .Home {
+//         .sectionText {
+//             padding: 0 2rem;
+//             justify-content: center;
+//             // text-align: center;
+//             width: 100%;
 
-            h1 {
-                font-size: 3rem;
-            }
+//             h1 {
+//                 font-size: 3rem;
+//             }
 
-            h2 {
-                font-size: var(--h2FontSize);
-            }
+//             h2 {
+//                 font-size: var(--h2FontSize);
+//             }
 
-            .redes {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                margin: 0.1rem 0.1rem;
-                .icon {
-                    padding: 0.4rem;
-                }
-            }
-        }
-    }
-}
+//             .redes {
+//                 display: flex;
+//                 flex-direction: row;
+//                 align-items: center;
+//                 margin: 0.1rem 0.1rem;
+//                 .icon {
+//                     // padding: 0.4rem;
+//                     width: 50px;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 @media screen and (min-width: 769px) {
     .Home {
         .sectionText {
             h1 {
-                font-size: 4rem;
+                font-size: 5rem;
                 font-weight: 900;
                 max-width: 70%;
                 margin: auto;
             }
+            h2 {
+                font-size: 1.8rem;
+            }
 
             p {
                 padding: 1rem 0;
-                font-size: var(--h2FontSize);
+                font-size: 1.5rem;
                 max-width: 70%;
                 margin: auto;
             }
@@ -176,8 +153,10 @@
         position: relative;
 
         .sectionText {
+            left: 30%;
+
             h1 {
-                font-weight: 900;
+                // font-weight: 700;
             }
 
             .icon {

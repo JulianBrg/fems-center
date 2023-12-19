@@ -29,7 +29,7 @@ const Membership = () => {
     return (
         <>
             <Helmet>
-                <title>Membresías FEMS | Fems Center Tehuacán</title>
+                <title>Membresías FEMS - Fems Center Tehuacán</title>
                 <meta property="description" content="Si eres una mujer que quiere iniciar o hacer crecer su propio negocio, entonces necesitas una membresía de Fems Center." />
                 <link rel="canonical" href="https://femscenter.com/membresias" />
 

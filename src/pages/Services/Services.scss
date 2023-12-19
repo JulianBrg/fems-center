@@ -4,7 +4,7 @@
             color: var(--primaryColor);
             font-size: var(--smallFontSize);
             font-weight: 500;
-            // margin-top: 2rem;
+            margin-top: 5rem;
 
             h2 {
                 font-size: var(--h2FontSize);
@@ -59,7 +59,7 @@
                 border-radius: 1rem;
                 box-shadow: 0 5px 14px rgba(0, 0, 0, 0.05),
                     0 5px 5px rgba(0, 0, 0, 0.05);
-                height: 500px;
+                height: 460px;
 
                 // &:hover {
                 //     transform: scale(1.05, 1.05);
@@ -140,7 +140,6 @@
         }
     }
 }
-
 // media queries
 @media screen and (max-width: 480px) {
     .services {
@@ -270,7 +269,6 @@
         }
     }
 }
-
 @media screen and (min-width: 640px) {
     .services {
         .secContainer {
@@ -306,7 +304,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1014px) {
     .services {
         .secContainer {
@@ -357,7 +354,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1148px) {
     .services {
         .secContainer {
@@ -376,7 +372,6 @@
         }
     }
 }
-
 @media screen and (min-width: 1400px) {
     .services {
         .secContainer {
@@ -384,5 +379,11 @@
                 grid-template-columns: repeat(4, 1fr);
             }
         }
+    }
+}
+
+.gallery {
+    .redText {
+        margin-top: 5rem;
     }
 }

@@ -20,7 +20,7 @@ const ServicesFems = () => {
     return (
         <>
             <Helmet>
-                <title>Servicios FEMS | Fems Center Tehuacán</title>
+                <title>Servicios FEMS - Fems Center Tehuacán</title>
                 <meta
                     property="description"
                     content="Fems Center con en instalaciones diseñadas con espacios adecuados para la exhibición, venta y promoción de productos."
@@ -29,7 +29,7 @@ const ServicesFems = () => {
             </Helmet>
 
             <div className='fems section container'>
-                <div className="secContainer">
+                {/* <div className="secContainer"> */}
                     <div className="secTitle" data-aos="fade-up">
                         <h1 className="redText">
                             Servicios Fems Center
@@ -37,7 +37,7 @@ const ServicesFems = () => {
                         <h2>Servicios de salud y bienestar y una amplia variedad de productos </h2>
                         <p>Fems Center es una plataforma de crecimiento en instalaciones diseñadas con espacios adecuados para la exhibición, venta y promoción de productos de emprendedoras locales, así como de servicios profesionales para la atención de sus clientes o pacientes.</p>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
 
             <div className='services-fems'>

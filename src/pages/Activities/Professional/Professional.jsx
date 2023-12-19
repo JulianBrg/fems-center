@@ -1,10 +1,10 @@
 import { useEffect } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-// // import required modules
+// import required modules
 import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
-// // Import Swiper styles
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -58,7 +58,7 @@ const Professional = () => {
     return (
         <>
             <Helmet>
-                <title>Actividades Profesionales | Fems Center Tehuacán</title>
+                <title>Actividades Profesionales - Fems Center Tehuacán</title>
                 <meta
                     property="description"
                     content="Explora y participa en talleres, charlas, cursos y eventos que te ayudarán a desarrollar tus habilidades personales y profesionales." />

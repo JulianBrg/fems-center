@@ -114,7 +114,7 @@ const SpacesSlider = () => {
                         <img src={img14} alt="Temazcal 2" title="Temazcal 2 Fems Center" />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className="swiper-zoom-container">
                         <img src={img15} alt="Temazcal 2" title="Temazcal 2 Fems Center" />
                     </div>
@@ -123,7 +123,7 @@ const SpacesSlider = () => {
                     <div className="swiper-zoom-container">
                         <img src={img16} alt="Temazcal 2" title="Temazcal 2 Fems Center" />
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
         </div>
     );

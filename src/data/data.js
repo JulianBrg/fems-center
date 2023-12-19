@@ -1,6 +1,50 @@
-//Imported images
+// logos
+import logo1 from "../assets/logos/LogoYare.webp";
+import logoDafne from "../assets/logos/logoDafne.png";
+import logoAida from "../assets/logos/logoAida.webp";
+import logoAlejandra from "../assets/logos/logoAlejandra.webp";
+import logoDalhid from "../assets/logos/logoDalhid.webp";
+import logoDenisse from "../assets/logos/logoDenisse.webp";
+import logoErika from "../assets/logos/logoErika.webp";
+import logoKarlaVadillo from "../assets/logos/logoKarlaVadillo.webp";
+import logoMarisol from "../assets/logos/logoMarisol.webp";
+import logoNohemi from "../assets/logos/logoNohemi.webp";
+import logoSagrario from "../assets/logos/logoSagrario.webp";
+import logoSilvia from "../assets/logos/logoSilvia.webp";
+import logoZamira from "../assets/logos/logoZamira.webp";
+import logoJudit from "../assets/logos/img6.webp";
+import logoAnahi from "../assets/logos/img7.webp";
+import logoSusi from "../assets/logos/img8.webp";
+import logoFavi from "../assets/logos/img9.webp";
+import logoMariana from "../assets/logos/img10.webp";
+import logoLiliana from "../assets/logos/img11.webp";
+import logoRocio from "../assets/logos/img12.webp";
+import logoKarlaMartinez from "../assets/logos/img13.webp";
+import logoJarenssi from "../assets/logos/img14.webp";
+import logoSandra from "../assets/logos/img15.webp";
+import logoRossy from "../assets/logos/img16.webp";
+import logoMirna from "../assets/logos/img18.webp";
+import logoAdriana from "../assets/logos/img19.webp";
+import logoFabiola from "../assets/logos/img20.webp";
+import logoOlivia from "../assets/logos/img21.webp";
+import logoCarolina from "../assets/logos/img22.webp";
+import logoJosefina from "../assets/logos/img23.webp";
 
-import logo1 from "../assets/logos/logoYare.png";
+//Imported images
+import sagrario from "../assets/img1.webp";
+import zami from "../assets/img2.webp";
+import yare from "../assets/img3.webp";
+import ale from "../assets/img4.webp";
+import nohemi from "../assets/img4-1.webp";
+import aida from "../assets/img4-2.webp";
+import mirna from "../assets/img4-3.webp";
+import silvia from "../assets/img4-4.webp";
+import erika from "../assets/img4-6.webp";
+import dafne from "../assets/img4-7.webp";
+import marisol from "../assets/img4-8.webp";
+import denisse from "../assets/img4-9.webp";
+import dalhid from "../assets/img4-10.webp";
+import vadillo from "../assets/img4-11.webp";
 import mery from "../assets/img6.webp";
 import mazunte from "../assets/img7.webp";
 import nemas from "../assets/img8.webp";
@@ -8,40 +52,42 @@ import shelo from "../assets/img11.webp";
 import rocioCadena from "../assets/img12.webp";
 import meryKay from "../assets/img15.webp";
 import rossy from "../assets/img16.webp";
-import yves from "../assets/img17.webp";
 import esenciaF from "../assets/img20.webp";
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const data = [
     {
         id: 1,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img1.webp?alt=media&token=9bfec27b-4218-4bf8-aa2e-1cbb013a67ee&_gl=1*1xhhx4m*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMTk1MC41Ny4wLjA.",
-        logo: logo1,
-        name: "The Natural Dental",
-        description: "Dentistas",
-        rating: 4.9,
+        img: sagrario,
+        logo: logoSagrario,
+        name: "Sagrario Aguilar Calderón",
+        description: "Dentista",
+        paragraph:
+            "¿Quieres una sonrisa perfecta? Ven a nuestro consultorio dental y disfruta de nuestros servicios profesionales, personalizados y accesibles. Tu salud bucal es nuestra prioridad.",
         category: "Servicio",
         productos: ["Ortodoncias", "Blanqueamiento", "Muelas del juicio"],
         phone: 2381647851,
     },
     {
         id: 2,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img2.webp?alt=media&token=6bbbc259-6bd3-48cb-8d35-e87352a210c0&_gl=1*pr91rf*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjA3NC41NC4wLjA.",
-        logo: logo1,
-        name: "Lft. Zamira Carrera Rodríguez",
+        img: zami,
+        logo: logoZamira,
+        name: "Lft Zamira Carrera Rodríguez",
         description: "Fisioterapeuta",
-        rating: 4.9,
+        paragraph:
+            "¿Sufres de dolor muscular o articular? Te ofrecemos un servicio de fisioterapia profesional, eficaz y personalizado. Recupera tu movilidad y bienestar con nosotros.",
         category: "Servicio",
         productos: ["Deportiva", "Cardiopulmonar", "Pediátrica"],
         phone: 2382504698,
     },
     {
         id: 3,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img3.webp?alt=media&token=dc0333a3-cd3c-4c34-8db9-53d51f4549f0",
+        img: yare,
         logo: logo1,
-        name: "Lnc. Yarenci G. Menchaca",
+        name: "Lnc Yarenci Menchaca",
         description: "Nutrióloga",
-        rating: 4.9,
+        paragraph:
+            "¿Quieres mejorar tu alimentación y salud? Te ayudamos a diseñar un plan nutricional adaptado a tus necesidades y objetivos. Servicio de Nutrióloga profesional y cercano.",
         category: "Servicio",
         productos: [
             "Sobrepeso",
@@ -52,22 +98,24 @@ const data = [
     },
     {
         id: 4,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4.webp?alt=media&token=d054a115-f926-4dcf-a63d-990a848f20a9&_gl=1*1h9ex4c*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjEzMi42MC4wLjA.",
-        logo: logo1,
-        name: "Stylist. Ale Amieva",
+        img: ale,
+        logo: logoAlejandra,
+        name: "Alejandra Amieva Olguín",
         description: "Belleza y Maquillaje",
-        rating: 4.9,
+        paragraph:
+            "¿Quieres sentirte más bella y radiante? Te invitamos a nuestro servicio de Belleza, donde te ofrecemos maquillaje, peinado, manicura y pedicura de calidad.",
         category: "Servicio",
         productos: ["Estilismo", "Tintes", "Uñas"],
         phone: 2381681043,
     },
     {
         id: 5,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-1.webp?alt=media&token=93ace0e1-f717-4442-96c2-ae6d04f2c71f&_gl=1*17sub8f*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE0My40OS4wLjA.",
-        logo: logo1,
-        name: "Lic. Nohemi Nava García",
+        img: nohemi,
+        logo: logoNohemi,
+        name: "Lic Nohemi Nava García",
         description: "Psicóloga",
-        rating: 4.9,
+        paragraph:
+            "¿Necesitas apoyo emocional y profesional? Te ofrecemos un servicio de Psicología, donde te escuchamos, orientamos y acompañamos en tu proceso de crecimiento personal.",
         category: "Servicio",
         productos: [
             "Psicoterapia individual",
@@ -78,81 +126,88 @@ const data = [
     },
     {
         id: 6,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-2.webp?alt=media&token=513b24a1-09d2-474e-9650-a7918838ab27&_gl=1*gr9hhp*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE2MS4zMS4wLjA.",
-        logo: logo1,
+        img: aida,
+        logo: logoAida,
         name: "Aida Cancino",
-        description: "Healing Coach - Yoga",
-        rating: 4.9,
+        description: "Health Coach",
+        paragraph:
+            "¿Quieres relajar tu cuerpo y mente? Prueba nuestro servicio de Yoga Vinyasa, donde te enseñamos a sincronizar tu respiración y movimiento. Yoga Vinyasa para todos.",
         category: "Servicio",
         productos: ["Yoga", "Martes, Jueves y Viernes", "8am-9am"],
         phone: 2383822439,
     },
     {
         id: 7,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-3.webp?alt=media&token=06854044-2487-4802-b85d-604cbd0eefc9&_gl=1*1uswrbt*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE3Ni4xNi4wLjA.",
-        logo: logo1,
+        img: mirna,
+        logo: logoMirna,
         name: "Mirna Maron",
         description: "Coach Workout",
-        rating: 4.9,
+        paragraph:
+            "¿Quieres ponerte en forma y divertirte? Te ofrecemos un servicio de Ejercicios de Workout, donde te retamos a superar tus límites. Workout para todos los niveles.",
         category: "Servicio",
         productos: ["Ejercicios funcionales", "Lun., Mar., Mie. y Jue."],
         phone: 2382031348,
     },
     {
         id: 9,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-4.webp?alt=media&token=533d75c7-d8aa-4b89-a4ae-d75a7634ba0c&_gl=1*m8x7tz*_ga*OTg0MTE5MTczLjE2OTYzNTU2Mjg.*_ga_CW55HF8NVT*MTY5NzgxNjQ1MS4zLjEuMTY5NzgyMjE5Ny42MC4wLjA.",
-        logo: logo1,
-        name: "Lic. Silvia Lezama Surroca",
+        img: silvia,
+        logo: logoSilvia,
+        name: "Lic Silvia Lezama Surroca",
         description: "Psicóloga",
-        rating: 4.9,
+        paragraph:
+            "Mejora tu bienestar emocional con nuestro servicio de Psicología. Te brindamos escucha, orientación y acompañamiento profesional.",
         category: "Servicio",
         productos: [
-            "Psicoterapia individual o familiar",
-            "Problemas de aprendizaje",
-            "Comportamiento y emociones",
+            "Psicoterapia individual",
+            "Psicoterapia familiar",
+            "Psicoterapia infantil",
         ],
         phone: 2381273712,
     },
     {
         id: 10,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-7.webp?alt=media&token=a9091c82-e538-4f59-86e7-ed261c0bf05c",
-        logo: logo1,
+        img: dafne,
+        logo: logoDafne,
         name: "Dafne León",
-        description: "Cosmétologa",
-        rating: 4.9,
+        description: "Cosmetóloga Cosmiatra",
+        paragraph:
+            "Cuida tu piel con nuestro servicio de Cosmetólogia. Te ofrecemos tratamientos faciales y corporales personalizados y efectivos. Piel sana y bella.",
         category: "Servicio",
         productos: ["Masajes", "Faciales", "Depilaciones"],
         phone: 5579449235,
     },
     {
         id: 11,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-8.webp?alt=media&token=476ce072-41e9-4dbe-b91e-8022bf7fc4fe",
-        logo: logo1,
-        name: "Lft. Marisol Rodriguez",
+        img: marisol,
+        logo: logoMarisol,
+        name: "Lft Marisol Rodriguez",
         description: "Fisioterapeuta",
-        rating: 4.9,
+        paragraph:
+            "Recupera tu salud y funcionalidad con nuestra fisioterapeuta. Te ofrecemos una atención personalizada, profesional y eficiente. Fisioterapia adaptada a tus necesidades.",
         category: "Servicio",
         productos: ["Hidrolipoclasia", "Dermapen", "Faciales"],
         phone: 2381784136,
     },
     {
         id: 12,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-6.webp?alt=media&token=221b3964-34a4-4ed5-b005-38dd90ec3fbe",
-        logo: logo1,
+        img: erika,
+        logo: logoErika,
         name: "Erika Espinosa",
         description: "Nail Artist",
-        rating: 4.9,
+        paragraph:
+            "Transforma tus uñas con nuestra Nail Artist. Te ofrecemos diseños originales, creativos y de calidad. Nail Artist para todos los gustos.",
         category: "Servicio",
         productos: ["Esmaltado", "Kapping Gel", "Acrílico"],
         phone: 2381784136,
     },
     {
         id: 13,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-9.webp?alt=media&token=97cfa968-e0c0-4f2c-b80a-1b62785534ba",
-        logo: logo1,
+        img: denisse,
+        logo: logoDenisse,
         name: "Denise Mariel Velasco Fuentes",
         description: "Terapias Flores Bach",
-        rating: 4.9,
+        paragraph:
+            "Armoniza tu cuerpo, mente y espíritu con nuestro servicio de Terapias Flores Bach. Te ofrecemos una terapia natural, personalizada y efectiva. Terapias Flores Bach para ti.",
         category: "Servicio",
         productos: [
             "Sesión de Barras",
@@ -163,22 +218,24 @@ const data = [
     },
     {
         id: 14,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-10.webp?alt=media&token=9c3f62fc-406c-40eb-9f22-aebbd80bcd7d",
-        logo: logo1,
+        img: dalhid,
+        logo: logoDalhid,
         name: "Dalhid Salgado Arriola",
         description: "Acreditada Barras Access",
-        rating: 4.9,
+        paragraph:
+            "Libera tu estrés y bloqueos con nuestro servicio de Barras de Access. Te ofrecemos una técnica energética, relajante y transformadora. Barras de Access para ti.",
         category: "Servicio",
         productos: ["Barra de Access"],
         phone: 2383880431,
     },
     {
         id: 15,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img4-11.webp?alt=media&token=d5f4e35c-d3cf-45d0-b4cf-4fc9715eef14",
-        logo: logo1,
+        img: vadillo,
+        logo: logoKarlaVadillo,
         name: "Karla Vadillo",
         description: "Aromaterapia",
-        rating: 4.9,
+        paragraph:
+            "Disfruta de los beneficios de los aceites esenciales con nuestro servicio de Aromaterapia. Te ofrecemos una experiencia relajante, sanadora y personalizada. Aromaterapia para tu bienestar.",
         category: "Servicio",
         productos: ["Masajes Aromatouch"],
         phone: 2383940765,
@@ -186,10 +243,11 @@ const data = [
     {
         id: 18,
         img: mery,
-        logo: logo1,
+        logo: logoJudit,
         name: "Judith Ruth Peralta",
         description: "Méry",
-        rating: 4.9,
+        paragraph:
+            "Encuentra los mejores productos de ropa, perfumes y calzado en nuestra tienda. Te ofrecemos calidad, variedad y buen precio. Viste y huele bien con nosotros.",
         category: "Producto",
         productos: ["Ropa", "Perfumes y Accesorios", "Calzado"],
         phone: 2371088520,
@@ -197,10 +255,11 @@ const data = [
     {
         id: 19,
         img: mazunte,
-        logo: logo1,
+        logo: logoAnahi,
         name: "Anahí Mateo Armas",
         description: "Mazunte",
-        rating: 4.9,
+        paragraph:
+            "Cuida tu piel y cabello con nuestros productos de jabones, shampoos y cremas. Te ofrecemos productos naturales, efectivos y aromáticos. Belleza y salud natural.",
         category: "Producto",
         productos: ["Jabones", "Shampoo", "Cremas y Geles"],
         phone: 2381720268,
@@ -208,10 +267,11 @@ const data = [
     {
         id: 20,
         img: nemas,
-        logo: logo1,
-        name: "Susana Carrillo Sandoval",
-        description: "Nemas",
-        rating: 4.9,
+        logo: logoSusi,
+        name: "Susana Carrillo | Emmanuel Flores",
+        description: "Nema's Tehuacán",
+        paragraph:
+            "Luce accesorios de calidad con nuestros productos de bolsos de cuero, carteras y cinturones. Te ofrecemos diseño, elegancia y durabilidad. Accesorios para todos los estilos.",
         category: "Producto",
         productos: ["Bolsos", "Carteras", "Cinturones"],
         phone: 2381191443,
@@ -219,10 +279,11 @@ const data = [
     {
         id: 21,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img9.webp?alt=media&token=9adf5b8c-2b49-4ffb-a8f0-fba55b3b630f",
-        logo: logo1,
+        logo: logoFavi,
         name: "Faviola Peralta Carrasco",
         description: "Manualidades Pasta Flexible",
-        rating: 4.9,
+        paragraph:
+            "Crea y decora con nuestros productos de manualidades con pasta flexible. Te ofrecemos pasta de colores, moldes, herramientas y más. Manualidades divertidas y fáciles.",
         category: "Producto",
         productos: ["Llaveros", "Velas", "Tazas"],
         phone: 2381329022,
@@ -230,10 +291,11 @@ const data = [
     {
         id: 22,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img10.webp?alt=media&token=2ccbbd55-6be0-408b-8510-9be65ce0ee97",
-        logo: logo1,
+        logo: logoMariana,
         name: "Mariana Toscano Flores",
         description: "JOYERÍA Y ACCESORIOS",
-        rating: 4.9,
+        paragraph:
+            "Luce hermosa y elegante con nuestros productos de Joyeria. Te ofrecemos joyas de oro, plata, piedras y más. Joyeria para todos los gustos y ocasiones.",
         category: "Producto",
         productos: ["Collares", "Pulseras", "LLamadores de ángeles"],
         phone: 2381211695,
@@ -241,10 +303,11 @@ const data = [
     {
         id: 23,
         img: shelo,
-        logo: logo1,
+        logo: logoLiliana,
         name: "Liliana Nieto Morales",
         description: "Shelo Nabel",
-        rating: 4.9,
+        paragraph:
+            "Shelo Nabel te ofrece productos naturales para tu salud y belleza. Conoce sus beneficios y promociones. Shelo Nabel, por ti y para ti.",
         category: "Producto",
         productos: ["Cremas", "Shampoo", "Maquillaje"],
         phone: 2381281696,
@@ -252,10 +315,11 @@ const data = [
     {
         id: 24,
         img: rocioCadena,
-        logo: logo1,
-        name: "Roció Cadena Encarnación",
-        description: "Belleza",
-        rating: 4.9,
+        logo: logoRocio,
+        name: "Rocío Cadena",
+        description: "Ropa",
+        paragraph:
+            "Moldea tu figura con nuestros productos de Fajas Colombianas y Body Reductores. Te ofrecemos calidad, comodidad y variedad. Fajas y Body para todos los cuerpos.",
         category: "Producto",
         productos: ["Fajas Colombianas", "Body Reductores"],
         phone: 2381096007,
@@ -263,10 +327,11 @@ const data = [
     {
         id: 25,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img13.webp?alt=media&token=a9fb321d-c247-4afd-99fd-f3f753167f18",
-        logo: logo1,
+        logo: logoKarlaMartinez,
         name: "Karla Martínez",
         description: "Joyería y Accesorios",
-        rating: 4.9,
+        paragraph:
+            "Luce hermosa y elegante con nuestros productos de Joyeria. Te ofrecemos joyas de oro, plata, piedras y más. Joyeria para todos los gustos y ocasiones.",
         category: "Producto",
         productos: ["Relojes", "Joyería", "Bolsos"],
         phone: 2383940765,
@@ -274,10 +339,11 @@ const data = [
     {
         id: 26,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img14.webp?alt=media&token=adf8dda0-2cb2-455e-bddd-5d607fb6baad",
-        logo: logo1,
+        logo: logoJarenssi,
         name: "Jarenssi Bibiano",
         description: "Productos Infantiles",
-        rating: 4.9,
+        paragraph:
+            "Estimula el aprendizaje de tus hijos con nuestros productos Didacticos para niños. Te ofrecemos juegos, libros, puzzles y más. Materiales didacticos divertidos y educativos.",
         category: "Producto",
         productos: ["Juguetes Didacticos", "Libros Didacticos"],
         phone: 2381315970,
@@ -285,10 +351,11 @@ const data = [
     {
         id: 27,
         img: meryKay,
-        logo: logo1,
+        logo: logoSandra,
         name: "Sandra García Mendoza",
         description: "Mary Kay Cosmetics",
-        rating: 4.9,
+        paragraph:
+            "Mary Kay Cosmetics te ofrece productos de belleza de alta calidad y confianza. Conoce sus líneas de maquillaje, cuidado de la piel y fragancias. Mary Kay Cosmetics, tu mejor aliada.",
         category: "Producto",
         productos: ["Maquillaje", "Perfumes", "Cremas"],
         phone: 2381703590,
@@ -296,43 +363,23 @@ const data = [
     {
         id: 28,
         img: rossy,
-        logo: logo1,
+        logo: logoRossy,
         name: "Rosario Ramirez",
         description: "Kampak",
-        rating: 4.9,
+        paragraph:
+            "Kampak es una marca mexicana de productos tácticos y deportivos. Te ofrece calidad, resistencia y diseño en mochilas, cangureras, chalecos y más. Kampak, listo para accionar.",
         category: "Producto",
         productos: ["Mochilas", "Cangureras", "Accesorios Tácticos"],
         phone: 2381163047,
     },
     {
-        id: 29,
-        img: yves,
-        logo: logo1,
-        name: "Norma Gutierrez",
-        description: "Yves Rocher",
-        rating: 4.9,
-        category: "Producto",
-        productos: ["Shampoo", "Cremas", "Perfumes"],
-        phone: 2382093304,
-    },
-    {
-        id: 30,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img18.webp?alt=media&token=39e2da25-21b5-4fe6-a825-85d595278f94",
-        logo: logo1,
-        name: "Mirna Marron",
-        description: "Ropa Deportiva",
-        rating: 4.9,
-        category: "Producto",
-        productos: ["Leggings", "Conjuntos", "Faldas"],
-        phone: 2382031348,
-    },
-    {
         id: 31,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img19.webp?alt=media&token=2011bc99-6090-4942-8262-92e816137715",
-        logo: logo1,
+        logo: logoAdriana,
         name: "Adriana Estrada Trejo",
-        description: "Utensilios",
-        rating: 4.9,
+        description: "Articulos para el hogar",
+        paragraph:
+            "Tupperware te ofrece productos de plástico para almacenar y conservar tus alimentos. Te ofrece calidad, practicidad y garantía. Tupperware, tu mejor opción en la cocina.",
         category: "Producto",
         productos: ["Botellas", "Contenedores", "Vasos"],
         phone: 2381022957,
@@ -340,10 +387,11 @@ const data = [
     {
         id: 32,
         img: esenciaF,
-        logo: logo1,
+        logo: logoFabiola,
         name: "Fabiola Pastrana",
         description: "Esencia F",
-        rating: 4.9,
+        paragraph:
+            "Ilumina tu hogar con fragancias naturales. Elige entre una variedad de aromas relajantes y estimulantes. ¡Enciende una vela y disfruta del ambiente!",
         category: "Producto",
         productos: ["Velas Aromáticas"],
         phone: 2381187810,
@@ -351,10 +399,11 @@ const data = [
     {
         id: 33,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img21.webp?alt=media&token=0288cae7-9ca6-4850-85aa-f84b43452e67",
-        logo: logo1,
+        logo: logoOlivia,
         name: "Olivia Santos",
         description: "Cuidado Personal",
-        rating: 4.9,
+        paragraph:
+            "Productos ecológicos para el cuidado personal. Nuestros productos son veganos, cruelty-free y biodegradables. Ofrecemos jabones, champús, cremas y más. ¡Cuida de ti y del planeta!",
         category: "Producto",
         productos: ["Cremas", "Aceites", "Maquillaje"],
         phone: 2381707127,
@@ -362,10 +411,11 @@ const data = [
     {
         id: 34,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img22.webp?alt=media&token=6779e2fe-025f-4dea-85a8-637dc90f69f7",
-        logo: logo1,
+        logo: logoCarolina,
         name: "Carolina Roman",
         description: "Accesorios",
-        rating: 4.9,
+        paragraph:
+            "Accesorios elegantes y de calidad para toda ocasión. Nuestros productos son de marcas reconocidas y con garantía. Tenemos relojes, anillos, collares, pulseras y más. ¡Luce tu estilo con Relojes y Joyeria!",
         category: "Producto",
         productos: ["Joyería", "Relojes"],
         phone: 2381878428,
@@ -373,10 +423,11 @@ const data = [
     {
         id: 35,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img23.webp?alt=media&token=cf4361b6-7f3c-4b33-86bd-becfcf31d2db",
-        logo: logo1,
+        logo: logoJosefina,
         name: "Maria Josefina Oropeza",
         description: "Decoración",
-        rating: 4.9,
+        paragraph:
+            "Transforma tu espacio con estilo y personalidad. Nuestros productos son originales, creativos y de buen gusto. Tenemos juegos de baño, manteles y más. ¡Decora tu hogar con nosotros!",
         category: "Producto",
         productos: ["Juegos de baño", "Caminos de mesa", "Manteles"],
         phone: 2228318667,

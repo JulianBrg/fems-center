@@ -15,7 +15,17 @@ const Navbar2 = () => {
     // const blog = 'https://issuu.com/';
     const tienda = 'https://femscenter.mitiendanube.com/';
 
+    const [navbar, setNavbar] = useState(false);
     const [isChecked, setIsChecked] = useState(false);
+
+    const changeBackground = () => {
+        if (window.scrollY >= 30) {
+            setNavbar(true)
+        } else {
+            setNavbar(false)
+        }
+    }
+    window.addEventListener('scroll', changeBackground);
 
     const checkHandler = () => {
         setIsChecked(!isChecked)
@@ -26,7 +36,7 @@ const Navbar2 = () => {
     }
 
     return (
-        <header>
+        <header className={navbar ? 'header activeNavbar' : 'header'}>
             <div className="Container">
                 <input
                     type="checkbox"
@@ -47,11 +57,13 @@ const Navbar2 = () => {
                                     Inicio
                                 </NavLink>
                             </li>
+                            
                             <li className="nav-link">
                                 <NavLink to="/membresias" className="a" onClick={closeMenu}>
                                     Membresías
                                 </NavLink>
                             </li>
+
                             <li className="nav-link">
                                 <NavLink className="a">Servicios<ArrowDropDownIcon className="i" /></NavLink>
                                 <div className="dropdown">
@@ -64,6 +76,11 @@ const Navbar2 = () => {
                                         <li className="dropdown-link">
                                             <NavLink to="/servicios/asociadas" className="a" onClick={closeMenu}>
                                                 Asociadas
+                                            </NavLink>
+                                        </li>
+                                        <li className="dropdown-link">
+                                            <NavLink to="/servicios/galeria" className="a" onClick={closeMenu}>
+                                                Galería
                                             </NavLink>
                                         </li>
                                         <div className="arrow"></div>

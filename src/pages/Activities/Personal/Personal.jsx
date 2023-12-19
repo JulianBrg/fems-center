@@ -65,7 +65,7 @@ const Personal = () => {
     return (
         <>
             <Helmet>
-                <title>Actividades Personales | Fems Center Tehuacán</title>
+                <title>Actividades Personales - Fems Center Tehuacán</title>
                 <meta
                     property="description"
                     content="Explora y participa en talleres, charlas, cursos y eventos que te ayudarán a desarrollar tus habilidades personales y profesionales."
