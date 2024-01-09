@@ -17,12 +17,12 @@ const Vision = () => {
 
                     <div className='main grid'>
                         <div className='span' data-aos="fade-up">
-                            <h3>Misión</h3>
+                            <h2>Misión</h2>
                             <p>Impulsar y contribuir en el desarrollo personal y profesional de las mujeres a través de programas de empoderamiento y liderazgo en espacios compartidos de trabajo.</p>
                         </div>
 
                         <div className='span' data-aos="fade-up">
-                            <h3>Visión</h3>
+                            <h2>Visión</h2>
                             <p>Ser una plataforma de impulso para mujeres de toda la Republica Mexicana.</p>
                         </div>
                     </div>

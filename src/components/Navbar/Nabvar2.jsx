@@ -57,7 +57,7 @@ const Navbar2 = () => {
                                     Inicio
                                 </NavLink>
                             </li>
-                            
+
                             <li className="nav-link">
                                 <NavLink to="/membresias" className="a" onClick={closeMenu}>
                                     Membresías
@@ -131,7 +131,7 @@ const Navbar2 = () => {
                     </div>
 
                     <div className="log-sign">
-                        <a href={linkWhats} className="btnNav solid" target="_blank">Únete</a>
+                        <a href={linkWhats} className="btnNav transparent" target="_blank">Únete</a>
                         <a href={tienda} className="btnNav transparent" target="_blank">Showroom</a>
                         {/* <a href={blog} className="btnNav transparent" target="_blank">Blog</a> */}
                     </div>

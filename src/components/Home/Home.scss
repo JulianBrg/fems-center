@@ -39,6 +39,7 @@
                 // background: var(--primaryColor);
                 // border-radius: 10px;
                 width: 60px;
+                height: 60px;
                 margin: 1rem;
                 color: var(--whiteColor);
                 transition: all 0.3s ease;
@@ -84,6 +85,7 @@
                 // margin: 0.1rem 0.1rem;
                 .icon {
                     width: 40px;
+                    height: 40px;
                 }
             }
         }
@@ -141,7 +143,6 @@
             }
 
             .redes {
-                // display: flex;
                 flex-direction: row;
             }
         }
@@ -154,10 +155,6 @@
 
         .sectionText {
             left: 30%;
-
-            h1 {
-                // font-weight: 700;
-            }
 
             .icon {
                 // font-size: 35px;

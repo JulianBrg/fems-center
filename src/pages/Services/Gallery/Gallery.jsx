@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Footer from '../../../components/Footer/Footer'
 // animation
 import Aos from 'aos';
@@ -6,13 +6,20 @@ import Aos from 'aos';
 import { Helmet } from 'react-helmet'
 // Gallery
 import photos from "./photos";
+import PhotoAlbum from "react-photo-album";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+// import optional lightbox plugins
+import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
+import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
+import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
+import Zoom from "yet-another-react-lightbox/plugins/zoom";
+import "yet-another-react-lightbox/plugins/thumbnails.css";
+
 
 const Gallery = () => {
 
-    // const photos = [
-    //     { src: "/src/assets/spaces/1.webp", width: 800, height: 600 },
-    //     { src: "/src/assets/spaces/2.webp", width: 1600, height: 900 },
-    // ];
+    const [index, setIndex] = useState(-1);
 
     useEffect(() => {
         Aos.init({ duration: 1500 })
@@ -42,7 +49,15 @@ const Gallery = () => {
                 </div>
 
                 <div className="secContainer">
-                    
+                    <PhotoAlbum layout="columns" photos={photos} targetRowHeight={150} onClick={({ index }) => setIndex(index)} />
+                    <Lightbox
+                        slides={photos}
+                        open={index >= 0}
+                        index={index}
+                        close={() => setIndex(-1)}
+                        // enable optional lightbox plugins
+                        plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
+                    />
                 </div>
             </div>
 
