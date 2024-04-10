@@ -67,7 +67,7 @@ const Professional = () => {
 
             <div className="secTitle container" >
                 <h1 className="redText" data-aos="fade-down">
-                    Actividades
+                    Actividades Profesionales
                 </h1>
                 <h2 data-aos="fade-down">Actividades</h2>
                 <p data-aos="fade-down">"Se una persona versátil y comprometida, lista para desafíos."</p>

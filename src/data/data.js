@@ -18,16 +18,15 @@ import logoSusi from "../assets/logos/img8.webp";
 import logoFavi from "../assets/logos/img9.webp";
 import logoMariana from "../assets/logos/img10.webp";
 import logoLiliana from "../assets/logos/img11.webp";
-import logoRocio from "../assets/logos/img12.webp";
+import logoDanarely from "../assets/logos/logoDanarely.webp";
 import logoKarlaMartinez from "../assets/logos/img13.webp";
 import logoJarenssi from "../assets/logos/img14.webp";
 import logoSandra from "../assets/logos/img15.webp";
 import logoRossy from "../assets/logos/img16.webp";
 import logoMirna from "../assets/logos/img18.webp";
-import logoAdriana from "../assets/logos/img19.webp";
 import logoFabiola from "../assets/logos/img20.webp";
 import logoOlivia from "../assets/logos/img21.webp";
-import logoCarolina from "../assets/logos/img22.webp";
+import logoAmway from "../assets/logos/img22.webp";
 import logoJosefina from "../assets/logos/img23.webp";
 
 //Imported images
@@ -49,7 +48,7 @@ import mery from "../assets/img6.webp";
 import mazunte from "../assets/img7.webp";
 import nemas from "../assets/img8.webp";
 import shelo from "../assets/img11.webp";
-import rocioCadena from "../assets/img12.webp";
+import danarely from "../assets/logos/img12.webp";
 import meryKay from "../assets/img15.webp";
 import rossy from "../assets/img16.webp";
 import esenciaF from "../assets/img20.webp";
@@ -241,6 +240,18 @@ const data = [
         phone: 2383940765,
     },
     {
+        id: 24,
+        img: danarely,
+        logo: logoDanarely,
+        name: "Danarely García Zarate",
+        description: "Nutrióloga",
+        paragraph:
+            "¿Te gustaría cuidar tu salud con una alimentación adecuada? Nuestro servicio de nutrición clínica te ofrece una atención personalizada y profesional, con planes de alimentación adaptados a tus necesidades y objetivos. ¡No esperes más y pide tu cita!",
+        category: "Servicio",
+        productos: ["Nutrición clinina"],
+        phone: 2381548776,
+    },
+    {
         id: 18,
         img: mery,
         logo: logoJudit,
@@ -313,18 +324,6 @@ const data = [
         phone: 2381281696,
     },
     {
-        id: 24,
-        img: rocioCadena,
-        logo: logoRocio,
-        name: "Rocío Cadena",
-        description: "Ropa",
-        paragraph:
-            "Moldea tu figura con nuestros productos de Fajas Colombianas y Body Reductores. Te ofrecemos calidad, comodidad y variedad. Fajas y Body para todos los cuerpos.",
-        category: "Producto",
-        productos: ["Fajas Colombianas", "Body Reductores"],
-        phone: 2381096007,
-    },
-    {
         id: 25,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img13.webp?alt=media&token=a9fb321d-c247-4afd-99fd-f3f753167f18",
         logo: logoKarlaMartinez,
@@ -373,18 +372,6 @@ const data = [
         phone: 2381163047,
     },
     {
-        id: 31,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img19.webp?alt=media&token=2011bc99-6090-4942-8262-92e816137715",
-        logo: logoAdriana,
-        name: "Adriana Estrada Trejo",
-        description: "Articulos para el hogar",
-        paragraph:
-            "Tupperware te ofrece productos de plástico para almacenar y conservar tus alimentos. Te ofrece calidad, practicidad y garantía. Tupperware, tu mejor opción en la cocina.",
-        category: "Producto",
-        productos: ["Botellas", "Contenedores", "Vasos"],
-        phone: 2381022957,
-    },
-    {
         id: 32,
         img: esenciaF,
         logo: logoFabiola,
@@ -409,18 +396,6 @@ const data = [
         phone: 2381707127,
     },
     {
-        id: 34,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img22.webp?alt=media&token=6779e2fe-025f-4dea-85a8-637dc90f69f7",
-        logo: logoCarolina,
-        name: "Carolina Roman",
-        description: "Accesorios",
-        paragraph:
-            "Accesorios elegantes y de calidad para toda ocasión. Nuestros productos son de marcas reconocidas y con garantía. Tenemos relojes, anillos, collares, pulseras y más. ¡Luce tu estilo con Relojes y Joyeria!",
-        category: "Producto",
-        productos: ["Joyería", "Relojes"],
-        phone: 2381878428,
-    },
-    {
         id: 35,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img23.webp?alt=media&token=cf4361b6-7f3c-4b33-86bd-becfcf31d2db",
         logo: logoJosefina,
@@ -431,6 +406,18 @@ const data = [
         category: "Producto",
         productos: ["Juegos de baño", "Caminos de mesa", "Manteles"],
         phone: 2228318667,
+    },
+    {
+        id: 36,
+        img: logoAmway,
+        logo: logoAmway,
+        name: "Marina Alvarez Ramales",
+        description: "",
+        paragraph:
+            "Productos de calidad para una vida en balance. Nutrición, belleza, cuidado personal y del hogar. Emprende tu propio negocio con Amway y vive mejor.",
+        category: "Producto",
+        productos: ["Higiene Personal", "Suplementos", "Skyncare"],
+        phone: 2381184110,
     },
 ];
 export default data;

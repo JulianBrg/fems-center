@@ -33,9 +33,9 @@ const Sedes = () => {
             <div className='sedes section container'>
                 <div className="secTitle" >
                     <h1 className="redText" data-aos="fade-down">
-                        Directorio
+                        Sedes
                     </h1>
-                    <h2 data-aos="fade-down">Sedes</h2>
+                    <h2 data-aos="fade-down">Directorio Sedes</h2>
                     <p data-aos="fade-down">Todos nuestros lugares asociados se encuentran aquí</p>
                 </div>
 

@@ -37,7 +37,7 @@ export const CardList = ({ professionalState }) => {
                                             <a href={`https://api.whatsapp.com/send?phone=+52${professional.phone}&text=Hola,%20quisiera%20saber%20de%20sus%20productos.%20Gracias`} className='btn' target='_blank'>Contactar</a>
                                     } */}
                                     <div>
-                                        <NavLink to={`/servicios/asociadas/${professional.name}`} className="btn" >Ver mas</NavLink>
+                                        <NavLink to={`/servicios/asociadas/${professional.name}`} className="btn" >Ver más</NavLink>
                                     </div>
                                 </div>
                             </div>

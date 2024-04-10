@@ -27,7 +27,7 @@ const Index = () => {
                     content="Plataforma de crecimiento profesional. Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente." />
                 <meta property="og:image" content="/apple-touch-icon.png" />
                 <meta property="og:locale" content="es_MX" />
-                <meta property="og:site_name" content="femscenter.com" />
+                <meta property="og:site_name" content="Fems Center Tehuacán" />
             </Helmet>
 
             <Home />

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './Directory.scss'
 import Footer from '../../components/Footer/Footer'
-import directory from '../../data/directory'
+// import directory from '../../data/directory'
 import allData from '../../data/allData';
 // animation
 import Aos from 'aos';
@@ -36,6 +36,7 @@ const options = [
     { value: 'ROPA Y CALZADO', label: 'Ropa Y Calzado' },
     { value: 'REGALOS', label: 'Regalos' },
     { value: 'SPA', label: 'Spa' },
+    { value: 'SUPLEMENTOS', label: 'Suplementos' },
     { value: 'TERAPIAS ALTERNATIVAS', label: 'Terapias Alternativas' },
     { value: 'WORKOUT', label: 'Workout' },
     { value: 'YOGA', label: 'Yoga' },
