@@ -78,11 +78,11 @@ const Navbar2 = () => {
                                                 Asociadas
                                             </NavLink>
                                         </li>
-                                        <li className="dropdown-link">
+                                        {/* <li className="dropdown-link">
                                             <NavLink to="/servicios/galeria" className="a" onClick={closeMenu}>
                                                 Galería
                                             </NavLink>
-                                        </li>
+                                        </li> */}
                                         <div className="arrow"></div>
                                     </ul>
                                 </div>
