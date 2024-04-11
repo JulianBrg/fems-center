@@ -66,6 +66,11 @@ const data = [
         category: "Servicio",
         productos: ["Ortodoncias", "Blanqueamiento", "Muelas del juicio"],
         phone: 2381647851,
+        info: [
+            "CF. 10554490",
+            "Benemérita Universidad Autónoma de Puebla",
+            "9 años de experiencia",
+        ],
     },
     {
         id: 2,
@@ -78,6 +83,11 @@ const data = [
         category: "Servicio",
         productos: ["Deportiva", "Cardiopulmonar", "Pediátrica"],
         phone: 2382504698,
+        info: [
+            "CF. 12236109",
+            "Universidad del Valle de Puebla campus Tehuacán",
+            "5 años de experiencia",
+        ],
     },
     {
         id: 3,
@@ -94,6 +104,11 @@ const data = [
             "Nutrición clínica",
         ],
         phone: 2381657677,
+        info: [
+            "CF. 13117076",
+            "Benemerita Universidad Autonoma de Puebla",
+            "3 años de experiencia",
+        ],
     },
     {
         id: 4,
@@ -106,6 +121,7 @@ const data = [
         category: "Servicio",
         productos: ["Estilismo", "Tintes", "Uñas"],
         phone: 2381681043,
+        info: ["U.T.B.E  Campus Estado de Mexico", "15 años de experiencia"],
     },
     {
         id: 5,
@@ -122,6 +138,11 @@ const data = [
             "Psicoterapia infantil",
         ],
         phone: 2381305015,
+        info: [
+            "CF. 3506123",
+            "Benemérita Universidad Autónoma de Puebla",
+            "26 años de experiencia",
+        ],
     },
     {
         id: 6,
@@ -134,6 +155,7 @@ const data = [
         category: "Servicio",
         productos: ["Yoga", "Martes, Jueves y Viernes", "8am-9am"],
         phone: 2383822439,
+        info: [],
     },
     {
         id: 7,
@@ -146,6 +168,7 @@ const data = [
         category: "Servicio",
         productos: ["Ejercicios funcionales", "Lun., Mar., Mie. y Jue."],
         phone: 2382031348,
+        info: [],
     },
     {
         id: 9,
@@ -162,6 +185,7 @@ const data = [
             "Psicoterapia infantil",
         ],
         phone: 2381273712,
+        info: ["CF. 13832278", "Froebel Universidad", "6 años de experiencia"],
     },
     {
         id: 10,
@@ -174,6 +198,11 @@ const data = [
         category: "Servicio",
         productos: ["Masajes", "Faciales", "Depilaciones"],
         phone: 5579449235,
+        info: [
+            "CF. 7578167",
+            "El Aspidpro condesa incorporada a la UNAM",
+            "10 años de experoencia",
+        ],
     },
     {
         id: 11,
@@ -186,6 +215,7 @@ const data = [
         category: "Servicio",
         productos: ["Hidrolipoclasia", "Dermapen", "Faciales"],
         phone: 2381784136,
+        info: [],
     },
     {
         id: 12,
@@ -198,6 +228,7 @@ const data = [
         category: "Servicio",
         productos: ["Esmaltado", "Kapping Gel", "Acrílico"],
         phone: 2381784136,
+        info: [],
     },
     {
         id: 13,
@@ -214,6 +245,7 @@ const data = [
             "Biomagnetismo",
         ],
         phone: 2382030351,
+        info: [],
     },
     {
         id: 14,
@@ -226,6 +258,7 @@ const data = [
         category: "Servicio",
         productos: ["Barra de Access"],
         phone: 2383880431,
+        info: [],
     },
     {
         id: 15,
@@ -238,6 +271,7 @@ const data = [
         category: "Servicio",
         productos: ["Masajes Aromatouch"],
         phone: 2383940765,
+        info: [],
     },
     {
         id: 24,
@@ -250,6 +284,11 @@ const data = [
         category: "Servicio",
         productos: ["Nutrición clinina"],
         phone: 2381548776,
+        info: [
+            "CF .13950112",
+            "Benemerita Universidad Autónoma de puebla",
+            "2 años de experiencia",
+        ],
     },
     {
         id: 18,
@@ -262,6 +301,7 @@ const data = [
         category: "Producto",
         productos: ["Ropa", "Perfumes y Accesorios", "Calzado"],
         phone: 2371088520,
+        info: [],
     },
     {
         id: 19,
@@ -274,6 +314,7 @@ const data = [
         category: "Producto",
         productos: ["Jabones", "Shampoo", "Cremas y Geles"],
         phone: 2381720268,
+        info: [],
     },
     {
         id: 20,
@@ -286,6 +327,7 @@ const data = [
         category: "Producto",
         productos: ["Bolsos", "Carteras", "Cinturones"],
         phone: 2381191443,
+        info: [],
     },
     {
         id: 21,
@@ -298,6 +340,7 @@ const data = [
         category: "Producto",
         productos: ["Llaveros", "Velas", "Tazas"],
         phone: 2381329022,
+        info: [],
     },
     {
         id: 22,
@@ -310,6 +353,7 @@ const data = [
         category: "Producto",
         productos: ["Collares", "Pulseras", "LLamadores de ángeles"],
         phone: 2381211695,
+        info: [],
     },
     {
         id: 23,
@@ -322,6 +366,7 @@ const data = [
         category: "Producto",
         productos: ["Cremas", "Shampoo", "Maquillaje"],
         phone: 2381281696,
+        info: [],
     },
     {
         id: 25,
@@ -334,6 +379,7 @@ const data = [
         category: "Producto",
         productos: ["Relojes", "Joyería", "Bolsos"],
         phone: 2383940765,
+        info: [],
     },
     {
         id: 26,
@@ -346,6 +392,7 @@ const data = [
         category: "Producto",
         productos: ["Juguetes Didacticos", "Libros Didacticos"],
         phone: 2381315970,
+        info: [],
     },
     {
         id: 27,
@@ -358,6 +405,7 @@ const data = [
         category: "Producto",
         productos: ["Maquillaje", "Perfumes", "Cremas"],
         phone: 2381703590,
+        info: [],
     },
     {
         id: 28,
@@ -370,6 +418,7 @@ const data = [
         category: "Producto",
         productos: ["Mochilas", "Cangureras", "Accesorios Tácticos"],
         phone: 2381163047,
+        info: [],
     },
     {
         id: 32,
@@ -382,6 +431,7 @@ const data = [
         category: "Producto",
         productos: ["Velas Aromáticas"],
         phone: 2381187810,
+        info: [],
     },
     {
         id: 33,
@@ -394,6 +444,7 @@ const data = [
         category: "Producto",
         productos: ["Cremas", "Aceites", "Maquillaje"],
         phone: 2381707127,
+        info: [],
     },
     {
         id: 35,
@@ -406,6 +457,7 @@ const data = [
         category: "Producto",
         productos: ["Juegos de baño", "Caminos de mesa", "Manteles"],
         phone: 2228318667,
+        info: [],
     },
     {
         id: 36,
@@ -418,6 +470,7 @@ const data = [
         category: "Producto",
         productos: ["Higiene Personal", "Suplementos", "Skyncare"],
         phone: 2381184110,
+        info: [],
     },
 ];
 export default data;

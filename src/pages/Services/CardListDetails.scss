@@ -52,6 +52,14 @@
                 border-radius: 10px;
                 padding: 5px 20px;
             }
+            .info {
+                // font-size: var(--h2FontSize);
+                font-weight: 500;
+                // border: #faede9;
+                border-color: black;
+                border-radius: 10px;
+                margin-top: 20px;
+            }
 
             .btn {
                 margin-top: 1rem;
@@ -99,6 +107,9 @@
                     font-size: 1.15rem;
                 }
                 .products {
+                    font-size: 1.15rem;
+                }
+                .info {
                     font-size: 1.15rem;
                 }
             }

@@ -56,6 +56,15 @@ const CardListDetails = () => {
                                     })
                                 }
                             </ul>
+                            <ul className='info' data-aos="fade-up">
+                                {
+                                    dato.info.map((inf, index) => {
+                                        return (
+                                            <li key={index}>{inf}</li>
+                                        )
+                                    })
+                                }
+                            </ul>
                             {
                                 dato.category == "Servicio" ?
                                     <a href={`https://api.whatsapp.com/send?phone=+52${dato.phone}&text=Hola,%20quisiera%20saber%20de%20sus%20servicios.%20Gracias`} className='btn whatsapp' target='_blank'><WhatsAppIcon className='icon' />WhatsApp</a>
