@@ -67,7 +67,7 @@ const data = [
         productos: ["Ortodoncias", "Blanqueamiento", "Muelas del juicio"],
         phone: 2381647851,
         info: [
-            "CF. 10554490",
+            "céd. 10554490",
             "Benemérita Universidad Autónoma de Puebla",
             "9 años de experiencia",
         ],
@@ -84,7 +84,7 @@ const data = [
         productos: ["Deportiva", "Cardiopulmonar", "Pediátrica"],
         phone: 2382504698,
         info: [
-            "CF. 12236109",
+            "céd. 12236109",
             "Universidad del Valle de Puebla campus Tehuacán",
             "5 años de experiencia",
         ],
@@ -105,7 +105,7 @@ const data = [
         ],
         phone: 2381657677,
         info: [
-            "CF. 13117076",
+            "céd. 13117076",
             "Benemerita Universidad Autonoma de Puebla",
             "3 años de experiencia",
         ],
@@ -139,7 +139,7 @@ const data = [
         ],
         phone: 2381305015,
         info: [
-            "CF. 3506123",
+            "céd. 3506123",
             "Benemérita Universidad Autónoma de Puebla",
             "26 años de experiencia",
         ],
@@ -185,7 +185,7 @@ const data = [
             "Psicoterapia infantil",
         ],
         phone: 2381273712,
-        info: ["CF. 13832278", "Froebel Universidad", "6 años de experiencia"],
+        info: ["céd. 13832278", "Froebel Universidad", "6 años de experiencia"],
     },
     {
         id: 10,
@@ -199,7 +199,7 @@ const data = [
         productos: ["Masajes", "Faciales", "Depilaciones"],
         phone: 5579449235,
         info: [
-            "CF. 7578167",
+            "céd. 7578167",
             "El Aspidpro condesa incorporada a la UNAM",
             "10 años de experoencia",
         ],

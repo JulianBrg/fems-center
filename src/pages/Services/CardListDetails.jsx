@@ -60,7 +60,7 @@ const CardListDetails = () => {
                                 {
                                     dato.info.map((inf, index) => {
                                         return (
-                                            <li key={index}>{inf}</li>
+                                            <li key={index}><span className='asterisco'>*</span>{inf}</li>
                                         )
                                     })
                                 }
