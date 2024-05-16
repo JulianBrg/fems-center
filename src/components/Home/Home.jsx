@@ -60,16 +60,15 @@ const Home = () => {
             {/* <TikTokIcon />Tiktok */}
             <img src={TikTok} alt="Tiktok Icon" className='icon' />
           </a>
-          <a
+          {/* <a
             href="https://femscenter.mitiendanube.com/"
             target="_blank"
             rel="sponsored"
             title='Showroom'
             className='icon tienda'
           >
-            {/* <StorefrontIcon />Showroom */}
             <img src={Tienda} alt="Showroom Icon" className='icon' />
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

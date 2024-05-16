@@ -285,7 +285,7 @@ const data = [
         productos: ["Nutrición clinina"],
         phone: 2381548776,
         info: [
-            "CF .13950112",
+            "céd. 13950112",
             "Benemerita Universidad Autónoma de puebla",
             "2 años de experiencia",
         ],
