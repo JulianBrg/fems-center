@@ -2,6 +2,7 @@ User-agent: Scrapy
 Allow: /
 
 User-agent: *
-Disallow: 
+Disallow: /styles.css
+Disallow: /assets/
 
 Sitemap: https://www.femscenter.netlify.app/sitemap_index.xml

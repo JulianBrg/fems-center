@@ -28,6 +28,7 @@ import logoFabiola from "../assets/logos/img20.webp";
 import logoOlivia from "../assets/logos/img21.webp";
 import logoAmway from "../assets/logos/img22.webp";
 import logoJosefina from "../assets/logos/img23.webp";
+import logoMarielaMont from "../assets/logos/logoMarielaMont.webp";
 
 //Imported images
 import sagrario from "../assets/img1.webp";
@@ -247,19 +248,19 @@ const data = [
         phone: 2382030351,
         info: [],
     },
-    {
-        id: 14,
-        img: dalhid,
-        logo: logoDalhid,
-        name: "Dalhid Salgado Arriola",
-        description: "Acreditada Barras Access",
-        paragraph:
-            "Libera tu estrés y bloqueos con nuestro servicio de Barras de Access. Te ofrecemos una técnica energética, relajante y transformadora. Barras de Access para ti.",
-        category: "Servicio",
-        productos: ["Barra de Access"],
-        phone: 2383880431,
-        info: [],
-    },
+    // {
+    //     id: 14,
+    //     img: dalhid,
+    //     logo: logoDalhid,
+    //     name: "Dalhid Salgado Arriola",
+    //     description: "Acreditada Barras Access",
+    //     paragraph:
+    //         "Libera tu estrés y bloqueos con nuestro servicio de Barras de Access. Te ofrecemos una técnica energética, relajante y transformadora. Barras de Access para ti.",
+    //     category: "Servicio",
+    //     productos: ["Barra de Access"],
+    //     phone: 2383880431,
+    //     info: [],
+    // },
     {
         id: 15,
         img: vadillo,
@@ -470,6 +471,19 @@ const data = [
         category: "Producto",
         productos: ["Higiene Personal", "Suplementos", "Skyncare"],
         phone: 2381184110,
+        info: [],
+    },
+    {
+        id: 37,
+        img: logoMarielaMont,
+        logo: logoMarielaMont,
+        name: "Mariela Ytel Montaño Leyva",
+        description: "Oh My Clothings",
+        paragraph:
+            "Descubre nuestra exquisita colección de lencería elegante y cómoda. Además, explora nuestra línea de productos de cuidado personal, desde cremas hidratantes hasta fragancias irresistibles. ¡Hazte un regalo a ti misma!",
+        category: "Producto",
+        productos: ["Leceria", "Body's Mist", "Cuidado Personal"],
+        phone: 2382507333,
         info: [],
     },
 ];

@@ -3,19 +3,26 @@
 	<url>
 		<loc>https://femscenter.com/</loc>
 		<lastmod>2023-11-15T19:24:02+01:00</lastmod>
-		<priority>0.8</priority>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://femscenter.com/membresias</loc>
 		<lastmod>2023-11-15T19:24:02+01:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://femscenter.com/servicios/FEMS</loc>
 		<lastmod>2023-11-15T19:24:02+01:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://femscenter.com/servicios/asociadas</loc>
 		<lastmod>2023-11-15T19:24:02+01:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
 	</url>
 	<url>
 		<loc>https://femscenter.com/actividades/personales</loc>
