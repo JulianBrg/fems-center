@@ -50,7 +50,7 @@ const Questions = () => {
                     Preguntas frecuentes
                 </h3>
             </div>
-            <div className="secContainer grid">
+            <div className="secContainer ">
                 {/* We will import a component from a different file */}
                 <div className="accordion grid">
                     <Accordion
@@ -79,7 +79,8 @@ const Questions = () => {
                     />
                 </div>
 
-                <div className='form'>
+
+                {/* <div className='form'>
                     <div className="secHeading">
                         <h4 data-aos="fade-up">
                             ¿Tiene alguna pregunta específica?
@@ -117,7 +118,7 @@ const Questions = () => {
                             <button type='submit' className='btn' data-aos="fade-up">Enviar consulta</button>
                         </form>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

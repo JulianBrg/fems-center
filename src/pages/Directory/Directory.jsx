@@ -164,9 +164,9 @@ const Directory = () => {
                             <thead data-aos="fade-down">
                                 <tr>
                                     <th>NOMBRE</th>
-                                    <th>TELÉFONO</th>
+                                    {/* <th>TELÉFONO</th> */}
                                     <th>SERVICIO</th>
-                                    <th>CORREO</th>
+                                    {/* <th>CORREO</th> */}
                                     <th>FACEBOOK</th>
                                     <th>INSTAGRAM</th>
                                 </tr>
@@ -176,9 +176,9 @@ const Directory = () => {
                                     results.map((user) => (
                                         <tr key={user._id}>
                                             <td title='Nombre'>{user.name}</td>
-                                            <td title='Teléfono'>{user.phone}</td>
+                                            {/* <td title='Teléfono'>{user.phone}</td> */}
                                             <td title='Servicio'>{user.service}</td>
-                                            <td title='Email'>{user.email}</td>
+                                            {/* <td title='Email'>{user.email}</td> */}
                                             <td title='Facebook'>
                                                 <a href={user.facebook} target='_blank'>
                                                     <FacebookIcon className='icon' />
