@@ -22,13 +22,11 @@ import logoDanarely from "../assets/logos/logoDanarely.webp";
 import logoKarlaMartinez from "../assets/logos/img13.webp";
 import logoJarenssi from "../assets/logos/img14.webp";
 import logoSandra from "../assets/logos/img15.webp";
-import logoRossy from "../assets/logos/img16.webp";
 import logoMirna from "../assets/logos/img18.webp";
-import logoFabiola from "../assets/logos/img20.webp";
-import logoOlivia from "../assets/logos/img21.webp";
 import logoAmway from "../assets/logos/img22.webp";
-import logoJosefina from "../assets/logos/img23.webp";
-import logoMarielaMont from "../assets/logos/logoMarielaMont.webp";
+import logoMiNino from "../assets/logos/img23.webp";
+import logoLoveJuvenil from "../assets/logos/img24.webp";
+import logoDelipop from "../assets/logos/img25.webp";
 
 //Imported images
 import sagrario from "../assets/img1.webp";
@@ -43,7 +41,6 @@ import erika from "../assets/img4-6.webp";
 import dafne from "../assets/img4-7.webp";
 import marisol from "../assets/img4-8.webp";
 import denisse from "../assets/img4-9.webp";
-import dalhid from "../assets/img4-10.webp";
 import vadillo from "../assets/img4-11.webp";
 import mery from "../assets/img6.webp";
 import mazunte from "../assets/img7.webp";
@@ -248,19 +245,6 @@ const data = [
         phone: 2382030351,
         info: [],
     },
-    // {
-    //     id: 14,
-    //     img: dalhid,
-    //     logo: logoDalhid,
-    //     name: "Dalhid Salgado Arriola",
-    //     description: "Acreditada Barras Access",
-    //     paragraph:
-    //         "Libera tu estrés y bloqueos con nuestro servicio de Barras de Access. Te ofrecemos una técnica energética, relajante y transformadora. Barras de Access para ti.",
-    //     category: "Servicio",
-    //     productos: ["Barra de Access"],
-    //     phone: 2383880431,
-    //     info: [],
-    // },
     {
         id: 15,
         img: vadillo,
@@ -400,64 +384,12 @@ const data = [
         img: meryKay,
         logo: logoSandra,
         name: "Sandra García Mendoza",
-        description: "Mary Kay Cosmetics",
+        description: "Mary Kay & Betterware",
         paragraph:
-            "Mary Kay Cosmetics te ofrece productos de belleza de alta calidad y confianza. Conoce sus líneas de maquillaje, cuidado de la piel y fragancias. Mary Kay Cosmetics, tu mejor aliada.",
+            "Ofrecemos productos de belleza Mary Kay y artículos del hogar Betterware. Calidad y satisfacción garantizadas para embellecer tu vida y tu hogar con estilo y funcionalidad.",
         category: "Producto",
-        productos: ["Maquillaje", "Perfumes", "Cremas"],
+        productos: ["Productos Betterware", "Productos Mary Kay", ],
         phone: 2381703590,
-        info: [],
-    },
-    {
-        id: 28,
-        img: rossy,
-        logo: logoRossy,
-        name: "Rosario Ramirez",
-        description: "Kampak",
-        paragraph:
-            "Kampak es una marca mexicana de productos tácticos y deportivos. Te ofrece calidad, resistencia y diseño en mochilas, cangureras, chalecos y más. Kampak, listo para accionar.",
-        category: "Producto",
-        productos: ["Mochilas", "Cangureras", "Accesorios Tácticos"],
-        phone: 2381163047,
-        info: [],
-    },
-    {
-        id: 32,
-        img: esenciaF,
-        logo: logoFabiola,
-        name: "Fabiola Pastrana",
-        description: "Esencia F",
-        paragraph:
-            "Ilumina tu hogar con fragancias naturales. Elige entre una variedad de aromas relajantes y estimulantes. ¡Enciende una vela y disfruta del ambiente!",
-        category: "Producto",
-        productos: ["Velas Aromáticas"],
-        phone: 2381187810,
-        info: [],
-    },
-    {
-        id: 33,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img21.webp?alt=media&token=0288cae7-9ca6-4850-85aa-f84b43452e67",
-        logo: logoOlivia,
-        name: "Olivia Santos",
-        description: "Cuidado Personal",
-        paragraph:
-            "Productos ecológicos para el cuidado personal. Nuestros productos son veganos, cruelty-free y biodegradables. Ofrecemos jabones, champús, cremas y más. ¡Cuida de ti y del planeta!",
-        category: "Producto",
-        productos: ["Cremas", "Aceites", "Maquillaje"],
-        phone: 2381707127,
-        info: [],
-    },
-    {
-        id: 35,
-        img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img23.webp?alt=media&token=cf4361b6-7f3c-4b33-86bd-becfcf31d2db",
-        logo: logoJosefina,
-        name: "Maria Josefina Oropeza",
-        description: "Decoración",
-        paragraph:
-            "Transforma tu espacio con estilo y personalidad. Nuestros productos son originales, creativos y de buen gusto. Tenemos juegos de baño, manteles y más. ¡Decora tu hogar con nosotros!",
-        category: "Producto",
-        productos: ["Juegos de baño", "Caminos de mesa", "Manteles"],
-        phone: 2228318667,
         info: [],
     },
     {
@@ -465,7 +397,7 @@ const data = [
         img: logoAmway,
         logo: logoAmway,
         name: "Marina Alvarez Ramales",
-        description: "",
+        description: "Productos Naturales",
         paragraph:
             "Productos de calidad para una vida en balance. Nutrición, belleza, cuidado personal y del hogar. Emprende tu propio negocio con Amway y vive mejor.",
         category: "Producto",
@@ -474,16 +406,42 @@ const data = [
         info: [],
     },
     {
-        id: 37,
-        img: logoMarielaMont,
-        logo: logoMarielaMont,
-        name: "Mariela Ytel Montaño Leyva",
-        description: "Oh My Clothings",
+        id: 36,
+        img: logoMiNino,
+        logo: logoMiNino,
+        name: "Yatzelin Abigail Figueroa Ortiz",
+        description: "Productos Infantiles",
         paragraph:
-            "Descubre nuestra exquisita colección de lencería elegante y cómoda. Además, explora nuestra línea de productos de cuidado personal, desde cremas hidratantes hasta fragancias irresistibles. ¡Hazte un regalo a ti misma!",
+            "Ofrecemos trajes y vestidos elegantes para niños, perfectos para cualquier ocasión especial. Calidad, estilo y comodidad garantizados para que los pequeños luzcan impecables y se sientan únicos.",
         category: "Producto",
-        productos: ["Leceria", "Body's Mist", "Cuidado Personal"],
-        phone: 2382507333,
+        productos: ["Vestidos para niñas", "Trajes para niños"],
+        phone: 2381403331,
+        info: [],
+    },
+    {
+        id: 36,
+        img: logoLoveJuvenil,
+        logo: logoLoveJuvenil,
+        name: "Martha Navarrete Cruz",
+        description: "Productos Infantiles",
+        paragraph:
+            "Ofrecemos una amplia gama de productos para niños, desde juguetes educativos hasta ropa cómoda y moderna. Calidad y diversión aseguradas para los más pequeños.",
+        category: "Producto",
+        productos: ["Zandalias", "Pantuflas", "Cojines"],
+        phone: 2382075082,
+        info: [],
+    },
+    {
+        id: 36,
+        img: logoDelipop,
+        logo: logoDelipop,
+        name: "Adriana de la Cuz Ramirez",
+        description: "Decoraciones Tematizadas",
+        paragraph:
+            "Productos de calidad para una vida en balance. Nutrición, belleza, cuidado personal y del hogar. Emprende tu propio negocio con Amway y vive mejor.",
+        category: "Producto",
+        productos: ["Inflables", "Caballetes", "Decoraciones"],
+        phone: 2381526826,
         info: [],
     },
 ];
