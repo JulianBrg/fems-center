@@ -13,7 +13,7 @@ const Navbar2 = () => {
 
     const linkWhats = "https://api.whatsapp.com/send?phone=+522381680876&text=Hola,%20me%20gustar%C3%ADa%20ser%20parte%20del%20equipo%20de%20Fems%20Center%20:)";
     // const blog = 'https://issuu.com/';
-    const tienda = 'https://femscenter.mitiendanube.com/';
+    const tienda = 'https://femsshowroom.mitiendanube.com/';
 
     const [navbar, setNavbar] = useState(false);
     const [isChecked, setIsChecked] = useState(false);

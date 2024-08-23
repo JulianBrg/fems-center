@@ -40,15 +40,18 @@ const Reviews = () => {
                     </span>
 
                     <div className="clientsImages flex" data-aos="fade-up">
-                        <img src={image1} alt="Avatar Image 1" title='Avatar Image 1' loading="lazy"/>
-                        <img src={image2} alt="Avatar Image 2" title='Avatar Image 2' loading="lazy"/>
-                        <img src={image3} alt="Avatar Image 3" title='Avatar Image 3' loading="lazy"/>
-                        <img src={image4} alt="Avatar Image 4" title='Avatar Image 4' loading="lazy"/>
+                        <img src={image1} alt="Avatar Image 1" title='Avatar Image 1' loading="lazy" />
+                        <img src={image2} alt="Avatar Image 2" title='Avatar Image 2' loading="lazy" />
+                        <img src={image3} alt="Avatar Image 3" title='Avatar Image 3' loading="lazy" />
+                        <img src={image4} alt="Avatar Image 4" title='Avatar Image 4' loading="lazy" />
                     </div>
                 </div>
 
                 <div className="imgDiv" data-aos="fade-up">
-                    <img src={image5} alt="Image" title='Clientas'/>
+                    {/* <img src={image5} alt="Image" title='Clientas'/> */}
+                    <div>
+                        <iframe width="370" height="315" src="https://www.youtube.com/embed/fOW8Y09GVek?si=Wvzpd8oza16ZVmEC" title="Nuestras Clientas" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>

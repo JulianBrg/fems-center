@@ -22,21 +22,17 @@ const CardListDetails = () => {
         <>
             <Helmet>
                 <title>{dato.name} - Fems Center Tehuacán</title>
-                <meta
-                    property="description"
-                    content={`${dato.name}` + ` - Con servicios de: ${dato.description}` + ` - Servicios:${dato.productos}`}
-                />
-                <link rel="canonical" href="https://femscenter.com/servicios/asociadas" />
+                {/* <!-- Facebook Meta Tags --> */}
                 <meta property="og:title" content={`${dato.name} | Fems Center Tehuacán`}></meta>
-                <meta property="og:description"
-                    content={`${dato.name}` + ` - Con servicios de: ${dato.description}` + ` - Servicios:${dato.productos}`} />
-                <meta property="og:image" content={dato.img} />
+                <meta property="og:description" content={`${dato.description}`} />
+                <meta property="og:image" content={`https://femscenter.com/${dato.img}`} />
                 <meta property="og:url" content={`https://femscenter.com/servicios/asociadas/${dato.name}`} />
             </Helmet>
 
             <div className='cardListDetails section container'>
                 {
                     <div className='details'>
+
                         <div className='photo' data-aos="fade-up">
                             <img src={dato.img} alt={dato.name} />
                         </div>

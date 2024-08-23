@@ -1,5 +1,6 @@
 .review {
     margin-top: 5rem;
+
     .secContainer {
         .textDiv {
             .redText {
@@ -43,16 +44,17 @@
         }
 
         .imgDiv {
-            height: 100%;
+            // height: 100%;
             width: 100%;
             border-radius: 10px;
-            overflow: hidden;
+            // overflow: hidden;
 
             img {
                 height: 208px;
                 width: 370px;
                 object-fit: cover;
             }
+
         }
     }
 }

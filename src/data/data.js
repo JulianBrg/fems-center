@@ -393,7 +393,7 @@ const data = [
         info: [],
     },
     {
-        id: 36,
+        id: 28,
         img: logoAmway,
         logo: logoAmway,
         name: "Marina Alvarez Ramales",
@@ -406,7 +406,7 @@ const data = [
         info: [],
     },
     {
-        id: 36,
+        id: 29,
         img: logoMiNino,
         logo: logoMiNino,
         name: "Yatzelin Abigail Figueroa Ortiz",
@@ -419,7 +419,7 @@ const data = [
         info: [],
     },
     {
-        id: 36,
+        id: 30,
         img: logoLoveJuvenil,
         logo: logoLoveJuvenil,
         name: "Martha Navarrete Cruz",
@@ -432,7 +432,7 @@ const data = [
         info: [],
     },
     {
-        id: 36,
+        id: 31,
         img: logoDelipop,
         logo: logoDelipop,
         name: "Adriana de la Cuz Ramirez",
