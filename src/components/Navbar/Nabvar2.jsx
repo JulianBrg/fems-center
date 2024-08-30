@@ -88,7 +88,7 @@ const Navbar2 = () => {
                                 </div>
                             </li>
 
-                            <li className="nav-link">
+                            {/* <li className="nav-link">
                                 <NavLink className="a">Actividades<ArrowDropDownIcon className="i" /></NavLink>
                                 <div className="dropdown">
                                     <ul>
@@ -105,7 +105,7 @@ const Navbar2 = () => {
                                         <div className="arrow"></div>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> */}
 
                             <li className="nav-link">
                                 <NavLink className="a">Directorio<ArrowDropDownIcon className="i" /></NavLink>

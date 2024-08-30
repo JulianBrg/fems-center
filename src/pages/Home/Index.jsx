@@ -14,13 +14,12 @@ import Entrepreneurs from '../../components/Entrepreneurs/Entrepreneurs'
 const Index = () => {
     return (
         <div>
-            <Helmet>
+            {/* <Helmet>
                 <title>Fems Center - Espacios coworking en Tehuacán.</title>
                 <meta name='description'
                     content='Plataforma de crecimiento profesional. Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.' />
-                <link rel="canonical" href="https://femscenter.com" />
                 {/* <!-- Facebook Meta Tags --> */}
-                <meta property="og:url" content="https://femscenter.com/" />
+            {/*     <meta property="og:url" content="https://femscenter.com/" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Fems Center Tehuacán" />
                 <meta property="og:description"
@@ -28,7 +27,18 @@ const Index = () => {
                 <meta property="og:image" content="/apple-touch-icon.png" />
                 <meta property="og:locale" content="es_MX" />
                 <meta property="og:site_name" content="Fems Center Tehuacán" />
-            </Helmet>
+
+                <meta charset="UTF-8" />
+                <meta name="author" content="M.A. Karla Marinee Vadillo Martínez" />
+                <meta name="publisher" content="M.A. Karla Marinee Vadillo Martínez" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="msapplication-TileColor" content="#f070ca" />
+                <meta name="theme-color" content="#f070ca" />
+                <meta name="robots" content="index,follow" />
+                <meta name="googlebot" content="index,follow" />
+                <meta name="google-site-verification" content="ryRBIpM7cufbg3Jk_6Ag3PsSKiuCoUVRpoMd4SqWpiQ" />
+                <meta name="keywords" content="fems tehuacán, fems, espacios coworking, showroom, emprendedoras" />
+            </Helmet> */}
 
             <Home />
             <Vision />

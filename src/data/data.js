@@ -3,7 +3,6 @@ import logo1 from "../assets/logos/LogoYare.webp";
 import logoDafne from "../assets/logos/logoDafne.png";
 import logoAida from "../assets/logos/logoAida.webp";
 import logoAlejandra from "../assets/logos/logoAlejandra.webp";
-import logoDalhid from "../assets/logos/logoDalhid.webp";
 import logoDenisse from "../assets/logos/logoDenisse.webp";
 import logoErika from "../assets/logos/logoErika.webp";
 import logoKarlaVadillo from "../assets/logos/logoKarlaVadillo.webp";
@@ -26,7 +25,7 @@ import logoMirna from "../assets/logos/img18.webp";
 import logoAmway from "../assets/logos/img22.webp";
 import logoMiNino from "../assets/logos/img23.webp";
 import logoLoveJuvenil from "../assets/logos/img24.webp";
-import logoDelipop from "../assets/logos/img25.webp";
+import logoJade from "../assets/logos/img25.webp";
 
 //Imported images
 import sagrario from "../assets/img1.webp";
@@ -48,8 +47,6 @@ import nemas from "../assets/img8.webp";
 import shelo from "../assets/img11.webp";
 import danarely from "../assets/logos/img12.webp";
 import meryKay from "../assets/img15.webp";
-import rossy from "../assets/img16.webp";
-import esenciaF from "../assets/img20.webp";
 
 // Lets create an array that is gonna contain all destination data an we loop through
 const data = [
@@ -316,6 +313,19 @@ const data = [
     },
     {
         id: 21,
+        img: shelo,
+        logo: logoLiliana,
+        name: "Liliana Nieto Morales",
+        description: "Shelo Nabel",
+        paragraph:
+            "Shelo Nabel te ofrece productos naturales para tu salud y belleza. Conoce sus beneficios y promociones. Shelo Nabel, por ti y para ti.",
+        category: "Producto",
+        productos: ["Cremas", "Shampoo", "Maquillaje"],
+        phone: 2381281696,
+        info: [],
+    },
+    {
+        id: 22,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img9.webp?alt=media&token=9adf5b8c-2b49-4ffb-a8f0-fba55b3b630f",
         logo: logoFavi,
         name: "Faviola Peralta Carrasco",
@@ -328,7 +338,7 @@ const data = [
         info: [],
     },
     {
-        id: 22,
+        id: 23,
         img: "https://firebasestorage.googleapis.com/v0/b/fems-bd30e.appspot.com/o/img10.webp?alt=media&token=2ccbbd55-6be0-408b-8510-9be65ce0ee97",
         logo: logoMariana,
         name: "Mariana Toscano Flores",
@@ -338,19 +348,6 @@ const data = [
         category: "Producto",
         productos: ["Collares", "Pulseras", "LLamadores de ángeles"],
         phone: 2381211695,
-        info: [],
-    },
-    {
-        id: 23,
-        img: shelo,
-        logo: logoLiliana,
-        name: "Liliana Nieto Morales",
-        description: "Shelo Nabel",
-        paragraph:
-            "Shelo Nabel te ofrece productos naturales para tu salud y belleza. Conoce sus beneficios y promociones. Shelo Nabel, por ti y para ti.",
-        category: "Producto",
-        productos: ["Cremas", "Shampoo", "Maquillaje"],
-        phone: 2381281696,
         info: [],
     },
     {
@@ -388,7 +385,7 @@ const data = [
         paragraph:
             "Ofrecemos productos de belleza Mary Kay y artículos del hogar Betterware. Calidad y satisfacción garantizadas para embellecer tu vida y tu hogar con estilo y funcionalidad.",
         category: "Producto",
-        productos: ["Productos Betterware", "Productos Mary Kay", ],
+        productos: ["Productos Betterware", "Productos Mary Kay"],
         phone: 2381703590,
         info: [],
     },
@@ -433,15 +430,15 @@ const data = [
     },
     {
         id: 31,
-        img: logoDelipop,
-        logo: logoDelipop,
-        name: "Adriana de la Cuz Ramirez",
-        description: "Decoraciones Tematizadas",
+        img: logoJade,
+        logo: logoJade,
+        name: "Gabriela Cabrera Fernandez",
+        description: "Accesorios Importados",
         paragraph:
-            "Productos de calidad para una vida en balance. Nutrición, belleza, cuidado personal y del hogar. Emprende tu propio negocio con Amway y vive mejor.",
+            "Descubre bolsos de uso diario y accesorios de importación. Combinamos funcionalidad y estilo para ofrecerte piezas únicas que complementan tu vida cotidiana con elegancia.",
         category: "Producto",
-        productos: ["Inflables", "Caballetes", "Decoraciones"],
-        phone: 2381526826,
+        productos: ["Bolsos", "Calzado", "Utensilios"],
+        phone: 2383932179,
         info: [],
     },
 ];
