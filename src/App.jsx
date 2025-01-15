@@ -1,4 +1,3 @@
-// import './App.css'
 import './index.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Suspense, lazy } from 'react'
@@ -6,8 +5,8 @@ import ScrollToTop from './components/Scroll/ScrollToTop'
 import Navbar2 from './components/Navbar/Nabvar2'
 
 
-import Index from "./pages/Home/Index"
-// const Index = lazy(() => import("./pages/Home/Index"))
+// import Index from "./pages/Home/Index"
+const Index = lazy(() => import("./pages/Home/Index"))
 const Membership = lazy(() => import("./pages/Membership/Membership"))
 const Services = lazy(() => import("./pages/Services/Services"))
 const CardListDetails = lazy(() => import("./pages/Services/CardListDetails"))

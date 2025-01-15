@@ -19,7 +19,7 @@ const Index = () => {
                 <meta name='description'
                     content='Desarrolla tu potencial en espacios coworking y actividades para crecer profesional y personalmente.' />
                 {/* <!-- Facebook Meta Tags --> */}
-                <meta property="og:url" content="https://femscenter.com/" />
+                {/* <meta property="og:url" content="https://femscenter.com/" /> */}
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Fems Center Tehuacán" />
                 <meta property="og:description"
