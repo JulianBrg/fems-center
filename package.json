@@ -1,45 +1,48 @@
 {
-  "dependencies": {
-    "@emailjs/browser": "^4.3.3",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/icons-material": "^5.16.0",
-    "@mui/material": "^5.16.0",
-    "aos": "^3.0.0-beta.6",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-helmet": "^6.1.0",
-    "react-helmet-async": "^2.0.5",
-    "react-photo-album": "^2.4.1",
-    "react-router-dom": "^6.24.1",
-    "react-select": "^5.8.0",
-    "react-snap": "^1.23.0",
-    "sass": "^1.77.6",
-    "sweetalert": "^2.1.2",
-    "swiper": "^11.1.4",
-    "yet-another-react-lightbox": "^3.21.1"
-  },
-  "devDependencies": {
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^9.6.0",
-    "eslint-plugin-react": "^7.34.3",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "postcss": "^8.4.39",
-    "vite": "^5.3.3"
-  },
-  "name": "femsproyect",
-  "private": true,
-  "scripts": {
-    "build": "vite build",
-    "dev": "vite",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "postbuild": "react-snap"
-  },
-  "type": "module",
-  "version": "0.0.0"
+    "dependencies": {
+        "@emailjs/browser": "^4.3.3",
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@mui/icons-material": "^5.16.0",
+        "@mui/material": "^5.16.0",
+        "aos": "^3.0.0-beta.6",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-helmet": "^6.1.0",
+        "react-helmet-async": "^2.0.5",
+        "react-photo-album": "^2.4.1",
+        "react-router-dom": "^6.24.1",
+        "react-select": "^5.8.0",
+        "react-snap": "^1.23.0",
+        "sass": "^1.77.6",
+        "sweetalert": "^2.1.2",
+        "swiper": "^11.1.4",
+        "yet-another-react-lightbox": "^3.21.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.3.3",
+        "@types/react-dom": "^18.3.0",
+        "@vitejs/plugin-react": "^4.3.1",
+        "autoprefixer": "^10.4.19",
+        "eslint": "^9.6.0",
+        "eslint-plugin-react": "^7.34.3",
+        "eslint-plugin-react-hooks": "^5.1.0",
+        "eslint-plugin-react-refresh": "^0.4.7",
+        "postcss": "^8.4.39",
+        "vite": "^5.3.3"
+    },
+    "name": "femsproyect",
+    "private": true,
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview",
+        "postbuild": "react-snap"
+    },
+    "reactSnap": {
+        "source": "build"
+    },
+    "type": "module",
+    "version": "0.0.0"
 }
