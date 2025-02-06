@@ -4,7 +4,6 @@ import { Suspense, lazy } from 'react'
 import ScrollToTop from './components/Scroll/ScrollToTop'
 import Navbar2 from './components/Navbar/Nabvar2'
 
-
 // import Index from "./pages/Home/Index"
 const Index = lazy(() => import("./pages/Home/Index"))
 const Membership = lazy(() => import("./pages/Membership/Membership"))
@@ -28,7 +27,11 @@ function App() {
         <ScrollToTop />
         <Navbar2 />
 
-        <Suspense fallback={<div className='lds-hourglass'></div>}>
+        <Suspense fallback={
+          <div className='lds-hourglass-container'>
+            <div className='lds-hourglass'></div>
+          </div>
+        }>
           <Routes>
             <Route path='/' element={<Index />} index />
             <Route path='/membresias' element={<Membership />} />
