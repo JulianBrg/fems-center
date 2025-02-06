@@ -48,10 +48,10 @@ const Reviews = () => {
                 </div>
 
                 <div className="imgDiv" data-aos="fade-up">
-                    {/* <img src={image5} alt="Image" title='Clientas'/> */}
-                    <div>
+                    <img src={image5} alt="Image" title='Clientas'/>
+                    {/* <div>
                         <iframe width="370" height="315" src="https://www.youtube.com/embed/fOW8Y09GVek?si=Wvzpd8oza16ZVmEC" title="Nuestras Clientas" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

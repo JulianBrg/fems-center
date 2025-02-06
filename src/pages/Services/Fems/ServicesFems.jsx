@@ -4,7 +4,7 @@ import Footer from '../../../components/Footer/Footer'
 // animation
 import Aos from 'aos';
 // SEO
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 import SpacesSlider from './SpacesSlider';
 
 const ServicesFems = () => {
@@ -20,7 +20,7 @@ const ServicesFems = () => {
     return (
         <>
             <Helmet>
-                <title>Servicios FEMS - Fems Center Tehuacán</title>
+                <title>Servicios FEMS</title>
                 <meta
                     property="description"
                     content="Fems Center con en instalaciones diseñadas con espacios adecuados para la exhibición, venta y promoción de productos."

@@ -14,7 +14,7 @@ import './Personal.scss'
 // animation
 import Aos from 'aos';
 // SEO
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 // IMAGES
 import Img from '../../../assets/personal.webp'
 import Img2 from '../../../assets/dp2.webp'

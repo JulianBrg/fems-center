@@ -3,7 +3,7 @@ import Footer from '../../../components/Footer/Footer'
 // animation
 import Aos from 'aos';
 // SEO
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 // Gallery
 import photos from "./photos";
 import PhotoAlbum from "react-photo-album";
@@ -28,7 +28,7 @@ const Gallery = () => {
     return (
         <>
             <Helmet>
-                <title>Galería FEMS - Fems Center Tehuacán</title>
+                <title>Galería FEMS</title>
                 <meta
                     property="description"
                     content="Fems Center con en instalaciones diseñadas con espacios adecuados para la exhibición, venta y promoción de productos."

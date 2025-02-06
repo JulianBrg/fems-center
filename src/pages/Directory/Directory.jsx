@@ -11,7 +11,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PersonIcon from '@mui/icons-material/Person';
 
 // import library SEO
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 // input select
 import Select from 'react-select'
 

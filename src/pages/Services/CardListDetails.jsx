@@ -5,7 +5,7 @@ import data from '../../data/data'
 // animation
 import Aos from 'aos';
 // SEO
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 // icons
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
@@ -21,7 +21,7 @@ const CardListDetails = () => {
     return (
         <>
             <Helmet>
-                <title>{dato.name} - Fems Center Tehuacán</title>
+                <title>{dato.name}</title>
                 {/* <!-- Facebook Meta Tags --> */}
                 <meta property="og:title" content={`${dato.name} | Fems Center Tehuacán`}></meta>
                 <meta property="og:description" content={`${dato.description}`} />

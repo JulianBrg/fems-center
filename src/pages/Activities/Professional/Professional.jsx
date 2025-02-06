@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 import Aos from 'aos';
 
 
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 import Img1 from '../../../assets/professional1.webp';
 import Img2 from '../../../assets/professional2.webp';

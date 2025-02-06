@@ -10,7 +10,7 @@ import SearchIcon from '@mui/icons-material/Search';
 // animation
 import Aos from 'aos';
 // SEO
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 
 
 const Services = () => {
@@ -65,7 +65,7 @@ const Services = () => {
     return (
         <>
             <Helmet>
-                <title>Servicios Asociadas - Fems Center Tehuacán</title>
+                <title>Servicios Asociadas</title>
                 <meta
                     property="description"
                     content=" Ven a Fems Center si quieres obtener los mejores servicios y productos para tu hogar, tu salud, tu belleza y tu entretenimiento"

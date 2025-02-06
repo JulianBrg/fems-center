@@ -5,7 +5,7 @@ import Footer from '../../../components/Footer/Footer'
 import Aos from 'aos';
 
 // import library SEO
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async';
 import { Card } from './Card/Card';
 import directorySedes from '../../../data/directorySedes';
 
