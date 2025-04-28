@@ -35,7 +35,7 @@ const SliderProfessional = () => {
 
                 <Swiper
                     autoplay={{
-                        delay: 5000,
+                        delay: 3000,
                         disableOnInteraction: false,
                     }}
                     pagination={{
@@ -45,7 +45,7 @@ const SliderProfessional = () => {
                     navigation={true}
                     modules={[
                         Autoplay,
-                        Pagination,
+                        // Pagination,
                         Navigation,
                     ]}
                     className="mySwiper"

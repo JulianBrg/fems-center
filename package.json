@@ -13,7 +13,7 @@
         "react-photo-album": "^2.4.1",
         "react-router-dom": "^6.24.1",
         "react-select": "^5.8.0",
-        "react-snap": "^1.23.0",
+        "react-snap": "^1.13.1",
         "sass": "^1.77.6",
         "sweetalert": "^2.1.2",
         "swiper": "^11.1.4",
@@ -29,7 +29,7 @@
         "eslint-plugin-react-hooks": "^5.1.0",
         "eslint-plugin-react-refresh": "^0.4.7",
         "postcss": "^8.4.39",
-        "vite": "^5.3.3"
+        "vite": "^6.3.3"
     },
     "name": "femsproyect",
     "private": true,
