@@ -11,6 +11,7 @@ const Services = lazy(() => import("./pages/Services/Services"))
 const CardListDetails = lazy(() => import("./pages/Services/CardListDetails"))
 const ServicesFems = lazy(() => import("./pages/Services/Fems/ServicesFems"))
 const Gallery = lazy(() => import("./pages/Services/Gallery/Gallery"))
+const Links = lazy(() => import("./pages/Links/Links"))
 
 const Personal = lazy(() => import("./pages/Activities/Personal/Personal"))
 const Professional = lazy(() => import("./pages/Activities/Professional/Professional"))
@@ -49,6 +50,8 @@ function App() {
 
             <Route path='/políticas-de-privacidad' element={<Politicas />} />
             <Route path='/términos-y-condiciones' element={<Terminos />} />
+
+            <Route path='/links' element={<Links />} />
 
             <Route path='*' element={<Index />} />
           </Routes>

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import "./Membership.scss"
 // imports assets
 import img1 from '../../assets/membresia1.webP'

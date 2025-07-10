@@ -7,7 +7,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 // imported logo
-import Logo from "../../assets/fems.svg";
+import Logo from "../../assets/centro_fems.svg";
 
 const Navbar2 = () => {
 
